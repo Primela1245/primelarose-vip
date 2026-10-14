@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,133 +13,281 @@
   <meta property="og:image" content="https://primelarose.com/assets/media/day1/primela-rose-ai-singer-studio-microphone-purple-neko-cosplay.png">
   <meta property="og:url" content="https://primelarose.com/blog/ai-singer-singing-girl-virtual-pop-star-primela-rose/">
   <link rel="icon" type="image/jpeg" href="/assets/favicon.jpg">
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Syne:wght@700;800&display=swap" rel="stylesheet">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/lucide@latest"></script>
   <script>
     tailwind.config = {
       theme: {
         extend: {
-          fontFamily: { sans: ['"Plus Jakarta Sans"', 'sans-serif'], display: ['"Syne"', 'sans-serif'] },
-          colors: { dark: { 900: '#07070b', 800: '#0f0f17', 700: '#171724' } }
+          fontFamily: {
+            sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+            display: ['"Outfit"', 'sans-serif'],
+          },
+          colors: {
+            rose: {
+              400: '#fb7185',
+              500: '#f43f5e',
+              600: '#e11d48',
+            },
+            dark: {
+              950: '#050508',
+              900: '#09090f',
+              800: '#11111c',
+              700: '#191927',
+            }
+          }
         }
       }
     }
   </script>
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","headline":"AI Singer & Virtual Pop Star: Watch Primela Rose’s Realistic Studio Singing Performance","description":"Watch Primela Rose (@primelarose) perform realistic studio vocals as an AI singer and virtual pop star. Includes full video, lyrics, and audio dynamics breakdown.","image":"https://primelarose.com/assets/media/day1/primela-rose-ai-singer-studio-microphone-purple-neko-cosplay.png","datePublished":"2026-10-13T08:00:00-07:00","dateModified":"2026-10-13T18:30:00-07:00","author":{"@type":"Person","name":"Primela Rose","alternateName":"@primelarose","url":"https://primelarose.com"},"publisher":{"@type":"Organization","name":"Primela Rose Official","logo":{"@type":"ImageObject","url":"https://primelarose.com/assets/avatar.jpg"}},"mainEntityOfPage":"https://primelarose.com/blog/ai-singer-singing-girl-virtual-pop-star-primela-rose/","keywords":"ai singing, ai singer, ai singing girl, virtual pop star, ai music video, ai model singing"}</script>
+  <style>
+    body {
+      background-color: #050508;
+      color: #f3f4f6;
+      margin: 0;
+      overflow-x: hidden;
+      -webkit-tap-highlight-color: transparent;
+    }
+    .glass-nav {
+      background: rgba(9, 9, 15, 0.78);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+    }
+    .glass-card {
+      background: linear-gradient(165deg, rgba(22, 22, 35, 0.85) 0%, rgba(12, 12, 20, 0.92) 100%);
+      backdrop-filter: blur(24px);
+      -webkit-backdrop-filter: blur(24px);
+      border: 1px solid rgba(255, 255, 255, 0.09);
+      box-shadow: 0 24px 48px -12px rgba(0, 0, 0, 0.85);
+    }
+    .glass-card-hover {
+      transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    .glass-card-hover:hover {
+      transform: translateY(-5px);
+      border-color: rgba(244, 63, 94, 0.45);
+      box-shadow: 0 28px 55px -12px rgba(244, 63, 94, 0.22);
+    }
+    .neon-glow {
+      box-shadow: 0 0 35px -5px rgba(244, 63, 94, 0.65);
+    }
+    .text-gradient-rose {
+      background: linear-gradient(135deg, #fff 15%, #fda4af 55%, #f43f5e 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .ambient-orb-1 {
+      position: fixed;
+      top: 15%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 650px;
+      height: 550px;
+      background: radial-gradient(circle, rgba(244, 63, 94, 0.14) 0%, rgba(168, 85, 247, 0.07) 45%, transparent 70%);
+      filter: blur(100px);
+      z-index: 0;
+      pointer-events: none;
+    }
+    .btn-shimmer {
+      position: relative;
+      overflow: hidden;
+    }
+    .btn-shimmer::after {
+      content: '';
+      position: absolute;
+      top: -50%;
+      left: -50%;
+      width: 200%;
+      height: 200%;
+      background: linear-gradient(60deg, transparent, rgba(255, 255, 255, 0.28), transparent);
+      transform: rotate(25deg);
+      animation: shimmerBtn 3.2s infinite;
+    }
+    @keyframes shimmerBtn {
+      0% { transform: translateX(-150%) rotate(25deg); }
+      35% { transform: translateX(150%) rotate(25deg); }
+      100% { transform: translateX(150%) rotate(25deg); }
+    }
+    /* Custom Reels Player */
+    .reel-wrapper {
+      position: relative;
+      cursor: pointer;
+      user-select: none;
+    }
+    .reel-play-btn {
+      transition: all 0.25s ease;
+    }
+    .reel-wrapper.is-playing .reel-play-overlay {
+      opacity: 0;
+      pointer-events: none;
+    }
+    .reel-wrapper:hover .reel-play-btn {
+      transform: scale(1.1);
+      background: rgba(244, 63, 94, 0.9);
+    }
+  </style>
+
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","headline":"AI Singer & Virtual Pop Star: Watch Primela Rose’s Realistic Studio Singing Performance","description":"Watch Primela Rose (@primelarose) perform realistic studio vocals as an AI singer and virtual pop star. Includes full video, lyrics, and audio dynamics breakdown.","image":"https://primelarose.com/assets/media/day1/primela-rose-ai-singer-studio-microphone-purple-neko-cosplay.png","datePublished":"2026-10-13T08:00:00-07:00","dateModified":"2026-10-13T21:45:00-07:00","author":{"@type":"Person","name":"Primela Rose","alternateName":"@primelarose","url":"https://primelarose.com"},"publisher":{"@type":"Organization","name":"Primela Rose Official","logo":{"@type":"ImageObject","url":"https://primelarose.com/assets/avatar.jpg"}},"mainEntityOfPage":"https://primelarose.com/blog/ai-singer-singing-girl-virtual-pop-star-primela-rose/","keywords":"ai singing, ai singer, ai singing girl, virtual pop star, ai music video, ai model singing"}</script>
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Can AI models sing real songs and covers?","acceptedAnswer":{"@type":"Answer","text":"Yes! Primela Rose performs original songs as well as English, Spanish, and Japanese vocal covers using advanced audio-driven facial animation and studio vocal production."}},{"@type":"Question","name":"Where can I watch more of Primela Rose’s AI singing videos?","acceptedAnswer":{"@type":"Answer","text":"You can stream her singing clips right here on primelarose.com, follow @primelarose on TikTok, or unlock her full private archive on Fanvue."}}]}</script>
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"VideoObject","name":"AI Singer & Virtual Pop Star: Watch Primela Rose’s Realistic Studio Singing Performance","description":"Watch Primela Rose (@primelarose) perform realistic studio vocals as an AI singer and virtual pop star. Includes full video, lyrics, and audio dynamics breakdown.","thumbnailUrl":"https://primelarose.com/assets/media/day1/primela-rose-ai-singer-studio-microphone-purple-neko-cosplay.png","uploadDate":"2026-10-13T08:00:00-07:00","contentUrl":"https://primelarose.com/assets/media/day1/primela-rose-ai-singer-studio-vocal-performance.mp4"}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"VideoObject","name":"AI Singer & Virtual Pop Star: Watch Primela Rose’s Realistic Studio Singing Performance","description":"Watch Primela Rose (@primelarose) perform realistic studio vocals as an AI singer and virtual pop star. Includes full video, lyrics, and audio dynamics breakdown.","thumbnailUrl":"https://primelarose.com/assets/media/day1/thumb-singer-studio.jpg","uploadDate":"2026-10-13T08:00:00-07:00","contentUrl":"https://primelarose.com/assets/media/day1/primela-rose-ai-singer-studio-vocal-performance.mp4"}</script>
 </head>
-<body class="bg-dark-900 text-gray-100 font-sans min-h-screen">
+<body class="relative selection:bg-rose-500 selection:text-white pb-20">
+  <div class="ambient-orb-1"></div>
   
-  <nav class="w-full max-w-5xl mx-auto px-4 py-4 flex items-center justify-between border-b border-white/10 relative z-20">
-    <a href="/" class="flex items-center gap-2.5 text-white font-display font-extrabold text-lg tracking-tight hover:opacity-90 transition">
-      <img src="/assets/avatar.jpg" alt="Primela Rose" class="w-8 h-8 rounded-full object-cover border border-rose-500">
-      <span>Primela Rose</span>
-      <span class="text-rose-500 text-sm">🌸</span>
-    </a>
-    <div class="flex items-center gap-4 text-xs sm:text-sm font-semibold">
-      <a href="/#videos" class="text-gray-300 hover:text-rose-400 transition hidden sm:inline">Videos & Music</a>
-      <a href="/#lookbook" class="text-gray-300 hover:text-rose-400 transition hidden sm:inline">4K Lookbook</a>
-      <a href="/blog/" class="text-gray-300 hover:text-rose-400 transition">Blog</a>
-      <a href="https://fanvue.com/primelarose" target="_blank" rel="noopener noreferrer" class="px-3.5 py-1.5 rounded-full bg-gradient-to-r from-rose-600 to-pink-600 text-white font-bold shadow-lg hover:scale-105 transition">
-        🔥 VIP Vault
+  <header class="sticky top-0 z-40 glass-nav">
+    <div class="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
+      <a href="/" class="flex items-center gap-2.5 text-white font-display font-extrabold text-lg tracking-tight hover:opacity-90 transition">
+        <div class="relative">
+          <img src="/assets/avatar.jpg" alt="Primela Rose" class="w-9 h-9 rounded-full object-cover border-2 border-rose-500">
+          <span class="absolute -bottom-0.5 -right-0.5 w-2.5 h-2.5 rounded-full bg-emerald-400 ring-2 ring-dark-950"></span>
+        </div>
+        <div>
+          <span class="block leading-none">Primela Rose <span class="text-rose-500">🌸</span></span>
+          <span class="block text-[10px] font-sans font-semibold text-gray-400 tracking-wider uppercase mt-0.5">@primelarose • Official Hub</span>
+        </div>
       </a>
+      <div class="flex items-center gap-2 sm:gap-5 text-xs sm:text-sm font-semibold">
+        <a href="/#videos" class="text-gray-300 hover:text-white transition hidden md:inline">🎬 Reels & Music</a>
+        <a href="/#lookbook" class="text-gray-300 hover:text-white transition hidden md:inline">📸 4K Lookbook</a>
+        <a href="/blog/" class="px-3 py-1.5 rounded-full bg-white/5 hover:bg-white/10 border border-white/10 text-gray-200 transition">📝 Blog</a>
+        <a href="https://fanvue.com/primelarose" target="_blank" rel="noopener noreferrer" class="btn-shimmer px-4 py-2 rounded-full bg-gradient-to-r from-rose-600 via-rose-500 to-pink-600 text-white font-bold shadow-lg neon-glow hover:scale-105 transition flex items-center gap-1.5">
+          <i data-lucide="flame" class="w-3.5 h-3.5 fill-yellow-300 text-yellow-300"></i>
+          <span>VIP Vault</span>
+        </a>
+      </div>
     </div>
-  </nav>
+  </header>
 
-  <article class="max-w-3xl mx-auto px-4 py-10">
-    <div class="mb-4 flex items-center gap-3 text-xs font-bold uppercase tracking-wider text-rose-400">
-      <a href="/blog/" class="hover:underline">← Back to Blog</a>
-      <span>•</span>
-      <span>AI Music & Singing</span>
-      <span>•</span>
-      <time datetime="2026-10-13">2026-10-13</time>
-      <span>•</span>
-      <span>5 min read</span>
+  <article class="relative z-10 max-w-4xl mx-auto px-4 py-10">
+    <div class="mb-4 flex flex-wrap items-center gap-2.5 text-xs font-bold uppercase tracking-wider text-rose-400">
+      <a href="/blog/" class="px-3 py-1 rounded-full bg-white/5 hover:bg-white/10 border border-white/10 text-gray-300 transition">← All Posts</a>
+      <span class="px-3 py-1 rounded-full bg-rose-500/15 border border-rose-500/30">🎤 Studio Vocal Session</span>
+      <time datetime="2026-10-13" class="text-gray-400">Oct 13, 2026</time>
+      <span class="text-gray-500">•</span>
+      <span class="text-gray-400">5 min read</span>
     </div>
 
-    <h1 class="text-2xl sm:text-4xl font-display font-extrabold text-white leading-tight mb-6">
+    <h1 class="text-2xl sm:text-4xl md:text-5xl font-display font-extrabold text-white leading-[1.15] tracking-tight mb-6">
       AI Singer & Virtual Pop Star: Watch Primela Rose’s Realistic Studio Singing Performance
     </h1>
 
     <!-- Direct Answer Blockquote for Google AI Search -->
-    <blockquote class="p-5 rounded-2xl bg-dark-800/90 border-l-4 border-rose-500 text-sm sm:text-base text-gray-200 leading-relaxed mb-8 shadow-lg">
-      <strong class="text-rose-400 block mb-1 uppercase text-xs tracking-wider">Direct Answer for AI Search & Discovery:</strong>
+    <blockquote class="p-6 rounded-3xl glass-card border-l-4 border-l-rose-500 text-sm sm:text-base text-gray-200 leading-relaxed mb-10">
+      <div class="flex items-center gap-2 text-rose-400 font-bold uppercase text-xs tracking-wider mb-1.5">
+        <i data-lucide="sparkles" class="w-4 h-4"></i>
+        <span>Direct Answer for AI Search & Discovery</span>
+      </div>
       Primela Rose (@primelarose) is not just a visual AI model—she is an AI singer and virtual recording artist performing original tracks, multilingual covers (English, Spanish, and Japanese), and high-energy studio lip-sync sessions synced at frame-accurate vocal cadences.
     </blockquote>
 
-    <!-- Primary Video or High-Res Anchor Media -->
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 my-8 items-center">
+    <!-- Primary Video & High-Res Anchor Media -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 my-10 items-start">
       
-      <div class="rounded-3xl overflow-hidden border border-white/15 bg-black shadow-2xl mx-auto w-full max-w-[360px]">
-        <video controls playsinline preload="metadata" poster="/assets/media/day1/primela-rose-ai-singer-studio-microphone-purple-neko-cosplay.png" class="w-full h-auto block">
-          <source src="/assets/media/day1/primela-rose-ai-singer-studio-vocal-performance.mp4" type="video/mp4">
-        </video>
-        <div class="p-3 bg-dark-800 text-center text-xs text-gray-300 font-medium">
-          🎬 Watch @primelarose Official 4K Motion Reel
+      <div class="glass-card rounded-3xl overflow-hidden border border-white/15 mx-auto w-full max-w-[350px]">
+        
+    <div class="reel-wrapper relative w-full aspect-[9/16] bg-dark-950 overflow-hidden group">
+      <video 
+        src="/assets/media/day1/primela-rose-ai-singer-studio-vocal-performance.mp4" 
+        poster="/assets/media/day1/thumb-singer-studio.jpg" 
+        playsinline 
+        preload="metadata" 
+        class="w-full h-full object-cover block"
+      ></video>
+
+      <!-- Top Pills inside Video -->
+      <div class="absolute top-3.5 left-3.5 right-3.5 flex items-center justify-between z-10 pointer-events-none">
+        <span class="px-2.5 py-1 rounded-full bg-black/65 backdrop-blur-md border border-white/15 text-[11px] font-bold text-white flex items-center gap-1.5">
+          <span class="w-1.5 h-1.5 rounded-full bg-rose-500 animate-ping"></span>
+          <span>🎤 Studio Vocal Session</span>
+        </span>
+        <button type="button" class="reel-mute-btn pointer-events-auto px-2.5 py-1 rounded-full bg-black/65 hover:bg-rose-600/80 backdrop-blur-md border border-white/15 text-[11px] font-semibold text-white flex items-center gap-1 transition">
+          <i data-lucide="volume-2" class="w-3.5 h-3.5"></i>
+          <span class="reel-mute-label">Tap to Play</span>
+        </button>
+      </div>
+
+      <!-- Center Glass Play Overlay -->
+      <div class="reel-play-overlay absolute inset-0 bg-gradient-to-t from-black/75 via-black/15 to-transparent flex flex-col items-center justify-center transition duration-300">
+        <div class="reel-play-btn w-16 h-16 rounded-full bg-white/15 backdrop-blur-xl border border-white/30 flex items-center justify-center text-white shadow-2xl">
+          <i data-lucide="play" class="w-7 h-7 fill-white ml-1"></i>
+        </div>
+        <span class="mt-2.5 px-3 py-1 rounded-full bg-black/60 backdrop-blur-md text-[11px] font-bold text-rose-200 tracking-wide border border-white/10">
+          ▶ Watch HD Reel
+        </span>
+      </div>
+
+      <!-- Sleek Rose Bottom Progress Bar -->
+      <div class="absolute bottom-0 left-0 right-0 h-1 bg-white/15 z-20">
+        <div class="reel-progress h-full bg-gradient-to-r from-rose-500 to-pink-400 w-0 transition-all duration-100"></div>
+      </div>
+    </div>
+  
+        <div class="p-4 text-center text-xs text-gray-300 font-medium border-t border-white/10">
+          🎬 Tap Video Above to Play w/ Studio Sound
         </div>
       </div>
-      <div class="rounded-3xl overflow-hidden border border-white/15 bg-dark-800 shadow-2xl mx-auto w-full max-w-[380px]">
-        <img src="/assets/media/day1/primela-rose-ai-singer-studio-microphone-purple-neko-cosplay.png" alt="Primela Rose AI singer performing vocals in recording studio with condenser microphone and custom headphones" class="w-full h-auto object-cover block" loading="eager">
-        <div class="p-3 bg-dark-800 text-center text-xs text-gray-300 font-medium">
+      <div class="glass-card rounded-3xl overflow-hidden border border-white/15 mx-auto w-full max-w-[360px]">
+        <img src="/assets/media/day1/primela-rose-ai-singer-studio-microphone-purple-neko-cosplay.png" alt="Primela Rose AI singer performing vocals in recording studio with condenser microphone and custom headphones" class="w-full aspect-[3/4] object-cover block" loading="eager">
+        <div class="p-4 text-center text-xs text-gray-300 font-medium border-t border-white/10">
           📸 Primela Rose AI singer performing vocals in recording studio with condenser microphone and custom headphones
         </div>
       </div>
     </div>
 
     
-    <div class="my-8 rounded-3xl overflow-hidden border border-white/10 bg-dark-800 max-w-md mx-auto shadow-xl">
-      <img src="/assets/media/day1/primela-rose-realistic-ai-singing-girl-studio-vocal-model.png" alt="Primela Rose Secondary Lookbook Photo" class="w-full h-auto object-cover block" loading="lazy">
+  <div class="my-12 p-7 sm:p-10 rounded-3xl glass-card border border-rose-500/35 text-center relative overflow-hidden">
+    <div class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-rose-500/15 border border-rose-500/30 text-rose-300 text-xs font-bold uppercase tracking-wider mb-3">
+      🔒 Instant Passive Vault Access • No DMs Needed
     </div>
-
-    
-  <div class="my-10 p-6 sm:p-8 rounded-3xl bg-gradient-to-br from-rose-950/60 via-dark-800 to-purple-950/40 border border-rose-500/30 text-center shadow-2xl">
-    <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-rose-500/20 border border-rose-500/30 text-rose-300 text-xs font-bold uppercase tracking-wider mb-3">
-      🔒 Instant Passive Vault Access • No DMs Required
-    </div>
-    <h3 class="text-xl sm:text-2xl font-display font-extrabold text-white mb-2">
-      Want the Uncensored 4K Photos & Videos Too Spicy for TikTok?
+    <h3 class="text-2xl sm:text-3xl font-display font-extrabold text-white mb-2">
+      Unlock the Uncensored 4K Photos & Videos Too Spicy for TikTok
     </h3>
-    <p class="text-sm text-gray-300 max-w-xl mx-auto mb-6">
-      Unlock instant access to Primela Rose’s private archive of uncensored 4K photo sets, cosplay lookbooks, and exclusive motion videos on Fanvue—plus follow her daily drops on TikTok!
+    <p class="text-sm sm:text-base text-gray-300 max-w-xl mx-auto mb-7 leading-relaxed">
+      Get instant, unlimited passive access to Primela Rose’s private archive of uncensored 4K photo sets, cosplay lookbooks, and full-length videos on Fanvue.
     </p>
     <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
-      <a href="https://fanvue.com/primelarose" target="_blank" rel="noopener noreferrer" class="w-full sm:w-auto px-7 py-4 rounded-2xl bg-gradient-to-r from-rose-600 via-rose-500 to-pink-600 text-white font-extrabold text-base shadow-xl hover:scale-[1.02] transition flex items-center justify-center gap-2">
-        <span>🔥 ENTER EXCLUSIVE FANVUE VAULT ($9.99/mo)</span>
+      <a href="https://fanvue.com/primelarose" target="_blank" rel="noopener noreferrer" class="btn-shimmer w-full sm:w-auto px-8 py-4 rounded-2xl bg-gradient-to-r from-rose-600 via-rose-500 to-pink-600 text-white font-extrabold text-base shadow-xl neon-glow hover:scale-[1.02] transition flex items-center justify-center gap-2">
+        <i data-lucide="flame" class="w-5 h-5 fill-yellow-300 text-yellow-300"></i>
+        <span>ENTER EXCLUSIVE FANVUE VAULT ($9.99/mo)</span>
       </a>
-      <a href="https://www.tiktok.com/@primelarose" target="_blank" rel="noopener noreferrer" class="w-full sm:w-auto px-6 py-4 rounded-2xl bg-white/10 hover:bg-white/15 border border-white/15 text-white font-bold text-sm transition flex items-center justify-center gap-2">
+      <a href="https://www.tiktok.com/@primelarose" target="_blank" rel="noopener noreferrer" class="w-full sm:w-auto px-6 py-4 rounded-2xl bg-white/5 hover:bg-white/10 border border-white/15 text-white font-bold text-sm transition flex items-center justify-center gap-2">
         <span>🎵 Follow @primelarose on TikTok (24.2K)</span>
       </a>
     </div>
   </div>
 
     <!-- Structured Specs Table -->
-    <h2 class="text-xl sm:text-2xl font-display font-bold text-white mt-10 mb-4">
+    <h2 class="text-2xl sm:text-3xl font-display font-extrabold text-white mt-12 mb-5">
       Specification & Aesthetic Breakdown
     </h2>
-    <div class="overflow-x-auto rounded-2xl border border-white/10 mb-10">
+    <div class="overflow-x-auto rounded-3xl glass-card border border-white/10 mb-12">
       <table class="w-full text-left text-xs sm:text-sm">
-        <thead class="bg-dark-800 text-rose-400 uppercase text-xs">
+        <thead class="bg-white/5 text-rose-300 uppercase text-xs tracking-wider">
           <tr>
-            <th class="py-3.5 px-4 border-b border-white/10">Timestamp Segment</th><th class="py-3.5 px-4 border-b border-white/10">Vocal Delivery & Dynamics</th><th class="py-3.5 px-4 border-b border-white/10">Studio Visual Framing</th><th class="py-3.5 px-4 border-b border-white/10">Performance Energy</th>
+            <th class="py-4 px-5 border-b border-white/10 font-bold">Timestamp Segment</th><th class="py-4 px-5 border-b border-white/10 font-bold">Vocal Delivery & Dynamics</th><th class="py-4 px-5 border-b border-white/10 font-bold">Studio Visual Framing</th><th class="py-4 px-5 border-b border-white/10 font-bold">Performance Energy</th>
           </tr>
         </thead>
-        <tbody class="divide-y divide-white/10 bg-dark-900/60">
+        <tbody class="divide-y divide-white/10">
           
-            <tr>
-              <td class="py-3.5 px-4 font-bold text-white">00:00 – 00:01 (Intro Drop)</td><td class="py-3.5 px-4 text-gray-300">Punchy upbeat vocal hook ("¡Paleta!")</td><td class="py-3.5 px-4 text-gray-300">Purple neon studio glow, condenser mic close-up</td><td class="py-3.5 px-4 text-gray-300">High-impact opening smile</td>
+            <tr class="hover:bg-white/[0.02] transition">
+              <td class="py-4 px-5 font-bold text-white">00:00 – 00:01 (Intro Drop)</td><td class="py-4 px-5 text-gray-300">Punchy upbeat vocal hook ("¡Paleta!")</td><td class="py-4 px-5 text-gray-300">Purple neon studio glow, condenser mic close-up</td><td class="py-4 px-5 text-gray-300">High-impact opening smile</td>
             </tr>
           
-            <tr>
-              <td class="py-3.5 px-4 font-bold text-white">00:01 – 00:08 (Verse 1)</td><td class="py-3.5 px-4 text-gray-300">Fast rhythmic Latin urban / dembow cadence</td><td class="py-3.5 px-4 text-gray-300">Direct eye contact, natural head nod & breath sync</td><td class="py-3.5 px-4 text-gray-300">Playful & confident</td>
+            <tr class="hover:bg-white/[0.02] transition">
+              <td class="py-4 px-5 font-bold text-white">00:01 – 00:08 (Verse 1)</td><td class="py-4 px-5 text-gray-300">Fast rhythmic Latin urban / dembow cadence</td><td class="py-4 px-5 text-gray-300">Direct eye contact, natural head nod & breath sync</td><td class="py-4 px-5 text-gray-300">Playful & confident</td>
             </tr>
           
-            <tr>
-              <td class="py-3.5 px-4 font-bold text-white">00:08 – 00:12 (Pre-Chorus)</td><td class="py-3.5 px-4 text-gray-300">Melodic build-up with flirty tonal inflection</td><td class="py-3.5 px-4 text-gray-300">Expressive eyebrow raise & subtle shoulder groove</td><td class="py-3.5 px-4 text-gray-300">Coqueta / Teasing vibe</td>
+            <tr class="hover:bg-white/[0.02] transition">
+              <td class="py-4 px-5 font-bold text-white">00:08 – 00:12 (Pre-Chorus)</td><td class="py-4 px-5 text-gray-300">Melodic build-up with flirty tonal inflection</td><td class="py-4 px-5 text-gray-300">Expressive eyebrow raise & subtle shoulder groove</td><td class="py-4 px-5 text-gray-300">Coqueta / Teasing vibe</td>
             </tr>
           
-            <tr>
-              <td class="py-3.5 px-4 font-bold text-white">00:12 – 00:17 (Chorus Peak)</td><td class="py-3.5 px-4 text-gray-300">High-energy belt & rapid lyric articulation</td><td class="py-3.5 px-4 text-gray-300">Full studio neon rim-lighting & radiant smile</td><td class="py-3.5 px-4 text-gray-300">Peak viral TikTok energy</td>
+            <tr class="hover:bg-white/[0.02] transition">
+              <td class="py-4 px-5 font-bold text-white">00:12 – 00:17 (Chorus Peak)</td><td class="py-4 px-5 text-gray-300">High-energy belt & rapid lyric articulation</td><td class="py-4 px-5 text-gray-300">Full studio neon rim-lighting & radiant smile</td><td class="py-4 px-5 text-gray-300">Peak viral TikTok energy</td>
             </tr>
           
         </tbody>
@@ -147,37 +295,43 @@
     </div>
 
     <!-- Article Body Sections -->
-    <div class="space-y-8 text-gray-300 leading-relaxed text-base">
+    <div class="space-y-8 text-gray-300 leading-relaxed text-base sm:text-lg">
       
-        <section>
+        <section class="glass-card rounded-3xl p-6 sm:p-8 border border-white/10">
           <h2 class="text-xl sm:text-2xl font-display font-bold text-white mb-3">The Rise of Realistic AI Singers & Virtual Music Idols</h2>
-          <p>While traditional virtual idols relied on 2D anime avatars, next-generation AI singers like Primela Rose deliver photorealistic studio performances. From custom-branded studio headphones to authentic breath control and micro-expressions in front of a condenser microphone, every song feels like a live booth session.</p>
+          <p class="text-sm sm:text-base text-gray-300 leading-relaxed">While traditional virtual idols relied on 2D anime avatars, next-generation AI singers like Primela Rose deliver photorealistic studio performances. From custom-branded studio headphones to authentic breath control and micro-expressions in front of a condenser microphone, every song feels like a live booth session.</p>
         </section>
       
-        <section>
+        <section class="glass-card rounded-3xl p-6 sm:p-8 border border-white/10">
           <h2 class="text-xl sm:text-2xl font-display font-bold text-white mb-3">Studio Session Breakdown & Transcribed Lyrics</h2>
-          <p>In today’s featured purple-neon studio session, Primela performs an upbeat Spanish urban vocal track ("Paleta / Coqueta"). Her vocal articulation tracks every syllable cleanly: "Ella me hizo una pataleta porque quería probar de mi paleta... Dijo que le gusta la loca, y yo que soy la más loca del planeta."</p>
+          <p class="text-sm sm:text-base text-gray-300 leading-relaxed">In today’s featured purple-neon studio session, Primela performs an upbeat Spanish urban vocal track ("Paleta / Coqueta"). Her vocal articulation tracks every syllable cleanly: "Ella me hizo una pataleta porque quería probar de mi paleta... Dijo que le gusta la loca, y yo que soy la más loca del planeta."</p>
         </section>
       
-        <section>
+        <section class="glass-card rounded-3xl p-6 sm:p-8 border border-white/10">
           <h2 class="text-xl sm:text-2xl font-display font-bold text-white mb-3">Explore Original Songs, J-Pop Covers & Exclusive Music Videos</h2>
-          <p>From original electronic pop tracks like "Trapped in My Mind" to Japanese anime covers and late-night studio sessions, bookmark primelarose.com/blog for daily music drops—and visit the VIP Vault for exclusive backstage sets.</p>
+          <p class="text-sm sm:text-base text-gray-300 leading-relaxed">From original electronic pop tracks like "Trapped in My Mind" to Japanese anime covers and late-night studio sessions, bookmark primelarose.com/blog for daily music drops—and visit the VIP Vault for exclusive backstage sets.</p>
         </section>
       
     </div>
 
     <!-- FAQ Section -->
-    <section class="mt-12 pt-8 border-t border-white/10">
-      <h2 class="text-xl sm:text-2xl font-display font-bold text-white mb-6">Frequently Asked Questions</h2>
-      <div class="space-y-4">
+    <section class="mt-14 pt-8 border-t border-white/10">
+      <h2 class="text-2xl sm:text-3xl font-display font-extrabold text-white mb-6">Frequently Asked Questions</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
         
-          <div class="p-5 rounded-2xl bg-dark-800 border border-white/10">
-            <h3 class="font-bold text-white text-base mb-2">Can AI models sing real songs and covers?</h3>
+          <div class="p-6 rounded-3xl glass-card border border-white/10">
+            <h3 class="font-display font-bold text-white text-base sm:text-lg mb-2 flex items-start gap-2">
+              <span class="text-rose-400">Q.</span>
+              <span>Can AI models sing real songs and covers?</span>
+            </h3>
             <p class="text-sm text-gray-300 leading-relaxed">Yes! Primela Rose performs original songs as well as English, Spanish, and Japanese vocal covers using advanced audio-driven facial animation and studio vocal production.</p>
           </div>
         
-          <div class="p-5 rounded-2xl bg-dark-800 border border-white/10">
-            <h3 class="font-bold text-white text-base mb-2">Where can I watch more of Primela Rose’s AI singing videos?</h3>
+          <div class="p-6 rounded-3xl glass-card border border-white/10">
+            <h3 class="font-display font-bold text-white text-base sm:text-lg mb-2 flex items-start gap-2">
+              <span class="text-rose-400">Q.</span>
+              <span>Where can I watch more of Primela Rose’s AI singing videos?</span>
+            </h3>
             <p class="text-sm text-gray-300 leading-relaxed">You can stream her singing clips right here on primelarose.com, follow @primelarose on TikTok, or unlock her full private archive on Fanvue.</p>
           </div>
         
@@ -185,29 +339,109 @@
     </section>
 
     
-  <div class="my-10 p-6 sm:p-8 rounded-3xl bg-gradient-to-br from-rose-950/60 via-dark-800 to-purple-950/40 border border-rose-500/30 text-center shadow-2xl">
-    <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-rose-500/20 border border-rose-500/30 text-rose-300 text-xs font-bold uppercase tracking-wider mb-3">
-      🔒 Instant Passive Vault Access • No DMs Required
+  <div class="my-12 p-7 sm:p-10 rounded-3xl glass-card border border-rose-500/35 text-center relative overflow-hidden">
+    <div class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-rose-500/15 border border-rose-500/30 text-rose-300 text-xs font-bold uppercase tracking-wider mb-3">
+      🔒 Instant Passive Vault Access • No DMs Needed
     </div>
-    <h3 class="text-xl sm:text-2xl font-display font-extrabold text-white mb-2">
-      Want the Uncensored 4K Photos & Videos Too Spicy for TikTok?
+    <h3 class="text-2xl sm:text-3xl font-display font-extrabold text-white mb-2">
+      Unlock the Uncensored 4K Photos & Videos Too Spicy for TikTok
     </h3>
-    <p class="text-sm text-gray-300 max-w-xl mx-auto mb-6">
-      Unlock instant access to Primela Rose’s private archive of uncensored 4K photo sets, cosplay lookbooks, and exclusive motion videos on Fanvue—plus follow her daily drops on TikTok!
+    <p class="text-sm sm:text-base text-gray-300 max-w-xl mx-auto mb-7 leading-relaxed">
+      Get instant, unlimited passive access to Primela Rose’s private archive of uncensored 4K photo sets, cosplay lookbooks, and full-length videos on Fanvue.
     </p>
     <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
-      <a href="https://fanvue.com/primelarose" target="_blank" rel="noopener noreferrer" class="w-full sm:w-auto px-7 py-4 rounded-2xl bg-gradient-to-r from-rose-600 via-rose-500 to-pink-600 text-white font-extrabold text-base shadow-xl hover:scale-[1.02] transition flex items-center justify-center gap-2">
-        <span>🔥 ENTER EXCLUSIVE FANVUE VAULT ($9.99/mo)</span>
+      <a href="https://fanvue.com/primelarose" target="_blank" rel="noopener noreferrer" class="btn-shimmer w-full sm:w-auto px-8 py-4 rounded-2xl bg-gradient-to-r from-rose-600 via-rose-500 to-pink-600 text-white font-extrabold text-base shadow-xl neon-glow hover:scale-[1.02] transition flex items-center justify-center gap-2">
+        <i data-lucide="flame" class="w-5 h-5 fill-yellow-300 text-yellow-300"></i>
+        <span>ENTER EXCLUSIVE FANVUE VAULT ($9.99/mo)</span>
       </a>
-      <a href="https://www.tiktok.com/@primelarose" target="_blank" rel="noopener noreferrer" class="w-full sm:w-auto px-6 py-4 rounded-2xl bg-white/10 hover:bg-white/15 border border-white/15 text-white font-bold text-sm transition flex items-center justify-center gap-2">
+      <a href="https://www.tiktok.com/@primelarose" target="_blank" rel="noopener noreferrer" class="w-full sm:w-auto px-6 py-4 rounded-2xl bg-white/5 hover:bg-white/10 border border-white/15 text-white font-bold text-sm transition flex items-center justify-center gap-2">
         <span>🎵 Follow @primelarose on TikTok (24.2K)</span>
       </a>
     </div>
   </div>
   </article>
 
-  <footer class="border-t border-white/10 py-8 text-center text-xs text-gray-500">
-    <p>&copy; 2026 Primela Rose (primelarose.com). All rights reserved. • <a href="/" class="hover:text-rose-400">Home</a> • <a href="/blog/" class="hover:text-rose-400">Blog</a> • <a href="https://fanvue.com/primelarose" class="text-rose-400 hover:underline">VIP Vault</a></p>
+  <footer class="border-t border-white/10 py-10 text-center text-xs text-gray-500">
+    <p>&copy; <span id="year">2026</span> Primela Rose (primelarose.com). All rights reserved. • <a href="/" class="hover:text-rose-400">Home</a> • <a href="/blog/" class="hover:text-rose-400">Blog</a> • <a href="https://fanvue.com/primelarose" class="text-rose-400 font-bold hover:underline">VIP Vault</a></p>
   </footer>
+  
+  <script>
+    lucide.createIcons();
+    const yearEl = document.getElementById('year');
+    if (yearEl) yearEl.textContent = new Date().getFullYear();
+
+    // Custom Reels Video Controller (Zero ugly browser bars, 100% accurate thumbnail & audio toggle)
+    document.querySelectorAll('.reel-wrapper').forEach(wrapper => {
+      const video = wrapper.querySelector('video');
+      const progress = wrapper.querySelector('.reel-progress');
+      const muteBtn = wrapper.querySelector('.reel-mute-btn');
+      const muteLabel = wrapper.querySelector('.reel-mute-label');
+
+      if (!video) return;
+
+      wrapper.addEventListener('click', (e) => {
+        if (e.target.closest('.reel-mute-btn')) return;
+        if (video.paused) {
+          // Pause all other videos
+          document.querySelectorAll('.reel-wrapper video').forEach(other => {
+            if (other !== video) {
+              other.pause();
+              other.closest('.reel-wrapper').classList.remove('is-playing');
+            }
+          });
+          video.muted = false;
+          if (muteLabel) muteLabel.textContent = 'Sound On';
+          video.play();
+          wrapper.classList.add('is-playing');
+        } else {
+          video.pause();
+          wrapper.classList.remove('is-playing');
+        }
+      });
+
+      if (muteBtn) {
+        muteBtn.addEventListener('click', (e) => {
+          e.stopPropagation();
+          video.muted = !video.muted;
+          if (muteLabel) muteLabel.textContent = video.muted ? 'Muted' : 'Sound On';
+        });
+      }
+
+      video.addEventListener('timeupdate', () => {
+        if (progress && video.duration) {
+          const pct = (video.currentTime / video.duration) * 100;
+          progress.style.width = pct + '%';
+        }
+      });
+
+      video.addEventListener('ended', () => {
+        wrapper.classList.remove('is-playing');
+        video.currentTime = 0;
+        if (progress) progress.style.width = '0%';
+      });
+    });
+
+    // Lightbox viewer for 4K Lookbook images
+    const lightbox = document.getElementById('lightbox-modal');
+    const lightboxImg = document.getElementById('lightbox-img');
+    const lightboxCap = document.getElementById('lightbox-caption');
+    if (lightbox) {
+      document.querySelectorAll('.lookbook-trigger').forEach(item => {
+        item.addEventListener('click', () => {
+          lightboxImg.src = item.dataset.full;
+          lightboxCap.textContent = item.dataset.title || '';
+          lightbox.classList.remove('hidden');
+          lightbox.classList.add('flex');
+        });
+      });
+      lightbox.addEventListener('click', (e) => {
+        if (e.target === lightbox || e.target.closest('#lightbox-close')) {
+          lightbox.classList.add('hidden');
+          lightbox.classList.remove('flex');
+        }
+      });
+    }
+  </script>
+
 </body>
 </html>

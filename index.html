@@ -7,36 +7,28 @@
   <meta name="description" content="Official creator hub for Primela Rose (@primelarose) — realistic AI Asian girl, ABG AI model, Douyin & Japanese cosplay creator, AI singer, and viral TikTok dancer. Unlock 4K Lookbooks & Exclusive VIP Vault.">
   <meta name="keywords" content="primela rose, @primelarose, ai generated girls, ai models, ai asian girls, abg ai, ai douyin, ai japanese girl, ai chinese girl, ai dance, ai singing, ai singer, virtual influencer">
   <link rel="canonical" href="https://primelarose.com/">
-
-  <!-- Open Graph / Meta -->
   <meta property="og:type" content="website">
   <meta property="og:title" content="Primela Rose (@primelarose) | Official AI Asian Model, AI Singer & VIP Vault">
   <meta property="og:description" content="Explore 4K AI Asian model lookbooks, Japanese & Chinese Douyin cosplay, original AI singing videos, viral TikTok dances, and Primela Rose's Exclusive VIP Vault.">
   <meta property="og:image" content="https://primelarose.com/assets/media/day1/primela-rose-ai-asian-girl-chinese-qipao-neko-ears-braces.jpg">
   <meta property="og:url" content="https://primelarose.com/">
-  <meta name="theme-color" content="#07070b">
-
-  <!-- Favicon -->
+  <meta name="theme-color" content="#050508">
   <link rel="icon" type="image/jpeg" href="/assets/favicon.jpg">
   <link rel="shortcut icon" href="/favicon.ico">
   <link rel="apple-touch-icon" href="/assets/favicon.jpg">
-
-  <!-- Fonts & Tailwind CSS CDN -->
+  
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Syne:wght@700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <script src="https://cdn.tailwindcss.com"></script>
-
-  <!-- Lucide Icons -->
   <script src="https://unpkg.com/lucide@latest"></script>
-
   <script>
     tailwind.config = {
       theme: {
         extend: {
           fontFamily: {
             sans: ['"Plus Jakarta Sans"', 'sans-serif'],
-            display: ['"Syne"', 'sans-serif'],
+            display: ['"Outfit"', 'sans-serif'],
           },
           colors: {
             rose: {
@@ -45,17 +37,104 @@
               600: '#e11d48',
             },
             dark: {
-              900: '#07070b',
-              800: '#0f0f17',
-              700: '#171724',
+              950: '#050508',
+              900: '#09090f',
+              800: '#11111c',
+              700: '#191927',
             }
           }
         }
       }
     }
   </script>
+  <style>
+    body {
+      background-color: #050508;
+      color: #f3f4f6;
+      margin: 0;
+      overflow-x: hidden;
+      -webkit-tap-highlight-color: transparent;
+    }
+    .glass-nav {
+      background: rgba(9, 9, 15, 0.78);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+    }
+    .glass-card {
+      background: linear-gradient(165deg, rgba(22, 22, 35, 0.85) 0%, rgba(12, 12, 20, 0.92) 100%);
+      backdrop-filter: blur(24px);
+      -webkit-backdrop-filter: blur(24px);
+      border: 1px solid rgba(255, 255, 255, 0.09);
+      box-shadow: 0 24px 48px -12px rgba(0, 0, 0, 0.85);
+    }
+    .glass-card-hover {
+      transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    .glass-card-hover:hover {
+      transform: translateY(-5px);
+      border-color: rgba(244, 63, 94, 0.45);
+      box-shadow: 0 28px 55px -12px rgba(244, 63, 94, 0.22);
+    }
+    .neon-glow {
+      box-shadow: 0 0 35px -5px rgba(244, 63, 94, 0.65);
+    }
+    .text-gradient-rose {
+      background: linear-gradient(135deg, #fff 15%, #fda4af 55%, #f43f5e 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .ambient-orb-1 {
+      position: fixed;
+      top: 15%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 650px;
+      height: 550px;
+      background: radial-gradient(circle, rgba(244, 63, 94, 0.14) 0%, rgba(168, 85, 247, 0.07) 45%, transparent 70%);
+      filter: blur(100px);
+      z-index: 0;
+      pointer-events: none;
+    }
+    .btn-shimmer {
+      position: relative;
+      overflow: hidden;
+    }
+    .btn-shimmer::after {
+      content: '';
+      position: absolute;
+      top: -50%;
+      left: -50%;
+      width: 200%;
+      height: 200%;
+      background: linear-gradient(60deg, transparent, rgba(255, 255, 255, 0.28), transparent);
+      transform: rotate(25deg);
+      animation: shimmerBtn 3.2s infinite;
+    }
+    @keyframes shimmerBtn {
+      0% { transform: translateX(-150%) rotate(25deg); }
+      35% { transform: translateX(150%) rotate(25deg); }
+      100% { transform: translateX(150%) rotate(25deg); }
+    }
+    /* Custom Reels Player */
+    .reel-wrapper {
+      position: relative;
+      cursor: pointer;
+      user-select: none;
+    }
+    .reel-play-btn {
+      transition: all 0.25s ease;
+    }
+    .reel-wrapper.is-playing .reel-play-overlay {
+      opacity: 0;
+      pointer-events: none;
+    }
+    .reel-wrapper:hover .reel-play-btn {
+      transform: scale(1.1);
+      background: rgba(244, 63, 94, 0.9);
+    }
+  </style>
 
-  <!-- Structured Data for Google Search, Images, Videos & AI Overviews -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -84,377 +163,561 @@
     ]
   }
   </script>
-
-  <style>
-    body {
-      background-color: #07070b;
-      color: #f3f4f6;
-      margin: 0;
-      overflow-x: hidden;
-      -webkit-tap-highlight-color: transparent;
-    }
-
-    .glass-card {
-      background: rgba(18, 18, 28, 0.82);
-      backdrop-filter: blur(20px);
-      -webkit-backdrop-filter: blur(20px);
-      border: 1px solid rgba(255, 255, 255, 0.08);
-      box-shadow: 0 20px 40px -15px rgba(0, 0, 0, 0.85);
-    }
-
-    .neon-glow {
-      box-shadow: 0 0 35px -5px rgba(244, 63, 94, 0.6);
-    }
-
-    .ambient-orb {
-      position: fixed;
-      top: 40%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      width: 520px;
-      height: 520px;
-      background: radial-gradient(circle, rgba(244, 63, 94, 0.16) 0%, rgba(138, 43, 226, 0.08) 50%, transparent 70%);
-      filter: blur(90px);
-      z-index: 0;
-      pointer-events: none;
-    }
-
-    .btn-shimmer {
-      position: relative;
-      overflow: hidden;
-    }
-    .btn-shimmer::after {
-      content: '';
-      position: absolute;
-      top: -50%;
-      left: -50%;
-      width: 200%;
-      height: 200%;
-      background: linear-gradient(60deg, transparent, rgba(255, 255, 255, 0.28), transparent);
-      transform: rotate(25deg);
-      animation: shimmerBtn 3s infinite;
-    }
-    @keyframes shimmerBtn {
-      0% { transform: translateX(-150%) rotate(25deg); }
-      35% { transform: translateX(150%) rotate(25deg); }
-      100% { transform: translateX(150%) rotate(25deg); }
-    }
-  </style>
 </head>
-<body class="relative selection:bg-rose-500 selection:text-white">
+<body class="relative selection:bg-rose-500 selection:text-white pb-20">
 
-  <!-- Ambient Light -->
-  <div class="ambient-orb"></div>
+  <div class="ambient-orb-1"></div>
+  
+  <header class="sticky top-0 z-40 glass-nav">
+    <div class="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
+      <a href="/" class="flex items-center gap-2.5 text-white font-display font-extrabold text-lg tracking-tight hover:opacity-90 transition">
+        <div class="relative">
+          <img src="/assets/avatar.jpg" alt="Primela Rose" class="w-9 h-9 rounded-full object-cover border-2 border-rose-500">
+          <span class="absolute -bottom-0.5 -right-0.5 w-2.5 h-2.5 rounded-full bg-emerald-400 ring-2 ring-dark-950"></span>
+        </div>
+        <div>
+          <span class="block leading-none">Primela Rose <span class="text-rose-500">🌸</span></span>
+          <span class="block text-[10px] font-sans font-semibold text-gray-400 tracking-wider uppercase mt-0.5">@primelarose • Official Hub</span>
+        </div>
+      </a>
+      <div class="flex items-center gap-2 sm:gap-5 text-xs sm:text-sm font-semibold">
+        <a href="/#videos" class="text-gray-300 hover:text-white transition hidden md:inline">🎬 Reels & Music</a>
+        <a href="/#lookbook" class="text-gray-300 hover:text-white transition hidden md:inline">📸 4K Lookbook</a>
+        <a href="/blog/" class="px-3 py-1.5 rounded-full bg-white/5 hover:bg-white/10 border border-white/10 text-gray-200 transition">📝 Blog</a>
+        <a href="https://fanvue.com/primelarose" target="_blank" rel="noopener noreferrer" class="btn-shimmer px-4 py-2 rounded-full bg-gradient-to-r from-rose-600 via-rose-500 to-pink-600 text-white font-bold shadow-lg neon-glow hover:scale-105 transition flex items-center gap-1.5">
+          <i data-lucide="flame" class="w-3.5 h-3.5 fill-yellow-300 text-yellow-300"></i>
+          <span>VIP Vault</span>
+        </a>
+      </div>
+    </div>
+  </header>
 
-  <!-- SECTION 1: INSTANT FULL-SCREEN MOBILE VIP CARD (Above the Fold) -->
-  <section class="relative z-10 min-h-screen flex flex-col justify-center items-center px-4 py-6">
-    <div class="w-full max-w-sm sm:max-w-md mx-auto text-center">
-
-      <div class="glass-card rounded-3xl p-6 sm:p-8 border border-white/10 flex flex-col items-center">
-
+  <!-- HERO SECTION: Clean Centered Creator Portal + Immediate Visual Discovery -->
+  <section class="relative z-10 pt-8 pb-14 px-4">
+    <div class="max-w-lg mx-auto text-center">
+      <div class="glass-card rounded-[2rem] p-7 sm:p-9 border border-white/15 flex flex-col items-center relative overflow-hidden">
+        
         <!-- Top Status Pill -->
-        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-dark-900/80 border border-white/10 text-xs font-medium text-gray-300 mb-6">
-          <span class="w-2 h-2 rounded-full bg-emerald-500 animate-ping"></span>
-          <span class="w-2 h-2 rounded-full bg-emerald-500 -ml-3"></span>
-          <span>Active VIP Gallery Vault</span>
+        <div class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-white/5 border border-white/10 text-xs font-semibold text-gray-200 mb-5">
+          <span class="w-2 h-2 rounded-full bg-emerald-400 animate-ping"></span>
+          <span class="w-2 h-2 rounded-full bg-emerald-400 -ml-3"></span>
+          <span>Online • Active 4K VIP Vault</span>
         </div>
 
         <!-- Centered Profile Picture with Glowing Ring & Verified Tick -->
-        <div class="flex justify-center items-center w-full mb-4">
-          <div class="relative w-28 h-28 sm:w-32 sm:h-32">
-            <div class="absolute -inset-1 rounded-full bg-gradient-to-r from-rose-500 via-purple-500 to-rose-500 opacity-80 blur-md animate-pulse"></div>
-            <img 
-              src="assets/avatar.jpg" 
-              alt="Primela Rose - Official AI Asian Model & Virtual Singer" 
-              class="relative w-full h-full rounded-full object-cover border-2 border-white/90 shadow-2xl block"
-            >
-            <div class="absolute bottom-1 right-1 w-7 h-7 sm:w-8 sm:h-8 rounded-full bg-gradient-to-tr from-rose-600 to-rose-400 flex items-center justify-center text-white border-2 border-dark-900 shadow-lg">
-              <i data-lucide="check" class="w-4 h-4 stroke-[3]"></i>
-            </div>
+        <div class="relative w-28 h-28 sm:w-32 sm:h-32 mb-4">
+          <div class="absolute -inset-1.5 rounded-full bg-gradient-to-tr from-rose-500 via-fuchsia-500 to-rose-400 opacity-85 blur-md animate-pulse"></div>
+          <img 
+            src="/assets/avatar.jpg" 
+            alt="Primela Rose - Official AI Asian Model & Virtual Singer" 
+            class="relative w-full h-full rounded-full object-cover border-2 border-white shadow-2xl block"
+          >
+          <div class="absolute bottom-1 right-1 w-8 h-8 rounded-full bg-gradient-to-tr from-rose-600 to-rose-400 flex items-center justify-center text-white border-2 border-dark-950 shadow-lg">
+            <i data-lucide="check" class="w-4 h-4 stroke-[3]"></i>
           </div>
         </div>
 
         <!-- Name & Handle -->
-        <h1 class="text-2xl sm:text-3xl font-display font-extrabold tracking-tight text-white flex items-center justify-center gap-2">
+        <h1 class="text-3xl sm:text-4xl font-display font-extrabold tracking-tight text-white flex items-center justify-center gap-2">
           <span>Primela Rose</span>
-          <span class="text-rose-500 font-sans text-base">🌸</span>
+          <span class="text-rose-500 text-xl">🌸</span>
         </h1>
-        
-        <p class="text-xs font-semibold text-rose-400 tracking-wider uppercase mt-1">
+        <p class="text-xs sm:text-sm font-semibold text-rose-400 tracking-wider uppercase mt-1">
           @primelarose • AI Asian Model, Singer & Cosplayer
         </p>
 
-        <!-- Stats Pill -->
-        <div class="flex items-center justify-center gap-4 mt-3 py-1.5 px-4 rounded-xl bg-dark-900/60 border border-white/5 text-xs">
+        <!-- Stats Bar -->
+        <div class="grid grid-cols-3 gap-2 w-full max-w-xs mt-4 py-2.5 px-4 rounded-2xl bg-black/40 border border-white/10 text-xs">
           <div>
-            <span class="font-bold text-white">24.2K</span>
-            <span class="text-gray-400 text-[11px] ml-1">Followers</span>
+            <span class="font-display font-extrabold text-white text-sm block">24.2K</span>
+            <span class="text-gray-400 text-[11px]">Followers</span>
           </div>
-          <div class="h-3.5 w-px bg-white/10"></div>
-          <div>
-            <span class="font-bold text-white">193K+</span>
-            <span class="text-gray-400 text-[11px] ml-1">Likes</span>
+          <div class="border-x border-white/10">
+            <span class="font-display font-extrabold text-white text-sm block">193.8K</span>
+            <span class="text-gray-400 text-[11px]">Likes</span>
           </div>
-          <div class="h-3.5 w-px bg-white/10"></div>
           <div>
-            <span class="font-bold text-rose-400">#1 VIP</span>
-            <span class="text-gray-400 text-[11px] ml-1">Tier</span>
+            <span class="font-display font-extrabold text-rose-400 text-sm block">#1 VIP</span>
+            <span class="text-gray-400 text-[11px]">Creator</span>
           </div>
         </div>
 
-        <!-- Seductive Hook -->
-        <p class="text-sm text-gray-300 mt-5 leading-relaxed px-1">
-          Welcome to my secret room. You love my TikTok dances, songs & cosplay... now unlock the exclusive 4K photo sets and videos too wild for the algorithm. 💋
+        <!-- Hook -->
+        <p class="text-sm sm:text-base text-gray-300 mt-5 leading-relaxed">
+          Welcome to my official world. Watch my daily AI singing sessions, Y2K dances &amp; Douyin lookbooks below—or unlock the <strong class="text-white">uncensored 4K vault</strong> too wild for TikTok. 💋
         </p>
 
-        <!-- THE SINGLE PRIMARY CTA BUTTON -->
-        <div class="w-full mt-7 mb-4">
+        <!-- THE PRIMARY CTA BUTTON -->
+        <div class="w-full mt-6 mb-4">
           <a 
             href="https://fanvue.com/primelarose" 
             target="_blank" 
             rel="noopener noreferrer"
-            class="btn-shimmer group relative flex flex-col items-center justify-center w-full py-4 px-5 rounded-2xl bg-gradient-to-r from-rose-600 via-rose-500 to-pink-600 text-white font-extrabold shadow-xl neon-glow transition-all duration-300 hover:scale-[1.02] active:scale-[0.98]"
+            class="btn-shimmer group relative flex flex-col items-center justify-center w-full py-4 px-6 rounded-2xl bg-gradient-to-r from-rose-600 via-rose-500 to-pink-600 text-white font-extrabold shadow-xl neon-glow transition-all duration-300 hover:scale-[1.02] active:scale-[0.98]"
           >
-            <div class="flex items-center justify-center gap-2 text-lg tracking-tight">
+            <div class="flex items-center justify-center gap-2 text-lg sm:text-xl font-display tracking-tight">
               <i data-lucide="flame" class="w-5 h-5 text-yellow-300 fill-yellow-300 animate-bounce"></i>
               <span>ENTER MY EXCLUSIVE VAULT</span>
-              <i data-lucide="arrow-right" class="w-4 h-4 ml-1 group-hover:translate-x-1 transition-transform"></i>
+              <i data-lucide="arrow-right" class="w-5 h-5 group-hover:translate-x-1 transition-transform"></i>
             </div>
-            <span class="text-[11px] font-medium text-rose-100 tracking-wide mt-1">
-              Instant 4K Access • 100% Discreet Billing
+            <span class="text-[11px] font-medium text-rose-100 tracking-wide mt-0.5">
+              Instant Passive 4K Access • No DMs • Cancel Anytime
             </span>
           </a>
         </div>
 
-        <!-- Trust Badges -->
-        <div class="flex items-center justify-center gap-3 text-[11px] text-gray-400 mb-5">
-          <span class="flex items-center gap-1">
-            <i data-lucide="lock" class="w-3 h-3 text-rose-400"></i> Discreet
-          </span>
-          <span>•</span>
-          <span class="flex items-center gap-1">
-            <i data-lucide="zap" class="w-3 h-3 text-yellow-400"></i> Instant
-          </span>
-          <span>•</span>
-          <span class="flex items-center gap-1">
-            <i data-lucide="shield-check" class="w-3 h-3 text-emerald-400"></i> Cancel Anytime
-          </span>
+        <!-- Quick Jump Pills -->
+        <div class="w-full pt-4 border-t border-white/10 flex flex-wrap items-center justify-center gap-2 text-xs font-semibold">
+          <a href="#videos" class="px-3.5 py-1.5 rounded-full bg-white/5 hover:bg-rose-500/20 text-gray-200 hover:text-rose-300 border border-white/10 transition">🎬 Watch 3 HD Reels</a>
+          <a href="#lookbook" class="px-3.5 py-1.5 rounded-full bg-white/5 hover:bg-rose-500/20 text-gray-200 hover:text-rose-300 border border-white/10 transition">📸 4K Lookbook</a>
+          <a href="/blog/" class="px-3.5 py-1.5 rounded-full bg-white/5 hover:bg-rose-500/20 text-gray-200 hover:text-rose-300 border border-white/10 transition">📝 SEO Blog</a>
         </div>
-
-        <!-- Quick Hub Navigation Pills -->
-        <div class="w-full pt-4 border-t border-white/10 flex flex-wrap items-center justify-center gap-2 text-[11px] font-semibold">
-          <a href="#videos" class="px-3 py-1 rounded-full bg-white/5 hover:bg-rose-500/20 text-gray-300 hover:text-rose-300 border border-white/10 transition">🎬 AI Videos & Music</a>
-          <a href="#lookbook" class="px-3 py-1 rounded-full bg-white/5 hover:bg-rose-500/20 text-gray-300 hover:text-rose-300 border border-white/10 transition">📸 4K Lookbook</a>
-          <a href="/blog/" class="px-3 py-1 rounded-full bg-white/5 hover:bg-rose-500/20 text-gray-300 hover:text-rose-300 border border-white/10 transition">📝 Blog</a>
-        </div>
-
       </div>
-
-      <a href="#seo-hub" class="inline-flex items-center gap-1.5 text-xs text-gray-400 hover:text-rose-400 mt-4 transition">
-        <span>Explore AI Videos, Singing Reels & 4K Gallery Below</span>
-        <i data-lucide="chevron-down" class="w-4 h-4 animate-bounce"></i>
-      </a>
     </div>
   </section>
 
-  <!-- SECTION 2: SEO & AI SEARCH MEDIA HUB (Below the Fold) -->
-  <div id="seo-hub" class="relative z-10 max-w-6xl mx-auto px-4 py-16 space-y-20 border-t border-white/10">
+  <!-- MAIN HUB CONTAINER -->
+  <div class="relative z-10 max-w-6xl mx-auto px-4 space-y-20">
+
+    <!-- SECTION 2: CUSTOM REELS VIDEO SHOWCASE (Exact Matching Thumbnails & Custom Controls!) -->
+    <section id="videos" class="scroll-mt-20">
+      <div class="flex flex-col md:flex-row md:items-end justify-between mb-8 gap-4">
+        <div>
+          <span class="px-3 py-1 rounded-full bg-rose-500/15 border border-rose-500/30 text-rose-400 text-xs font-bold uppercase tracking-wider">60FPS Motion & Studio Audio</span>
+          <h2 class="text-2xl sm:text-4xl font-display font-extrabold text-white mt-2.5 tracking-tight">
+            Viral AI Singing, Dance &amp; <span class="text-gradient-rose">Model Reels</span> 🎬
+          </h2>
+          <p class="text-sm text-gray-400 mt-1">Tap any reel below to play instantly with sound—each thumbnail matches the exact video frame.</p>
+        </div>
+        <a href="https://www.tiktok.com/@primelarose" target="_blank" rel="noopener" class="inline-flex items-center gap-2 px-4 py-2.5 rounded-2xl bg-white/5 hover:bg-white/10 border border-white/10 text-xs font-bold text-white transition self-start md:self-auto">
+          <span>🎵 Follow @primelarose on TikTok</span>
+          <i data-lucide="external-link" class="w-3.5 h-3.5 text-rose-400"></i>
+        </a>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-7">
+        <!-- Video Card 1: AI Singer Studio Session -->
+        <div class="glass-card glass-card-hover rounded-3xl overflow-hidden flex flex-col">
+          
+    <div class="reel-wrapper relative w-full aspect-[9/16] bg-dark-950 overflow-hidden group">
+      <video 
+        src="/assets/media/day1/primela-rose-ai-singer-studio-vocal-performance.mp4" 
+        poster="/assets/media/day1/thumb-singer-studio.jpg" 
+        playsinline 
+        preload="metadata" 
+        class="w-full h-full object-cover block"
+      ></video>
+
+      <!-- Top Pills inside Video -->
+      <div class="absolute top-3.5 left-3.5 right-3.5 flex items-center justify-between z-10 pointer-events-none">
+        <span class="px-2.5 py-1 rounded-full bg-black/65 backdrop-blur-md border border-white/15 text-[11px] font-bold text-white flex items-center gap-1.5">
+          <span class="w-1.5 h-1.5 rounded-full bg-rose-500 animate-ping"></span>
+          <span>🎤 AI Singer Studio</span>
+        </span>
+        <button type="button" class="reel-mute-btn pointer-events-auto px-2.5 py-1 rounded-full bg-black/65 hover:bg-rose-600/80 backdrop-blur-md border border-white/15 text-[11px] font-semibold text-white flex items-center gap-1 transition">
+          <i data-lucide="volume-2" class="w-3.5 h-3.5"></i>
+          <span class="reel-mute-label">Tap to Play</span>
+        </button>
+      </div>
+
+      <!-- Center Glass Play Overlay -->
+      <div class="reel-play-overlay absolute inset-0 bg-gradient-to-t from-black/75 via-black/15 to-transparent flex flex-col items-center justify-center transition duration-300">
+        <div class="reel-play-btn w-16 h-16 rounded-full bg-white/15 backdrop-blur-xl border border-white/30 flex items-center justify-center text-white shadow-2xl">
+          <i data-lucide="play" class="w-7 h-7 fill-white ml-1"></i>
+        </div>
+        <span class="mt-2.5 px-3 py-1 rounded-full bg-black/60 backdrop-blur-md text-[11px] font-bold text-rose-200 tracking-wide border border-white/10">
+          ▶ Watch HD Reel
+        </span>
+      </div>
+
+      <!-- Sleek Rose Bottom Progress Bar -->
+      <div class="absolute bottom-0 left-0 right-0 h-1 bg-white/15 z-20">
+        <div class="reel-progress h-full bg-gradient-to-r from-rose-500 to-pink-400 w-0 transition-all duration-100"></div>
+      </div>
+    </div>
+  
+          <div class="p-5 flex-1 flex flex-col justify-between">
+            <div>
+              <div class="flex items-center justify-between text-[11px] font-bold text-rose-400 uppercase tracking-wider mb-1">
+                <span>AI Singing &amp; Music</span>
+                <span>0:17 HD</span>
+              </div>
+              <h3 class="text-lg font-display font-bold text-white leading-snug">Neon Studio Vocal Session ("Paleta / Coqueta")</h3>
+              <p class="text-xs text-gray-400 mt-1.5 leading-relaxed">Frame-accurate Spanish urban vocal performance in purple neon studio with condenser microphone.</p>
+            </div>
+            <a href="/blog/ai-singer-singing-girl-virtual-pop-star-primela-rose/" class="mt-4 pt-3 border-t border-white/10 flex items-center justify-between text-xs font-bold text-rose-400 hover:text-rose-300">
+              <span>Read Lyrics &amp; Vocal Breakdown</span>
+              <span>→</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Video Card 2: Y2K Pastel Pink Hair Mirror Dance -->
+        <div class="glass-card glass-card-hover rounded-3xl overflow-hidden flex flex-col">
+          
+    <div class="reel-wrapper relative w-full aspect-[9/16] bg-dark-950 overflow-hidden group">
+      <video 
+        src="/assets/media/day1/primela-rose-abg-ai-pastel-pink-hair-dance-lookbook.mp4" 
+        poster="/assets/media/day1/thumb-pink-hair-dance.jpg" 
+        playsinline 
+        preload="metadata" 
+        class="w-full h-full object-cover block"
+      ></video>
+
+      <!-- Top Pills inside Video -->
+      <div class="absolute top-3.5 left-3.5 right-3.5 flex items-center justify-between z-10 pointer-events-none">
+        <span class="px-2.5 py-1 rounded-full bg-black/65 backdrop-blur-md border border-white/15 text-[11px] font-bold text-white flex items-center gap-1.5">
+          <span class="w-1.5 h-1.5 rounded-full bg-rose-500 animate-ping"></span>
+          <span>💃 Y2K Mirror Dance</span>
+        </span>
+        <button type="button" class="reel-mute-btn pointer-events-auto px-2.5 py-1 rounded-full bg-black/65 hover:bg-rose-600/80 backdrop-blur-md border border-white/15 text-[11px] font-semibold text-white flex items-center gap-1 transition">
+          <i data-lucide="volume-2" class="w-3.5 h-3.5"></i>
+          <span class="reel-mute-label">Tap to Play</span>
+        </button>
+      </div>
+
+      <!-- Center Glass Play Overlay -->
+      <div class="reel-play-overlay absolute inset-0 bg-gradient-to-t from-black/75 via-black/15 to-transparent flex flex-col items-center justify-center transition duration-300">
+        <div class="reel-play-btn w-16 h-16 rounded-full bg-white/15 backdrop-blur-xl border border-white/30 flex items-center justify-center text-white shadow-2xl">
+          <i data-lucide="play" class="w-7 h-7 fill-white ml-1"></i>
+        </div>
+        <span class="mt-2.5 px-3 py-1 rounded-full bg-black/60 backdrop-blur-md text-[11px] font-bold text-rose-200 tracking-wide border border-white/10">
+          ▶ Watch HD Reel
+        </span>
+      </div>
+
+      <!-- Sleek Rose Bottom Progress Bar -->
+      <div class="absolute bottom-0 left-0 right-0 h-1 bg-white/15 z-20">
+        <div class="reel-progress h-full bg-gradient-to-r from-rose-500 to-pink-400 w-0 transition-all duration-100"></div>
+      </div>
+    </div>
+  
+          <div class="p-5 flex-1 flex flex-col justify-between">
+            <div>
+              <div class="flex items-center justify-between text-[11px] font-bold text-rose-400 uppercase tracking-wider mb-1">
+                <span>AI Dance &amp; ABG Fit</span>
+                <span>0:06 HD</span>
+              </div>
+              <h3 class="text-lg font-display font-bold text-white leading-snug">Pastel Pink Hair Y2K Mirror Selfie Dance</h3>
+              <p class="text-xs text-gray-400 mt-1.5 leading-relaxed">Viral TikTok ABG AI dance in tie-dye crop top, pink fishnet arm warmers, and floral denim mini skirt.</p>
+            </div>
+            <a href="/blog/ai-dance-videos-tiktok-virtual-influencer-trends/" class="mt-4 pt-3 border-t border-white/10 flex items-center justify-between text-xs font-bold text-rose-400 hover:text-rose-300">
+              <span>View Y2K Outfit Specs</span>
+              <span>→</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Video Card 3: Japanese / Korean / Chinese AI Model Fusion -->
+        <div class="glass-card glass-card-hover rounded-3xl overflow-hidden flex flex-col">
+          
+    <div class="reel-wrapper relative w-full aspect-[9/16] bg-dark-950 overflow-hidden group">
+      <video 
+        src="/assets/media/day1/primela-rose-ai-japanese-korean-chinese-girl-model.mp4" 
+        poster="/assets/media/day1/thumb-asian-model-fusion.jpg" 
+        playsinline 
+        preload="metadata" 
+        class="w-full h-full object-cover block"
+      ></video>
+
+      <!-- Top Pills inside Video -->
+      <div class="absolute top-3.5 left-3.5 right-3.5 flex items-center justify-between z-10 pointer-events-none">
+        <span class="px-2.5 py-1 rounded-full bg-black/65 backdrop-blur-md border border-white/15 text-[11px] font-bold text-white flex items-center gap-1.5">
+          <span class="w-1.5 h-1.5 rounded-full bg-rose-500 animate-ping"></span>
+          <span>🌸 East Asian Model</span>
+        </span>
+        <button type="button" class="reel-mute-btn pointer-events-auto px-2.5 py-1 rounded-full bg-black/65 hover:bg-rose-600/80 backdrop-blur-md border border-white/15 text-[11px] font-semibold text-white flex items-center gap-1 transition">
+          <i data-lucide="volume-2" class="w-3.5 h-3.5"></i>
+          <span class="reel-mute-label">Tap to Play</span>
+        </button>
+      </div>
+
+      <!-- Center Glass Play Overlay -->
+      <div class="reel-play-overlay absolute inset-0 bg-gradient-to-t from-black/75 via-black/15 to-transparent flex flex-col items-center justify-center transition duration-300">
+        <div class="reel-play-btn w-16 h-16 rounded-full bg-white/15 backdrop-blur-xl border border-white/30 flex items-center justify-center text-white shadow-2xl">
+          <i data-lucide="play" class="w-7 h-7 fill-white ml-1"></i>
+        </div>
+        <span class="mt-2.5 px-3 py-1 rounded-full bg-black/60 backdrop-blur-md text-[11px] font-bold text-rose-200 tracking-wide border border-white/10">
+          ▶ Watch HD Reel
+        </span>
+      </div>
+
+      <!-- Sleek Rose Bottom Progress Bar -->
+      <div class="absolute bottom-0 left-0 right-0 h-1 bg-white/15 z-20">
+        <div class="reel-progress h-full bg-gradient-to-r from-rose-500 to-pink-400 w-0 transition-all duration-100"></div>
+      </div>
+    </div>
+  
+          <div class="p-5 flex-1 flex flex-col justify-between">
+            <div>
+              <div class="flex items-center justify-between text-[11px] font-bold text-rose-400 uppercase tracking-wider mb-1">
+                <span>AI Asian Girl Aesthetic</span>
+                <span>0:06 HD</span>
+              </div>
+              <h3 class="text-lg font-display font-bold text-white leading-snug">Japanese, Korean &amp; Chinese AI Model Motion</h3>
+              <p class="text-xs text-gray-400 mt-1.5 leading-relaxed">Photorealistic East Asian facial geometry, natural movement, and minimalist lounge aesthetic.</p>
+            </div>
+            <a href="/blog/ai-asian-girl-japanese-chinese-korean-abg-model/" class="mt-4 pt-3 border-t border-white/10 flex items-center justify-between text-xs font-bold text-rose-400 hover:text-rose-300">
+              <span>Read AI Model Guide</span>
+              <span>→</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 3: 4K LOOKBOOK GALLERY (With Click-to-Zoom Lightbox + Locked Vault Card) -->
+    <section id="lookbook" class="scroll-mt-20">
+      <div class="text-center max-w-2xl mx-auto mb-10">
+        <span class="px-3 py-1 rounded-full bg-rose-500/15 border border-rose-500/30 text-rose-400 text-xs font-bold uppercase tracking-wider">4K Ultra-HD Photography</span>
+        <h2 class="text-2xl sm:text-4xl font-display font-extrabold text-white mt-2.5 tracking-tight">
+          AI Asian Girl, Douyin &amp; <span class="text-gradient-rose">Cosplay Lookbook</span> 📸
+        </h2>
+        <p class="text-sm text-gray-400 mt-1">Click any photo to view full-screen 4K details, or unlock the uncensored private vault.</p>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <!-- Photo 1 -->
+        <figure class="lookbook-trigger glass-card glass-card-hover rounded-3xl overflow-hidden cursor-pointer group" data-full="/assets/media/day1/primela-rose-ai-asian-girl-chinese-qipao-neko-ears-braces.jpg" data-title="Pink Chinese Qipao, Neko Ears & Signature Braces — 4K Lookbook">
+          <div class="relative aspect-[3/4] overflow-hidden bg-dark-950">
+            <img src="/assets/media/day1/primela-rose-ai-asian-girl-chinese-qipao-neko-ears-braces.jpg" alt="Primela Rose AI Asian girl and AI Chinese girl in pink cherry blossom qipao with neko ears and braces" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" loading="lazy">
+            <span class="absolute top-3 right-3 px-2.5 py-1 rounded-full bg-black/60 backdrop-blur-md text-[10px] font-bold text-white border border-white/15">🔍 4K Zoom</span>
+          </div>
+          <figcaption class="p-4">
+            <strong class="text-white font-display text-sm block">Pink Qipao &amp; Neko Ears</strong>
+            <span class="text-xs text-gray-400">AI Chinese &amp; Japanese Cosplay Model</span>
+          </figcaption>
+        </figure>
+
+        <!-- Photo 2 -->
+        <figure class="lookbook-trigger glass-card glass-card-hover rounded-3xl overflow-hidden cursor-pointer group" data-full="/assets/media/day1/primela-rose-ai-douyin-girl-kawaii-japanese-fashion.png" data-title="Kawaii Douyin Bedroom Lookbook — White Bow Top & Pink Pleated Skirt">
+          <div class="relative aspect-[3/4] overflow-hidden bg-dark-950">
+            <img src="/assets/media/day1/primela-rose-ai-douyin-girl-kawaii-japanese-fashion.png" alt="Primela Rose AI Douyin girl in kawaii white bow top and pink pleated skirt with Hello Kitty plushies" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" loading="lazy">
+            <span class="absolute top-3 right-3 px-2.5 py-1 rounded-full bg-black/60 backdrop-blur-md text-[10px] font-bold text-white border border-white/15">🔍 4K Zoom</span>
+          </div>
+          <figcaption class="p-4">
+            <strong class="text-white font-display text-sm block">Kawaii Douyin Bedroom Set</strong>
+            <span class="text-xs text-gray-400">Coquette Bow Top &amp; Pleated Skirt</span>
+          </figcaption>
+        </figure>
+
+        <!-- Photo 3 -->
+        <figure class="lookbook-trigger glass-card glass-card-hover rounded-3xl overflow-hidden cursor-pointer group" data-full="/assets/media/day1/primela-rose-ai-singer-studio-microphone-purple-neko-cosplay.png" data-title="Purple Neko Studio Singer — Custom Primela Rose Sony Headphones">
+          <div class="relative aspect-[3/4] overflow-hidden bg-dark-950">
+            <img src="/assets/media/day1/primela-rose-ai-singer-studio-microphone-purple-neko-cosplay.png" alt="Primela Rose AI singer and virtual pop star with purple twin-tails, cat ears, and custom Sony headphones at studio microphone" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" loading="lazy">
+            <span class="absolute top-3 right-3 px-2.5 py-1 rounded-full bg-black/60 backdrop-blur-md text-[10px] font-bold text-white border border-white/15">🔍 4K Zoom</span>
+          </div>
+          <figcaption class="p-4">
+            <strong class="text-white font-display text-sm block">Purple Neko Studio Vocalist</strong>
+            <span class="text-xs text-gray-400">Custom "Primela Rose" Studio Headphones</span>
+          </figcaption>
+        </figure>
+
+        <!-- Photo 4: LOCKED BLURRED VIP PREVIEW CARD -->
+        <a href="https://fanvue.com/primelarose" target="_blank" rel="noopener noreferrer" class="glass-card glass-card-hover rounded-3xl overflow-hidden border-2 border-rose-500/50 group relative flex flex-col justify-between">
+          <div class="relative w-full aspect-[3/4] overflow-hidden bg-dark-950">
+            <img src="/assets/media/day1/primela-rose-realistic-ai-singing-girl-studio-vocal-model.png" alt="Locked Uncensored VIP Vault Preview - Primela Rose" class="w-full h-full object-cover blur-xl scale-110 opacity-75">
+            <div class="absolute inset-0 bg-gradient-to-t from-dark-950 via-dark-950/45 to-transparent flex flex-col items-center justify-center p-6 text-center">
+              <div class="w-14 h-14 rounded-full bg-gradient-to-tr from-rose-600 to-pink-500 flex items-center justify-center text-white shadow-2xl mb-3 group-hover:scale-110 transition">
+                <i data-lucide="lock" class="w-6 h-6"></i>
+              </div>
+              <span class="px-3 py-1 rounded-full bg-rose-500/25 border border-rose-400/40 text-rose-200 text-[10px] font-extrabold uppercase tracking-wider mb-2">
+                Members-Only Uncensored Vault
+              </span>
+              <p class="text-white font-display font-extrabold text-lg leading-snug">
+                Unlock 100+ Uncensored Photos &amp; Private Videos
+              </p>
+              <span class="mt-4 px-4 py-2 rounded-xl bg-white text-dark-950 font-extrabold text-xs shadow-lg group-hover:bg-rose-100 transition">
+                Unlock Instant Access →
+              </span>
+            </div>
+          </div>
+          <div class="p-4 text-xs text-rose-300 font-bold text-center bg-rose-950/40 border-t border-rose-500/20">
+            🔥 $9.99/mo • 100% Passive Viewing
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <!-- SECTION 4: AI SEARCH SUMMARY & BLOG GUIDES -->
+    <section id="blog" class="scroll-mt-20">
+      <div class="flex flex-col sm:flex-row sm:items-end justify-between mb-8 gap-4">
+        <div>
+          <span class="px-3 py-1 rounded-full bg-rose-500/15 border border-rose-500/30 text-rose-400 text-xs font-bold uppercase tracking-wider">SEO &amp; AI Discovery Guides</span>
+          <h2 class="text-2xl sm:text-4xl font-display font-extrabold text-white mt-2.5 tracking-tight">
+            Latest AI Model, Music &amp; <span class="text-gradient-rose">Style Articles</span> 📝
+          </h2>
+        </div>
+        <a href="/blog/" class="text-sm font-bold text-rose-400 hover:text-rose-300">View All 4 Articles →</a>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        
+          <a href="/blog/ai-asian-girl-japanese-chinese-korean-abg-model/" class="glass-card glass-card-hover rounded-3xl p-5 sm:p-6 flex gap-5 items-center group">
+            <img src="/assets/media/day1/primela-rose-ai-asian-girl-chinese-qipao-neko-ears-braces.jpg" alt="Primela Rose realistic AI Asian girl, AI Chinese qipao and Japanese neko cosplay model with braces" class="w-24 h-28 sm:w-28 sm:h-32 rounded-2xl object-cover flex-shrink-0 border border-white/10 group-hover:scale-105 transition">
+            <div class="flex-1 min-w-0">
+              <span class="text-[11px] font-bold text-rose-400 uppercase tracking-wider block mb-1">🌸 East Asian Fusion</span>
+              <h3 class="text-base sm:text-lg font-display font-bold text-white group-hover:text-rose-400 transition line-clamp-2 leading-snug">Meet Primela Rose: The #1 Realistic AI Asian Girl, Japanese, Chinese & ABG AI Model (2026)</h3>
+              <p class="text-xs text-gray-400 line-clamp-2 mt-1.5">Explore how Primela Rose (@primelarose) blends Japanese kawaii, Chinese Douyin glamour, and Korean ABG AI model aesthetics into 4K virtual photography and motion reels.</p>
+              <span class="inline-block mt-2.5 text-xs font-bold text-rose-400">Read &amp; Watch →</span>
+            </div>
+          </a>
+        
+          <a href="/blog/ai-douyin-girl-abg-aesthetic-kawaii-cosplay-lookbook/" class="glass-card glass-card-hover rounded-3xl p-5 sm:p-6 flex gap-5 items-center group">
+            <img src="/assets/media/day1/primela-rose-ai-douyin-girl-kawaii-japanese-fashion.png" alt="Primela Rose AI Douyin girl in kawaii white bow top, pink pleated skirt, and Hello Kitty plushie bedroom" class="w-24 h-28 sm:w-28 sm:h-32 rounded-2xl object-cover flex-shrink-0 border border-white/10 group-hover:scale-105 transition">
+            <div class="flex-1 min-w-0">
+              <span class="text-[11px] font-bold text-rose-400 uppercase tracking-wider block mb-1">🎀 Kawaii Lookbook</span>
+              <h3 class="text-base sm:text-lg font-display font-bold text-white group-hover:text-rose-400 transition line-clamp-2 leading-snug">AI Douyin Girl & Kawaii Japanese Fashion Lookbook: Primela Rose 4K Style Guide</h3>
+              <p class="text-xs text-gray-400 line-clamp-2 mt-1.5">Inside Primela Rose’s viral AI Douyin girl makeup, kawaii Japanese pleated skirt outfits, and pastel bedroom lookbook.</p>
+              <span class="inline-block mt-2.5 text-xs font-bold text-rose-400">Read &amp; Watch →</span>
+            </div>
+          </a>
+        
+          <a href="/blog/ai-singer-singing-girl-virtual-pop-star-primela-rose/" class="glass-card glass-card-hover rounded-3xl p-5 sm:p-6 flex gap-5 items-center group">
+            <img src="/assets/media/day1/primela-rose-ai-singer-studio-microphone-purple-neko-cosplay.png" alt="Primela Rose AI singer performing vocals in recording studio with condenser microphone and custom headphones" class="w-24 h-28 sm:w-28 sm:h-32 rounded-2xl object-cover flex-shrink-0 border border-white/10 group-hover:scale-105 transition">
+            <div class="flex-1 min-w-0">
+              <span class="text-[11px] font-bold text-rose-400 uppercase tracking-wider block mb-1">🎤 Studio Vocal Session</span>
+              <h3 class="text-base sm:text-lg font-display font-bold text-white group-hover:text-rose-400 transition line-clamp-2 leading-snug">AI Singer & Virtual Pop Star: Watch Primela Rose’s Realistic Studio Singing Performance</h3>
+              <p class="text-xs text-gray-400 line-clamp-2 mt-1.5">Watch Primela Rose (@primelarose) perform realistic studio vocals as an AI singer and virtual pop star. Includes full video, lyrics, and audio dynamics breakdown.</p>
+              <span class="inline-block mt-2.5 text-xs font-bold text-rose-400">Read &amp; Watch →</span>
+            </div>
+          </a>
+        
+          <a href="/blog/ai-dance-videos-tiktok-virtual-influencer-trends/" class="glass-card glass-card-hover rounded-3xl p-5 sm:p-6 flex gap-5 items-center group">
+            <img src="/assets/media/day1/thumb-pink-hair-dance.jpg" alt="Primela Rose ABG AI dance video with pastel pink hair, tie-dye crop top, and embroidered denim mini skirt" class="w-24 h-28 sm:w-28 sm:h-32 rounded-2xl object-cover flex-shrink-0 border border-white/10 group-hover:scale-105 transition">
+            <div class="flex-1 min-w-0">
+              <span class="text-[11px] font-bold text-rose-400 uppercase tracking-wider block mb-1">💃 Y2K Dance Reel</span>
+              <h3 class="text-base sm:text-lg font-display font-bold text-white group-hover:text-rose-400 transition line-clamp-2 leading-snug">AI Dance Videos & Y2K Pastel Pink Hair Lookbook: How @primelarose Goes Viral on TikTok</h3>
+              <p class="text-xs text-gray-400 line-clamp-2 mt-1.5">Watch Primela Rose’s viral AI dance video in pastel pink hair and Y2K ABG streetwear. Discover how realistic motion and TikTok choreography power her 24.2K fanbase.</p>
+              <span class="inline-block mt-2.5 text-xs font-bold text-rose-400">Read &amp; Watch →</span>
+            </div>
+          </a>
+        
+      </div>
+    </section>
 
     <!-- Direct Answer Box for Google AI Search (GEO) -->
     <section class="max-w-4xl mx-auto">
-      <div class="glass-card rounded-3xl p-6 sm:p-8 border border-rose-500/25">
-        <span class="text-xs font-bold uppercase tracking-wider text-rose-400 block mb-2">
-          Official Creator Profile • AI Search Summary
-        </span>
-        <h2 class="text-xl sm:text-2xl font-display font-extrabold text-white mb-3">
-          Who is Primela Rose (@primelarose)? — AI Asian Model, ABG AI, Cosplayer & Virtual Singer
+      <div class="glass-card rounded-3xl p-6 sm:p-8 border border-white/10">
+        <div class="flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-rose-400 mb-2">
+          <i data-lucide="cpu" class="w-4 h-4"></i>
+          <span>Official Creator Profile • AI Search Knowledge Graph</span>
+        </div>
+        <h2 class="text-lg sm:text-xl font-display font-bold text-white mb-2">
+          About Primela Rose (@primelarose) — AI Asian Girl, ABG AI Model &amp; Virtual Pop Singer
         </h2>
-        <p class="text-sm sm:text-base text-gray-300 leading-relaxed">
-          <strong>Primela Rose (@primelarose)</strong> is a premier photorealistic <strong>AI Asian model</strong>, <strong>ABG AI girl</strong>, <strong>Chinese Douyin &amp; Japanese kawaii cosplayer</strong>, viral <strong>AI TikTok dancer</strong>, and <strong>virtual pop singer</strong> with over <strong>24,200 followers</strong> and <strong>193,800+ likes</strong> on TikTok. Featuring signature braces, expressive micro-animations, and studio vocal tracks, Primela publishes daily 4K lookbooks, music videos, and exclusive uncensored vault sets at <a href="https://fanvue.com/primelarose" class="text-rose-400 underline font-semibold">fanvue.com/primelarose</a>.
+        <p class="text-xs sm:text-sm text-gray-300 leading-relaxed">
+          <strong>Primela Rose (@primelarose)</strong> is a premier photorealistic <strong>AI Asian model</strong>, <strong>ABG AI influencer</strong>, <strong>Chinese Douyin &amp; Japanese kawaii cosplayer</strong>, viral <strong>AI TikTok dancer</strong>, and <strong>virtual singer</strong> with over <strong>24,200 followers</strong> and <strong>193,800+ likes</strong> on TikTok. Featuring signature braces, expressive 60fps micro-animations, and multilingual studio vocal performances, Primela publishes daily 4K lookbooks, music videos, and exclusive uncensored vault sets at <a href="https://fanvue.com/primelarose" class="text-rose-400 underline font-semibold">fanvue.com/primelarose</a>.
         </p>
       </div>
     </section>
 
-    <!-- Featured AI Videos, Dance & Singing Reels -->
-    <section id="videos">
-      <div class="text-center max-w-2xl mx-auto mb-10">
-        <span class="px-3 py-1 rounded-full bg-rose-500/15 border border-rose-500/30 text-rose-400 text-xs font-bold uppercase tracking-wider">60FPS Motion & Studio Audio</span>
-        <h2 class="text-2xl sm:text-4xl font-display font-extrabold text-white mt-3">Viral AI Dance, Singing & Model Reels 🎬🎤</h2>
-        <p class="text-sm text-gray-400 mt-2">Watch Primela Rose’s latest realistic AI singing studio sessions, Y2K pastel dance trends, and East Asian model reels.</p>
-      </div>
-
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-        <!-- Video 1: AI Singer Studio Performance -->
-        <div class="glass-card rounded-3xl overflow-hidden border border-white/10 flex flex-col">
-          <video controls playsinline preload="metadata" poster="/assets/media/day1/primela-rose-ai-singer-studio-microphone-purple-neko-cosplay.png" class="w-full aspect-[9/16] object-cover bg-black">
-            <source src="/assets/media/day1/primela-rose-ai-singer-studio-vocal-performance.mp4" type="video/mp4">
-          </video>
-          <div class="p-5 flex-1 flex flex-col justify-between">
-            <div>
-              <span class="text-[11px] font-bold text-rose-400 uppercase">🎤 AI Singer & Studio Vocals</span>
-              <h3 class="text-base font-bold text-white mt-1">Neon Studio Vocal Session ("Paleta / Coqueta")</h3>
-              <p class="text-xs text-gray-400 mt-1">Frame-accurate AI singing girl performance in purple neon studio with condenser microphone.</p>
-            </div>
-            <a href="/blog/ai-singer-singing-girl-virtual-pop-star-primela-rose/" class="mt-4 inline-block text-xs font-bold text-rose-400 hover:underline">Read Full Song & Lyrics Breakdown →</a>
-          </div>
-        </div>
-
-        <!-- Video 2: Y2K Pastel Pink Hair Dance -->
-        <div class="glass-card rounded-3xl overflow-hidden border border-white/10 flex flex-col">
-          <video controls playsinline preload="metadata" poster="/assets/media/day1/primela-rose-realistic-ai-singing-girl-studio-vocal-model.png" class="w-full aspect-[9/16] object-cover bg-black">
-            <source src="/assets/media/day1/primela-rose-abg-ai-pastel-pink-hair-dance-lookbook.mp4" type="video/mp4">
-          </video>
-          <div class="p-5 flex-1 flex flex-col justify-between">
-            <div>
-              <span class="text-[11px] font-bold text-rose-400 uppercase">💃 AI Dance & Y2K ABG Fit</span>
-              <h3 class="text-base font-bold text-white mt-1">Pastel Pink Hair Y2K Mirror Selfie Dance</h3>
-              <p class="text-xs text-gray-400 mt-1">Viral TikTok ABG AI dance in tie-dye crop top, pink fishnet sleeves, and floral denim mini skirt.</p>
-            </div>
-            <a href="/blog/ai-dance-videos-tiktok-virtual-influencer-trends/" class="mt-4 inline-block text-xs font-bold text-rose-400 hover:underline">Watch & View Outfit Specs →</a>
-          </div>
-        </div>
-
-        <!-- Video 3: Japanese / Korean / Chinese AI Model -->
-        <div class="glass-card rounded-3xl overflow-hidden border border-white/10 flex flex-col">
-          <video controls playsinline preload="metadata" poster="/assets/media/day1/primela-rose-ai-asian-girl-chinese-qipao-neko-ears-braces.jpg" class="w-full aspect-[9/16] object-cover bg-black">
-            <source src="/assets/media/day1/primela-rose-ai-japanese-korean-chinese-girl-model.mp4" type="video/mp4">
-          </video>
-          <div class="p-5 flex-1 flex flex-col justify-between">
-            <div>
-              <span class="text-[11px] font-bold text-rose-400 uppercase">🌸 AI Asian Girl Aesthetic</span>
-              <h3 class="text-base font-bold text-white mt-1">Japanese, Korean & Chinese AI Model Fusion</h3>
-              <p class="text-xs text-gray-400 mt-1">Photorealistic East Asian facial geometry, natural movement, and minimalist lounge aesthetic.</p>
-            </div>
-            <a href="/blog/ai-asian-girl-japanese-chinese-korean-abg-model/" class="mt-4 inline-block text-xs font-bold text-rose-400 hover:underline">Read Full Model Guide →</a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- 4K AI Asian Model, ABG & Douyin Lookbook Gallery -->
-    <section id="lookbook">
-      <div class="text-center max-w-2xl mx-auto mb-10">
-        <span class="px-3 py-1 rounded-full bg-rose-500/15 border border-rose-500/30 text-rose-400 text-xs font-bold uppercase tracking-wider">Google Images 4K Portfolio</span>
-        <h2 class="text-2xl sm:text-4xl font-display font-extrabold text-white mt-3">4K AI Asian Girl, Douyin & Cosplay Lookbook 📸</h2>
-        <p class="text-sm text-gray-400 mt-2">Curated high-resolution photography of Primela Rose across ABG streetwear, Chinese qipao, Japanese kawaii, and recording studio sets.</p>
-      </div>
-
-      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-        <figure class="glass-card rounded-3xl overflow-hidden border border-white/10 group">
-          <img src="/assets/media/day1/primela-rose-ai-asian-girl-chinese-qipao-neko-ears-braces.jpg" alt="Primela Rose AI Asian girl and AI Chinese girl in pink cherry blossom qipao with neko ears and braces" class="w-full aspect-[3/4] object-cover group-hover:scale-105 transition duration-500" loading="lazy">
-          <figcaption class="p-4 text-xs text-gray-300">
-            <strong class="text-white block">Pink Qipao & Neko Ears</strong>
-            AI Chinese & Japanese Cosplay Girl with Signature Braces
-          </figcaption>
-        </figure>
-
-        <figure class="glass-card rounded-3xl overflow-hidden border border-white/10 group">
-          <img src="/assets/media/day1/primela-rose-ai-douyin-girl-kawaii-japanese-fashion.png" alt="Primela Rose AI Douyin girl in kawaii white bow top and pink pleated skirt with Hello Kitty plushies" class="w-full aspect-[3/4] object-cover group-hover:scale-105 transition duration-500" loading="lazy">
-          <figcaption class="p-4 text-xs text-gray-300">
-            <strong class="text-white block">Kawaii Douyin Bedroom Set</strong>
-            Coquette White Bow Top, Pink Pleated Skirt & Plushies
-          </figcaption>
-        </figure>
-
-        <figure class="glass-card rounded-3xl overflow-hidden border border-white/10 group">
-          <img src="/assets/media/day1/primela-rose-ai-singer-studio-microphone-purple-neko-cosplay.png" alt="Primela Rose AI singer and virtual pop star with purple twin-tails, cat ears, and custom Sony headphones at studio microphone" class="w-full aspect-[3/4] object-cover group-hover:scale-105 transition duration-500" loading="lazy">
-          <figcaption class="p-4 text-xs text-gray-300">
-            <strong class="text-white block">Purple Neko Studio Vocalist</strong>
-            Custom "Primela Rose" Studio Headphones & Condenser Mic
-          </figcaption>
-        </figure>
-
-        <!-- LOCKED BLURRED VIP PREVIEW CARD (100% Google Safe + High Conversion) -->
-        <a href="https://fanvue.com/primelarose" target="_blank" rel="noopener noreferrer" class="glass-card rounded-3xl overflow-hidden border-2 border-rose-500/50 group relative flex flex-col justify-between">
-          <div class="relative w-full aspect-[3/4] overflow-hidden bg-dark-800">
-            <img src="/assets/media/day1/primela-rose-realistic-ai-singing-girl-studio-vocal-model.png" alt="Locked Uncensored VIP Vault Preview - Primela Rose" class="w-full h-full object-cover blur-xl scale-110 opacity-70">
-            <div class="absolute inset-0 bg-gradient-to-t from-dark-900 via-dark-900/40 to-transparent flex flex-col items-center justify-center p-6 text-center">
-              <div class="w-14 h-14 rounded-full bg-rose-600/90 flex items-center justify-center text-white shadow-2xl mb-3 group-hover:scale-110 transition">
-                <i data-lucide="lock" class="w-7 h-7"></i>
-              </div>
-              <span class="px-3 py-1 rounded-full bg-rose-500/30 border border-rose-400/40 text-rose-200 text-[11px] font-extrabold uppercase tracking-wider mb-2">
-                Uncensored 4K Vault
-              </span>
-              <p class="text-white font-display font-extrabold text-lg leading-snug">
-                Unlock 100+ Private Photos & Spicy Videos
-              </p>
-              <span class="mt-4 px-4 py-2 rounded-xl bg-white text-dark-900 font-extrabold text-xs shadow-lg">
-                Tap to Unlock ($9.99/mo) →
-              </span>
-            </div>
-          </div>
-          <div class="p-4 text-xs text-rose-300 font-bold text-center bg-rose-950/40">
-            🔥 Instant Passive Viewing • Zero DMs Needed
-          </div>
-        </a>
-      </div>
-    </section>
-
-    <!-- Latest SEO Blog Posts Section -->
-    <section id="blog">
-      <div class="flex flex-col sm:flex-row sm:items-end justify-between mb-10 gap-4">
-        <div>
-          <span class="px-3 py-1 rounded-full bg-rose-500/15 border border-rose-500/30 text-rose-400 text-xs font-bold uppercase tracking-wider">Daily Curated Articles</span>
-          <h2 class="text-2xl sm:text-4xl font-display font-extrabold text-white mt-3">Latest AI Model, Music & Style Guides 📝</h2>
-        </div>
-        <a href="/blog/" class="text-sm font-bold text-rose-400 hover:underline">View All Blog Posts →</a>
-      </div>
-
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-        <a href="/blog/ai-asian-girl-japanese-chinese-korean-abg-model/" class="glass-card rounded-3xl p-6 border border-white/10 hover:border-rose-500/50 transition flex flex-col justify-between">
-          <div>
-            <span class="text-xs font-bold text-rose-400 uppercase">AI Models & Aesthetics</span>
-            <h3 class="text-lg sm:text-xl font-display font-bold text-white mt-1 mb-2">Meet Primela Rose: The #1 Realistic AI Asian Girl, Japanese, Chinese & ABG AI Model (2026)</h3>
-            <p class="text-xs sm:text-sm text-gray-400">Explore how Primela Rose (@primelarose) blends Japanese kawaii, Chinese Douyin glamour, and Korean ABG AI model aesthetics into 4K virtual photography.</p>
-          </div>
-          <span class="mt-4 text-xs font-bold text-rose-400">Read Article & Watch Video →</span>
-        </a>
-
-        <a href="/blog/ai-singer-singing-girl-virtual-pop-star-primela-rose/" class="glass-card rounded-3xl p-6 border border-white/10 hover:border-rose-500/50 transition flex flex-col justify-between">
-          <div>
-            <span class="text-xs font-bold text-rose-400 uppercase">AI Music & Singing</span>
-            <h3 class="text-lg sm:text-xl font-display font-bold text-white mt-1 mb-2">AI Singer & Virtual Pop Star: Watch Primela Rose’s Realistic Studio Singing Performance</h3>
-            <p class="text-xs sm:text-sm text-gray-400">Watch Primela Rose perform realistic studio vocals with full transcribed lyrics, vocal dynamics table, and 4K recording studio gallery.</p>
-          </div>
-          <span class="mt-4 text-xs font-bold text-rose-400">Watch Studio Session →</span>
-        </a>
-
-        <a href="/blog/ai-douyin-girl-abg-aesthetic-kawaii-cosplay-lookbook/" class="glass-card rounded-3xl p-6 border border-white/10 hover:border-rose-500/50 transition flex flex-col justify-between">
-          <div>
-            <span class="text-xs font-bold text-rose-400 uppercase">Douyin & Cosplay</span>
-            <h3 class="text-lg sm:text-xl font-display font-bold text-white mt-1 mb-2">AI Douyin Girl & Kawaii Japanese Fashion Lookbook: Primela Rose 4K Style Guide</h3>
-            <p class="text-xs sm:text-sm text-gray-400">Inside Primela Rose’s viral AI Douyin girl makeup, kawaii Japanese pleated skirt outfits, and pastel bedroom lookbook.</p>
-          </div>
-          <span class="mt-4 text-xs font-bold text-rose-400">Explore 4K Lookbook →</span>
-        </a>
-
-        <a href="/blog/ai-dance-videos-tiktok-virtual-influencer-trends/" class="glass-card rounded-3xl p-6 border border-white/10 hover:border-rose-500/50 transition flex flex-col justify-between">
-          <div>
-            <span class="text-xs font-bold text-rose-400 uppercase">AI Dance & TikTok Trends</span>
-            <h3 class="text-lg sm:text-xl font-display font-bold text-white mt-1 mb-2">AI Dance Videos & Y2K Pastel Pink Hair Lookbook: How @primelarose Goes Viral on TikTok</h3>
-            <p class="text-xs sm:text-sm text-gray-400">Watch Primela Rose’s viral AI dance video in pastel pink hair and Y2K ABG streetwear powering her 24.2K TikTok fanbase.</p>
-          </div>
-          <span class="mt-4 text-xs font-bold text-rose-400">Watch Dance Reel →</span>
-        </a>
-      </div>
-    </section>
-
-    <!-- Bottom Footer -->
+    <!-- Footer -->
     <footer class="pt-10 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-gray-500">
       <p>&copy; <span id="year">2026</span> Primela Rose (primelarose.com). All rights reserved.</p>
-      <div class="flex items-center gap-4">
-        <a href="/blog/" class="hover:text-rose-400">Blog</a>
-        <a href="/sitemap.xml" class="hover:text-rose-400">Sitemap</a>
-        <a href="https://www.tiktok.com/@primelarose" target="_blank" rel="noopener" class="hover:text-rose-400">TikTok @primelarose</a>
+      <div class="flex items-center gap-5">
+        <a href="/blog/" class="hover:text-rose-400 transition">Blog</a>
+        <a href="/sitemap.xml" class="hover:text-rose-400 transition">Sitemap</a>
+        <a href="/llms.txt" class="hover:text-rose-400 transition">AI Search (llms.txt)</a>
+        <a href="https://www.tiktok.com/@primelarose" target="_blank" rel="noopener" class="hover:text-rose-400 transition">TikTok @primelarose</a>
         <a href="https://fanvue.com/primelarose" target="_blank" rel="noopener" class="text-rose-400 font-bold hover:underline">VIP Vault</a>
       </div>
     </footer>
 
   </div>
 
+  <!-- 4K Lightbox Modal -->
+  <div id="lightbox-modal" class="fixed inset-0 z-50 hidden items-center justify-center bg-black/90 backdrop-blur-xl p-4">
+    <div class="relative max-w-lg w-full glass-card rounded-3xl overflow-hidden border border-white/20 p-3">
+      <button id="lightbox-close" type="button" class="absolute top-5 right-5 z-10 w-9 h-9 rounded-full bg-black/70 text-white flex items-center justify-center hover:bg-rose-600 transition">✕</button>
+      <img id="lightbox-img" src="" alt="Primela Rose 4K Lookbook" class="w-full max-h-[75vh] object-contain rounded-2xl mx-auto">
+      <div class="p-4 text-center">
+        <p id="lightbox-caption" class="text-sm font-display font-bold text-white mb-3"></p>
+        <a href="https://fanvue.com/primelarose" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-gradient-to-r from-rose-600 to-pink-600 text-white font-bold text-xs shadow-lg">
+          <span>🔥 Unlock Uncensored 4K Set in VIP Vault</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  
   <script>
     lucide.createIcons();
-    document.getElementById('year').textContent = new Date().getFullYear();
+    const yearEl = document.getElementById('year');
+    if (yearEl) yearEl.textContent = new Date().getFullYear();
+
+    // Custom Reels Video Controller (Zero ugly browser bars, 100% accurate thumbnail & audio toggle)
+    document.querySelectorAll('.reel-wrapper').forEach(wrapper => {
+      const video = wrapper.querySelector('video');
+      const progress = wrapper.querySelector('.reel-progress');
+      const muteBtn = wrapper.querySelector('.reel-mute-btn');
+      const muteLabel = wrapper.querySelector('.reel-mute-label');
+
+      if (!video) return;
+
+      wrapper.addEventListener('click', (e) => {
+        if (e.target.closest('.reel-mute-btn')) return;
+        if (video.paused) {
+          // Pause all other videos
+          document.querySelectorAll('.reel-wrapper video').forEach(other => {
+            if (other !== video) {
+              other.pause();
+              other.closest('.reel-wrapper').classList.remove('is-playing');
+            }
+          });
+          video.muted = false;
+          if (muteLabel) muteLabel.textContent = 'Sound On';
+          video.play();
+          wrapper.classList.add('is-playing');
+        } else {
+          video.pause();
+          wrapper.classList.remove('is-playing');
+        }
+      });
+
+      if (muteBtn) {
+        muteBtn.addEventListener('click', (e) => {
+          e.stopPropagation();
+          video.muted = !video.muted;
+          if (muteLabel) muteLabel.textContent = video.muted ? 'Muted' : 'Sound On';
+        });
+      }
+
+      video.addEventListener('timeupdate', () => {
+        if (progress && video.duration) {
+          const pct = (video.currentTime / video.duration) * 100;
+          progress.style.width = pct + '%';
+        }
+      });
+
+      video.addEventListener('ended', () => {
+        wrapper.classList.remove('is-playing');
+        video.currentTime = 0;
+        if (progress) progress.style.width = '0%';
+      });
+    });
+
+    // Lightbox viewer for 4K Lookbook images
+    const lightbox = document.getElementById('lightbox-modal');
+    const lightboxImg = document.getElementById('lightbox-img');
+    const lightboxCap = document.getElementById('lightbox-caption');
+    if (lightbox) {
+      document.querySelectorAll('.lookbook-trigger').forEach(item => {
+        item.addEventListener('click', () => {
+          lightboxImg.src = item.dataset.full;
+          lightboxCap.textContent = item.dataset.title || '';
+          lightbox.classList.remove('hidden');
+          lightbox.classList.add('flex');
+        });
+      });
+      lightbox.addEventListener('click', (e) => {
+        if (e.target === lightbox || e.target.closest('#lightbox-close')) {
+          lightbox.classList.add('hidden');
+          lightbox.classList.remove('flex');
+        }
+      });
+    }
   </script>
+
 </body>
 </html>
