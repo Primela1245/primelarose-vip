@@ -1,13 +1,153 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://primelarose.com/</loc><lastmod>2026-10-14</lastmod><changefreq>daily</changefreq><priority>1.0</priority></url>
-  <url><loc>https://primelarose.com/blog/</loc><lastmod>2026-10-14</lastmod><changefreq>daily</changefreq><priority>0.9</priority></url>
-  <url><loc>https://primelarose.com/blog/kpop-ai-singer-bilingual-korean-english-studio-vocals/</loc><lastmod>2026-10-14</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://primelarose.com/blog/ai-japanese-anime-cosplay-girl-yoru-chainsaw-man-lookbook/</loc><lastmod>2026-10-14</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://primelarose.com/blog/abg-ai-girlfriend-golden-hour-bedroom-aesthetic-braces/</loc><lastmod>2026-10-14</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://primelarose.com/blog/ai-douyin-kawaii-pink-pleated-skirt-mirror-dance-video/</loc><lastmod>2026-10-14</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://primelarose.com/blog/ai-asian-girl-japanese-chinese-korean-abg-model/</loc><lastmod>2026-10-13</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://primelarose.com/blog/ai-douyin-girl-abg-aesthetic-kawaii-cosplay-lookbook/</loc><lastmod>2026-10-13</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://primelarose.com/blog/ai-singer-singing-girl-virtual-pop-star-primela-rose/</loc><lastmod>2026-10-13</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://primelarose.com/blog/ai-dance-videos-tiktok-virtual-influencer-trends/</loc><lastmod>2026-10-13</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://primelarose.com/</loc>
+    <lastmod>2026-10-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://primelarose.com/blog/</loc>
+    <lastmod>2026-10-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://primelarose.com/blog/kpop-ai-singer-bilingual-korean-english-studio-vocals/</loc>
+    <lastmod>2026-10-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://primelarose.com/assets/media/day2/thumb-kpop-singer.jpg</image:loc>
+      <image:title>K-Pop AI Singer &amp; Virtual Idol: Watch Primela Rose’s Bilingual English &amp; Korean Studio Vocal Session</image:title>
+      <image:caption>Primela Rose K-Pop AI singer performing bilingual English and Korean studio vocals with Sony headphones and pink ribbons</image:caption>
+    </image:image>
+    <video:video>
+      <video:thumbnail_loc>https://primelarose.com/assets/media/day2/thumb-kpop-singer.jpg</video:thumbnail_loc>
+      <video:title>K-Pop AI Singer &amp; Virtual Idol: Watch Primela Rose’s Bilingual English &amp; Korean Studio Vocal Session</video:title>
+      <video:description>Watch Primela Rose (@primelarose) perform an emotional bilingual English and Korean K-Pop studio vocal track (&quot;I Used to Think I Wasn’t Enough&quot;). Includes transcribed lyrics and vocal dynamics.</video:description>
+      <video:content_loc>https://primelarose.com/assets/media/day2/primela-rose-kpop-ai-singer-bilingual-studio-vocals.mp4</video:content_loc>
+      <video:publication_date>2026-10-14T08:00:00-07:00</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://primelarose.com/blog/ai-japanese-anime-cosplay-girl-yoru-chainsaw-man-lookbook/</loc>
+    <lastmod>2026-10-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://primelarose.com/assets/media/day2/primela-rose-ai-japanese-anime-cosplay-yoru-chainsaw-man.png</image:loc>
+      <image:title>AI Japanese Cosplay Girl: Primela Rose’s Viral Yoru (Chainsaw Man) &amp; Pink Qipao Cosplay Reels</image:title>
+      <image:caption>Primela Rose AI Japanese girl anime cosplay as Yoru War Devil from Chainsaw Man with orange ringed eyes and braces</image:caption>
+    </image:image>
+    <video:video>
+      <video:thumbnail_loc>https://primelarose.com/assets/media/day2/thumb-qipao-cosplay-reel.jpg</video:thumbnail_loc>
+      <video:title>AI Japanese Cosplay Girl: Primela Rose’s Viral Yoru (Chainsaw Man) &amp; Pink Qipao Cosplay Reels</video:title>
+      <video:description>See Primela Rose (@primelarose) bring Japanese anime cosplay and Chinese qipao fashion to life in 4K—featuring Yoru (Chainsaw Man) glowing orange eyes and talking cosplay reels.</video:description>
+      <video:content_loc>https://primelarose.com/assets/media/day2/primela-rose-ai-chinese-qipao-cosplay-talking-reel.mp4</video:content_loc>
+      <video:publication_date>2026-10-14T08:00:00-07:00</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://primelarose.com/blog/abg-ai-girlfriend-golden-hour-bedroom-aesthetic-braces/</loc>
+    <lastmod>2026-10-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://primelarose.com/assets/media/day2/primela-rose-abg-ai-girl-golden-hour-braces-bedroom.png</image:loc>
+      <image:title>ABG AI Model &amp; Golden Hour Bedroom Lookbook: Why Primela Rose Is 2026’s #1 Virtual Muse</image:title>
+      <image:caption>Primela Rose ABG AI model with blonde highlights and braces in warm golden hour candlelit bedroom</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://primelarose.com/blog/ai-douyin-kawaii-pink-pleated-skirt-mirror-dance-video/</loc>
+    <lastmod>2026-10-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://primelarose.com/assets/media/day2/primela-rose-ai-douyin-girl-rilakkuma-mirror-selfie.png</image:loc>
+      <image:title>AI Douyin Dance &amp; Kawaii Coquette Mirror Selfie Reel: Primela Rose’s Sanrio Bedroom Aesthetic</image:title>
+      <image:caption>Primela Rose AI Douyin girl kawaii pink pleated skirt and bow thigh-highs mirror dance video</image:caption>
+    </image:image>
+    <video:video>
+      <video:thumbnail_loc>https://primelarose.com/assets/media/day2/thumb-kawaii-mirror-dance.jpg</video:thumbnail_loc>
+      <video:title>AI Douyin Dance &amp; Kawaii Coquette Mirror Selfie Reel: Primela Rose’s Sanrio Bedroom Aesthetic</video:title>
+      <video:description>Watch Primela Rose’s viral AI Douyin kawaii mirror dance video in a white ribbon top, baby-pink pleated skirt, and pink bow thigh-high stockings.</video:description>
+      <video:content_loc>https://primelarose.com/assets/media/day2/primela-rose-ai-douyin-kawaii-pink-skirt-mirror-dance.mp4</video:content_loc>
+      <video:publication_date>2026-10-14T08:00:00-07:00</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://primelarose.com/blog/ai-asian-girl-japanese-chinese-korean-abg-model/</loc>
+    <lastmod>2026-10-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://primelarose.com/assets/media/day1/primela-rose-ai-asian-girl-chinese-qipao-neko-ears-braces.jpg</image:loc>
+      <image:title>Meet Primela Rose: The #1 Realistic AI Asian Girl, Japanese, Chinese &amp; ABG AI Model (2026)</image:title>
+      <image:caption>Primela Rose realistic AI Asian girl, AI Chinese qipao and Japanese neko cosplay model with braces</image:caption>
+    </image:image>
+    <video:video>
+      <video:thumbnail_loc>https://primelarose.com/assets/media/day1/thumb-asian-model-fusion.jpg</video:thumbnail_loc>
+      <video:title>Meet Primela Rose: The #1 Realistic AI Asian Girl, Japanese, Chinese &amp; ABG AI Model (2026)</video:title>
+      <video:description>Explore how Primela Rose (@primelarose) blends Japanese kawaii, Chinese Douyin glamour, and Korean ABG AI model aesthetics into 4K virtual photography and motion reels.</video:description>
+      <video:content_loc>https://primelarose.com/assets/media/day1/primela-rose-ai-japanese-korean-chinese-girl-model.mp4</video:content_loc>
+      <video:publication_date>2026-10-13T08:00:00-07:00</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://primelarose.com/blog/ai-douyin-girl-abg-aesthetic-kawaii-cosplay-lookbook/</loc>
+    <lastmod>2026-10-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://primelarose.com/assets/media/day1/primela-rose-ai-douyin-girl-kawaii-japanese-fashion.png</image:loc>
+      <image:title>AI Douyin Girl &amp; Kawaii Japanese Fashion Lookbook: Primela Rose 4K Style Guide</image:title>
+      <image:caption>Primela Rose AI Douyin girl in kawaii white bow top, pink pleated skirt, and Hello Kitty plushie bedroom</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://primelarose.com/blog/ai-singer-singing-girl-virtual-pop-star-primela-rose/</loc>
+    <lastmod>2026-10-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://primelarose.com/assets/media/day1/primela-rose-ai-singer-studio-microphone-purple-neko-cosplay.png</image:loc>
+      <image:title>AI Singer &amp; Virtual Pop Star: Watch Primela Rose’s Realistic Studio Singing Performance</image:title>
+      <image:caption>Primela Rose AI singer performing vocals in recording studio with condenser microphone and custom headphones</image:caption>
+    </image:image>
+    <video:video>
+      <video:thumbnail_loc>https://primelarose.com/assets/media/day1/thumb-singer-studio.jpg</video:thumbnail_loc>
+      <video:title>AI Singer &amp; Virtual Pop Star: Watch Primela Rose’s Realistic Studio Singing Performance</video:title>
+      <video:description>Watch Primela Rose (@primelarose) perform realistic studio vocals as an AI singer and virtual pop star. Includes full video, lyrics, and audio dynamics breakdown.</video:description>
+      <video:content_loc>https://primelarose.com/assets/media/day1/primela-rose-ai-singer-studio-vocal-performance.mp4</video:content_loc>
+      <video:publication_date>2026-10-13T08:00:00-07:00</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://primelarose.com/blog/ai-dance-videos-tiktok-virtual-influencer-trends/</loc>
+    <lastmod>2026-10-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://primelarose.com/assets/media/day1/thumb-pink-hair-dance.jpg</image:loc>
+      <image:title>AI Dance Videos &amp; Y2K Pastel Pink Hair Lookbook: How @primelarose Goes Viral on TikTok</image:title>
+      <image:caption>Primela Rose ABG AI dance video with pastel pink hair, tie-dye crop top, and embroidered denim mini skirt</image:caption>
+    </image:image>
+    <video:video>
+      <video:thumbnail_loc>https://primelarose.com/assets/media/day1/thumb-pink-hair-dance.jpg</video:thumbnail_loc>
+      <video:title>AI Dance Videos &amp; Y2K Pastel Pink Hair Lookbook: How @primelarose Goes Viral on TikTok</video:title>
+      <video:description>Watch Primela Rose’s viral AI dance video in pastel pink hair and Y2K ABG streetwear. Discover how realistic motion and TikTok choreography power her 24.2K fanbase.</video:description>
+      <video:content_loc>https://primelarose.com/assets/media/day1/primela-rose-abg-ai-pastel-pink-hair-dance-lookbook.mp4</video:content_loc>
+      <video:publication_date>2026-10-13T08:00:00-07:00</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
 </urlset>
