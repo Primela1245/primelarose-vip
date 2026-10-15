@@ -169,103 +169,258 @@
   <div class="ambient-orb-1"></div>
   
   <header class="sticky top-0 z-40 glass-nav">
-    <div class="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
-      <a href="/" class="flex items-center gap-2.5 text-white font-display font-extrabold text-lg tracking-tight hover:opacity-90 transition">
-        <div class="relative">
-          <img src="/assets/avatar.jpg" alt="Primela Rose" class="w-9 h-9 rounded-full object-cover border-2 border-rose-500">
+    <div class="max-w-6xl mx-auto px-3 sm:px-4 min-h-[64px] py-2.5 flex items-center justify-between gap-2">
+      <a href="/" class="flex items-center gap-2.5 text-white font-display font-extrabold text-base sm:text-lg tracking-tight hover:opacity-90 transition min-w-0">
+        <div class="relative flex-shrink-0">
+          <img src="/assets/avatar.jpg" alt="Primela Rose" class="w-9 h-9 rounded-full object-cover border-2 border-rose-500 block">
           <span class="absolute -bottom-0.5 -right-0.5 w-2.5 h-2.5 rounded-full bg-emerald-400 ring-2 ring-dark-950"></span>
         </div>
-        <div>
-          <span class="block leading-none">Primela Rose <span class="text-rose-500">🌸</span></span>
-          <span class="block text-[10px] font-sans font-semibold text-gray-400 tracking-wider uppercase mt-0.5">@primelarose • Official Hub</span>
+        <div class="min-w-0">
+          <span class="block leading-tight whitespace-nowrap truncate">Primela Rose <span class="text-rose-500">🌸</span></span>
+          <span class="block text-[10px] font-sans font-semibold text-gray-400 tracking-wider uppercase leading-tight whitespace-nowrap">@primelarose<span class="hidden sm:inline"> • Official Hub</span></span>
         </div>
       </a>
-      <div class="flex items-center gap-2 sm:gap-5 text-xs sm:text-sm font-semibold">
-        <a href="/#videos" class="text-gray-300 hover:text-white transition hidden md:inline">🎬 6 HD Reels</a>
+      <div class="flex items-center gap-1.5 sm:gap-4 text-xs sm:text-sm font-semibold flex-shrink-0">
+        <a href="/#videos" class="text-gray-300 hover:text-white transition hidden md:inline">🎬 9 HD Reels</a>
         <a href="/#lookbook" class="text-gray-300 hover:text-white transition hidden md:inline">📸 4K Lookbook</a>
-        <a href="/blog/" class="px-3 py-1.5 rounded-full bg-white/5 hover:bg-white/10 border border-white/10 text-gray-200 transition">📝 Blog (8)</a>
-        <a href="https://fanvue.com/primelarose" target="_blank" rel="noopener noreferrer" class="btn-shimmer px-4 py-2 rounded-full bg-gradient-to-r from-rose-600 via-rose-500 to-pink-600 text-white font-bold shadow-lg neon-glow hover:scale-105 transition flex items-center gap-1.5">
-          <i data-lucide="flame" class="w-3.5 h-3.5 fill-yellow-300 text-yellow-300"></i>
+        <a href="/#spicy-x" class="text-rose-300 hover:text-rose-200 transition hidden lg:inline">🌶️ Spicy X</a>
+        <a href="/blog/" class="px-2.5 sm:px-3 py-1.5 rounded-full bg-white/5 hover:bg-white/10 border border-white/10 text-gray-200 transition whitespace-nowrap">📝 Blog (12)</a>
+        <a href="https://fanvue.com/primelarose" target="_blank" rel="noopener noreferrer" class="btn-shimmer px-3.5 sm:px-4 py-2 rounded-full bg-gradient-to-r from-rose-600 via-rose-500 to-pink-600 text-white font-bold shadow-lg neon-glow hover:scale-105 transition flex items-center gap-1.5 whitespace-nowrap">
+          <i data-lucide="flame" class="w-3.5 h-3.5 fill-yellow-300 text-yellow-300 flex-shrink-0"></i>
           <span>VIP Vault</span>
         </a>
       </div>
     </div>
   </header>
 
-  <!-- HERO SECTION -->
-  <section class="relative z-10 pt-8 pb-14 px-4">
-    <div class="max-w-lg mx-auto text-center">
-      <div class="glass-card rounded-[2rem] p-7 sm:p-9 border border-white/15 flex flex-col items-center relative overflow-hidden">
+  <!-- HERO SECTION (Distinct Mobile Card vs Wide Luxury 2-Column Desktop Showcase) -->
+  <section class="relative z-10 pt-6 lg:pt-10 pb-14 px-4">
+    <!-- MOBILE & TABLET HERO (lg:hidden) -->
+    <div class="lg:hidden max-w-md mx-auto text-center">
+      <div class="glass-card rounded-[2rem] p-6 sm:p-8 border border-white/15 flex flex-col items-center relative overflow-hidden">
         
-        <div class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-white/5 border border-white/10 text-xs font-semibold text-gray-200 mb-5">
+        <div class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-white/5 border border-white/10 text-xs font-semibold text-gray-200 mb-4">
           <span class="w-2 h-2 rounded-full bg-emerald-400 animate-ping"></span>
           <span class="w-2 h-2 rounded-full bg-emerald-400 -ml-3"></span>
-          <span>Online • Daily 4K Drops Active</span>
+          <span>Online • Day 3 4K Drops Live</span>
         </div>
 
-        <div class="relative w-28 h-28 sm:w-32 sm:h-32 mb-4">
+        <div class="relative w-24 h-24 sm:w-28 sm:h-28 mb-3.5">
           <div class="absolute -inset-1.5 rounded-full bg-gradient-to-tr from-rose-500 via-fuchsia-500 to-rose-400 opacity-85 blur-md animate-pulse"></div>
           <img 
             src="/assets/avatar.jpg" 
             alt="Primela Rose - Official AI Asian Model & Virtual Singer" 
             class="relative w-full h-full rounded-full object-cover border-2 border-white shadow-2xl block"
           >
-          <div class="absolute bottom-1 right-1 w-8 h-8 rounded-full bg-gradient-to-tr from-rose-600 to-rose-400 flex items-center justify-center text-white border-2 border-dark-950 shadow-lg">
-            <i data-lucide="check" class="w-4 h-4 stroke-[3]"></i>
+          <div class="absolute bottom-0.5 right-0.5 w-7 h-7 rounded-full bg-gradient-to-tr from-rose-600 to-rose-400 flex items-center justify-center text-white border-2 border-dark-950 shadow-lg">
+            <i data-lucide="check" class="w-3.5 h-3.5 stroke-[3]"></i>
           </div>
         </div>
 
-        <h1 class="text-3xl sm:text-4xl font-display font-extrabold tracking-tight text-white flex items-center justify-center gap-2">
+        <h1 class="text-2xl sm:text-3xl font-display font-extrabold tracking-tight text-white flex items-center justify-center gap-1.5 leading-tight">
           <span>Primela Rose</span>
           <span class="text-rose-500 text-xl">🌸</span>
         </h1>
-        <p class="text-xs sm:text-sm font-semibold text-rose-400 tracking-wider uppercase mt-1">
-          @primelarose • AI Asian Model, Singer & Cosplayer
+        <p class="text-xs font-semibold text-rose-400 tracking-wider uppercase mt-1">
+          @primelarose • AI Asian Model, Singer &amp; Cosplayer
         </p>
 
-        <div class="grid grid-cols-3 gap-2 w-full max-w-xs mt-4 py-2.5 px-4 rounded-2xl bg-black/40 border border-white/10 text-xs">
+        <div class="grid grid-cols-3 gap-2 w-full mt-4 py-2.5 px-3 rounded-2xl bg-black/40 border border-white/10 text-xs">
           <div>
             <span class="font-display font-extrabold text-white text-sm block">24.2K</span>
-            <span class="text-gray-400 text-[11px]">Followers</span>
+            <span class="text-gray-400 text-[10px]">Followers</span>
           </div>
           <div class="border-x border-white/10">
             <span class="font-display font-extrabold text-white text-sm block">193.8K</span>
-            <span class="text-gray-400 text-[11px]">Likes</span>
+            <span class="text-gray-400 text-[10px]">Likes</span>
           </div>
           <div>
-            <span class="font-display font-extrabold text-rose-400 text-sm block">#1 VIP</span>
-            <span class="text-gray-400 text-[11px]">Creator</span>
+            <span class="font-display font-extrabold text-rose-400 text-sm block">9 Reels</span>
+            <span class="text-gray-400 text-[10px]">+ 4K Vault</span>
           </div>
         </div>
 
-        <p class="text-sm sm:text-base text-gray-300 mt-5 leading-relaxed">
-          Welcome to my official world. Watch my daily AI singing sessions, Y2K dances &amp; anime cosplay reels below—or unlock the <strong class="text-white">uncensored 4K vault</strong> too wild for TikTok. 💋
+        <p class="text-xs sm:text-sm text-gray-300 mt-4 leading-relaxed">
+          Watch my daily AI singing sessions, Y2K dances &amp; anime cosplay reels below—or unlock the <strong class="text-white">uncensored 4K vault</strong> too wild for TikTok. 💋
         </p>
 
-        <div class="w-full mt-6 mb-4">
+        <div class="w-full mt-5 mb-3">
           <a 
             href="https://fanvue.com/primelarose" 
             target="_blank" 
             rel="noopener noreferrer"
-            class="btn-shimmer group relative flex flex-col items-center justify-center w-full py-4 px-6 rounded-2xl bg-gradient-to-r from-rose-600 via-rose-500 to-pink-600 text-white font-extrabold shadow-xl neon-glow transition-all duration-300 hover:scale-[1.02] active:scale-[0.98]"
+            class="btn-shimmer group relative flex flex-col items-center justify-center w-full py-3.5 px-5 rounded-2xl bg-gradient-to-r from-rose-600 via-rose-500 to-pink-600 text-white font-extrabold shadow-xl neon-glow transition-all duration-300"
           >
-            <div class="flex items-center justify-center gap-2 text-lg sm:text-xl font-display tracking-tight">
+            <div class="flex items-center justify-center gap-2 text-base sm:text-lg font-display tracking-tight">
               <i data-lucide="flame" class="w-5 h-5 text-yellow-300 fill-yellow-300 animate-bounce"></i>
               <span>ENTER MY EXCLUSIVE VAULT</span>
-              <i data-lucide="arrow-right" class="w-5 h-5 group-hover:translate-x-1 transition-transform"></i>
+              <i data-lucide="arrow-right" class="w-4 h-4"></i>
             </div>
-            <span class="text-[11px] font-medium text-rose-100 tracking-wide mt-0.5">
+            <span class="text-[10px] font-medium text-rose-100 tracking-wide mt-0.5">
               Instant Passive 4K Access • No DMs • Cancel Anytime
             </span>
           </a>
         </div>
 
-        <div class="w-full pt-4 border-t border-white/10 flex flex-wrap items-center justify-center gap-2 text-xs font-semibold">
-          <a href="#videos" class="px-3.5 py-1.5 rounded-full bg-white/5 hover:bg-rose-500/20 text-gray-200 hover:text-rose-300 border border-white/10 transition">🎬 Watch 6 HD Reels</a>
-          <a href="#lookbook" class="px-3.5 py-1.5 rounded-full bg-white/5 hover:bg-rose-500/20 text-gray-200 hover:text-rose-300 border border-white/10 transition">📸 4K Lookbook (8)</a>
-          <a href="#spicy-x" class="px-3.5 py-1.5 rounded-full bg-rose-500/15 hover:bg-rose-500/30 text-rose-300 border border-rose-500/30 transition">🌶️ Spicy X Drops</a>
-          <a href="/blog/" class="px-3.5 py-1.5 rounded-full bg-white/5 hover:bg-rose-500/20 text-gray-200 hover:text-rose-300 border border-white/10 transition">📝 SEO Blog (8)</a>
+        <div class="w-full pt-3.5 border-t border-white/10 flex flex-wrap items-center justify-center gap-1.5 text-[11px] font-semibold">
+          <a href="#videos" class="px-3 py-1.5 rounded-full bg-white/5 text-gray-200 border border-white/10">🎬 9 HD Reels</a>
+          <a href="#lookbook" class="px-3 py-1.5 rounded-full bg-white/5 text-gray-200 border border-white/10">📸 Lookbook (10)</a>
+          <a href="#spicy-x" class="px-3 py-1.5 rounded-full bg-rose-500/15 text-rose-300 border border-rose-500/30">🌶️ Spicy X</a>
+          <a href="/blog/" class="px-3 py-1.5 rounded-full bg-white/5 text-gray-200 border border-white/10">📝 Blog (12)</a>
         </div>
+      </div>
+    </div>
+
+    <!-- DESKTOP WIDESCREEN EDITORIAL HERO (hidden lg:grid) -->
+    <div class="hidden lg:grid lg:grid-cols-12 lg:gap-8 lg:items-stretch max-w-6xl mx-auto">
+      <!-- Left 7 Columns: Editorial Creator Bio, Stats & Primary CTAs -->
+      <div class="lg:col-span-7 glass-card rounded-[2.25rem] p-9 border border-white/15 flex flex-col justify-between relative overflow-hidden">
+        <div>
+          <div class="flex items-center justify-between gap-4 mb-6">
+            <div class="inline-flex items-center gap-2.5 px-4 py-1.5 rounded-full bg-white/5 border border-white/10 text-xs font-bold text-gray-200">
+              <span class="w-2 h-2 rounded-full bg-emerald-400 animate-ping"></span>
+              <span class="w-2 h-2 rounded-full bg-emerald-400 -ml-3.5"></span>
+              <span>Online Now • Day 3 4K Lookbook, R&amp;B &amp; Spicy X Drops Live</span>
+            </div>
+            <span class="px-3 py-1 rounded-full bg-rose-500/15 border border-rose-500/30 text-rose-300 text-xs font-extrabold uppercase tracking-wider">
+              Verified Creator Hub
+            </span>
+          </div>
+
+          <div class="flex items-center gap-5 mb-6">
+            <div class="relative w-24 h-24 flex-shrink-0">
+              <div class="absolute -inset-1.5 rounded-full bg-gradient-to-tr from-rose-500 via-fuchsia-500 to-rose-400 opacity-85 blur-md animate-pulse"></div>
+              <img 
+                src="/assets/avatar.jpg" 
+                alt="Primela Rose - Official AI Asian Model & Virtual Singer" 
+                class="relative w-full h-full rounded-full object-cover border-2 border-white shadow-2xl block"
+              >
+              <div class="absolute bottom-0 right-0 w-7 h-7 rounded-full bg-gradient-to-tr from-rose-600 to-rose-400 flex items-center justify-center text-white border-2 border-dark-950 shadow-lg">
+                <i data-lucide="check" class="w-3.5 h-3.5 stroke-[3]"></i>
+              </div>
+            </div>
+            <div>
+              <div class="flex items-center gap-2">
+                <h1 class="text-4xl font-display font-extrabold tracking-tight text-white">Primela Rose</h1>
+                <span class="text-2xl">🌸</span>
+              </div>
+              <p class="text-sm font-bold text-rose-400 tracking-wider uppercase mt-0.5">
+                @primelarose • AI Asian Model, Virtual Pop/R&amp;B Singer &amp; Cosplayer
+              </p>
+              <p class="text-xs text-gray-400 mt-1">
+                TikTok <strong class="text-gray-200">@primelarose</strong> • Uncensored X <strong class="text-gray-200">@Primela_Rose</strong> • VIP Vault <strong class="text-rose-300">fanvue.com/primelarose</strong>
+              </p>
+            </div>
+          </div>
+
+          <h2 class="text-2xl xl:text-3xl font-display font-extrabold text-white leading-tight mb-3">
+            Daily 60FPS AI Singing Sessions, Kawaii Douyin Dances &amp; <span class="text-gradient-rose">Uncensored 4K Vault Sets</span>
+          </h2>
+          <p class="text-sm text-gray-300 leading-relaxed mb-6">
+            Welcome to my official desktop media hub. Stream all 9 studio vocal &amp; cosplay reels with synchronized audio, inspect full-resolution 4K lookbooks, or unlock my private members-only vault for sets too spicy for TikTok.
+          </p>
+
+          <div class="grid grid-cols-4 gap-3 py-3.5 px-5 rounded-2xl bg-black/45 border border-white/10 text-center mb-6">
+            <div>
+              <span class="font-display font-extrabold text-white text-lg block">24.2K</span>
+              <span class="text-gray-400 text-xs">TikTok Fans</span>
+            </div>
+            <div class="border-l border-white/10">
+              <span class="font-display font-extrabold text-white text-lg block">193.8K</span>
+              <span class="text-gray-400 text-xs">Total Likes</span>
+            </div>
+            <div class="border-l border-white/10">
+              <span class="font-display font-extrabold text-rose-400 text-lg block">9 HD</span>
+              <span class="text-gray-400 text-xs">Studio Reels</span>
+            </div>
+            <div class="border-l border-white/10">
+              <span class="font-display font-extrabold text-rose-400 text-lg block">100+</span>
+              <span class="text-gray-400 text-xs">4K Vault Sets</span>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div class="grid grid-cols-12 gap-3 mb-5">
+            <a 
+              href="https://fanvue.com/primelarose" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              class="col-span-7 btn-shimmer group relative flex flex-col items-center justify-center py-4 px-5 rounded-2xl bg-gradient-to-r from-rose-600 via-rose-500 to-pink-600 text-white font-extrabold shadow-xl neon-glow transition-all duration-300 hover:scale-[1.02]"
+            >
+              <div class="flex items-center justify-center gap-2 text-lg font-display tracking-tight">
+                <i data-lucide="flame" class="w-5 h-5 text-yellow-300 fill-yellow-300 animate-bounce"></i>
+                <span>UNLOCK EXCLUSIVE 4K VAULT</span>
+                <i data-lucide="arrow-right" class="w-5 h-5 group-hover:translate-x-1 transition-transform"></i>
+              </div>
+              <span class="text-[11px] font-medium text-rose-100 mt-0.5">
+                $9.99/mo • Instant Passive Viewing • Cancel Anytime
+              </span>
+            </a>
+            <a 
+              href="https://x.com/Primela_Rose" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              class="col-span-5 flex flex-col items-center justify-center py-4 px-4 rounded-2xl bg-white/5 hover:bg-rose-500/20 border border-rose-500/35 text-white font-bold transition"
+            >
+              <span class="text-sm font-display font-extrabold text-rose-300">🌶️ Spicy X (@Primela_Rose)</span>
+              <span class="text-[11px] text-gray-300 mt-0.5">Uncensored Teasers &amp; Clips →</span>
+            </a>
+          </div>
+
+          <div class="pt-4 border-t border-white/10 flex items-center justify-between gap-2 text-xs font-semibold">
+            <div class="flex flex-wrap items-center gap-2">
+              <a href="#videos" class="px-3.5 py-1.5 rounded-full bg-white/5 hover:bg-rose-500/20 text-gray-200 hover:text-rose-300 border border-white/10 transition">🎬 9 HD Reels</a>
+              <a href="#lookbook" class="px-3.5 py-1.5 rounded-full bg-white/5 hover:bg-rose-500/20 text-gray-200 hover:text-rose-300 border border-white/10 transition">📸 4K Lookbook (10)</a>
+              <a href="#spicy-x" class="px-3.5 py-1.5 rounded-full bg-rose-500/15 hover:bg-rose-500/30 text-rose-300 border border-rose-500/30 transition">🌶️ 3 Spicy X Drops</a>
+              <a href="/blog/" class="px-3.5 py-1.5 rounded-full bg-white/5 hover:bg-rose-500/20 text-gray-200 hover:text-rose-300 border border-white/10 transition">📝 SEO Blog (12)</a>
+            </div>
+            <a href="https://www.tiktok.com/@primelarose" target="_blank" rel="noopener" class="text-gray-300 hover:text-rose-400 transition whitespace-nowrap">🎵 TikTok →</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right 5 Columns: Dual Interactive Visual Showcase Cards (Only on Desktop) -->
+      <div class="lg:col-span-5 grid grid-cols-2 gap-4">
+        <!-- Card 1: Day 3 Featured 4K Stage Idol Lookbook Card -->
+        <a href="#lookbook" class="glass-card glass-card-hover rounded-[2rem] overflow-hidden border border-white/15 group relative flex flex-col justify-between">
+          <div class="relative h-full min-h-[380px] overflow-hidden bg-dark-950">
+            <img src="/assets/media/day3/primela-rose-ai-singer-live-concert-pink-devil-wings-idol.png" alt="Primela Rose Live Concert Stage Idol with Pink Devil Wings" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+            <div class="absolute inset-0 bg-gradient-to-t from-dark-950 via-dark-950/20 to-transparent"></div>
+            <span class="absolute top-3.5 left-3.5 px-3 py-1 rounded-full bg-rose-600 text-[10px] font-extrabold text-white uppercase tracking-wider shadow-lg">
+              🎤 Day 3 Drop
+            </span>
+            <div class="absolute bottom-4 left-4 right-4">
+              <span class="text-[10px] font-bold uppercase tracking-wider text-rose-300 block">4K Concert Lookbook</span>
+              <h3 class="text-sm font-display font-extrabold text-white leading-snug mt-0.5">Pink Devil Wings Live Stage Idol</h3>
+              <span class="inline-block mt-2 text-[11px] font-bold text-rose-400 group-hover:translate-x-1 transition-transform">Explore 4K Gallery →</span>
+            </div>
+          </div>
+        </a>
+
+        <!-- Card 2: Blurred Uncensored X / Vault Teaser Card -->
+        <a href="https://fanvue.com/primelarose" target="_blank" rel="noopener noreferrer" class="glass-card glass-card-hover rounded-[2rem] overflow-hidden border-2 border-rose-500/50 group relative flex flex-col justify-between">
+          <div class="relative h-full min-h-[380px] overflow-hidden bg-dark-950">
+            <img src="/assets/media/social/x-blur-2012707255058116706.jpg" alt="Blurred Uncensored VIP Vault Preview - Primela Rose" class="w-full h-full object-cover scale-105 group-hover:scale-110 transition duration-500">
+            <div class="absolute inset-0 bg-gradient-to-t from-dark-950/90 via-dark-950/35 to-dark-950/30 flex flex-col items-center justify-center p-4 text-center">
+              <div class="w-12 h-12 rounded-full bg-rose-600/90 border border-white/30 flex items-center justify-center text-white shadow-2xl mb-2.5 group-hover:scale-110 transition">
+                <i data-lucide="lock" class="w-5 h-5"></i>
+              </div>
+              <span class="px-2.5 py-0.5 rounded-full bg-black/70 border border-rose-400/40 text-rose-300 text-[10px] font-extrabold uppercase tracking-wider">
+                18+ Blurred Preview
+              </span>
+              <p class="text-white font-display font-extrabold text-sm leading-snug mt-2">
+                Too Wild for TikTok
+              </p>
+              <p class="text-[11px] text-gray-300 mt-1">
+                Unlock 100+ Uncensored 4K Sets &amp; Private Videos
+              </p>
+              <span class="mt-3 px-3.5 py-1.5 rounded-xl bg-gradient-to-r from-rose-600 to-pink-600 text-white font-extrabold text-[11px] shadow-lg">
+                Unlock Vault →
+              </span>
+            </div>
+          </div>
+        </a>
       </div>
     </div>
   </section>
@@ -273,11 +428,11 @@
   <!-- MAIN HUB CONTAINER -->
   <div class="relative z-10 max-w-6xl mx-auto px-4 space-y-20">
 
-    <!-- SECTION 2: 6 CUSTOM REELS VIDEO SHOWCASE (Day 2 + Day 1) -->
+    <!-- SECTION 2: 9 CUSTOM REELS VIDEO SHOWCASE (Day 3 + Day 2 + Day 1) -->
     <section id="videos" class="scroll-mt-20">
       <div class="flex flex-col md:flex-row md:items-end justify-between mb-8 gap-4">
         <div>
-          <span class="px-3 py-1 rounded-full bg-rose-500/15 border border-rose-500/30 text-rose-400 text-xs font-bold uppercase tracking-wider">60FPS Motion & Studio Audio • Updated Daily</span>
+          <span class="px-3 py-1 rounded-full bg-rose-500/15 border border-rose-500/30 text-rose-400 text-xs font-bold uppercase tracking-wider">60FPS Motion &amp; Studio Audio • 9 HD Reels</span>
           <h2 class="text-2xl sm:text-4xl font-display font-extrabold text-white mt-2.5 tracking-tight">
             Viral AI Singing, Dance &amp; <span class="text-gradient-rose">Model Reels</span> 🎬
           </h2>
@@ -290,7 +445,166 @@
       </div>
 
       <div class="grid grid-cols-1 md:grid-cols-3 gap-7">
-        <!-- NEW Day 2 Video 1: K-Pop Bilingual Studio Singer -->
+        <!-- NEW Day 3 Video 1: Pink Elf Midnight R&B Studio Singer -->
+        <div class="glass-card glass-card-hover rounded-3xl overflow-hidden flex flex-col">
+          
+    <div class="reel-wrapper relative w-full aspect-[9/16] bg-dark-950 overflow-hidden group">
+      <video 
+        src="/assets/media/day3/primela-rose-pink-elf-ai-singer-rnb-studio-vocals.mp4" 
+        poster="/assets/media/day3/thumb-midnight-rnb-singer.jpg" 
+        playsinline 
+        preload="metadata" 
+        class="w-full h-full object-cover block"
+      ></video>
+
+      <div class="absolute top-3.5 left-3.5 right-3.5 flex items-center justify-between z-10 pointer-events-none">
+        <span class="px-2.5 py-1 rounded-full bg-black/65 backdrop-blur-md border border-white/15 text-[11px] font-bold text-white flex items-center gap-1.5">
+          <span class="w-1.5 h-1.5 rounded-full bg-rose-500 animate-ping"></span>
+          <span>🎤 DAY 3 • Midnight R&B</span>
+        </span>
+        <button type="button" class="reel-mute-btn pointer-events-auto px-2.5 py-1 rounded-full bg-black/65 hover:bg-rose-600/80 backdrop-blur-md border border-white/15 text-[11px] font-semibold text-white flex items-center gap-1 transition">
+          <i data-lucide="volume-2" class="w-3.5 h-3.5"></i>
+          <span class="reel-mute-label">Tap to Play</span>
+        </button>
+      </div>
+
+      <div class="reel-play-overlay absolute inset-0 bg-gradient-to-t from-black/75 via-black/15 to-transparent flex flex-col items-center justify-center transition duration-300">
+        <div class="reel-play-btn w-16 h-16 rounded-full bg-white/15 backdrop-blur-xl border border-white/30 flex items-center justify-center text-white shadow-2xl">
+          <i data-lucide="play" class="w-7 h-7 fill-white ml-1"></i>
+        </div>
+        <span class="mt-2.5 px-3 py-1 rounded-full bg-black/60 backdrop-blur-md text-[11px] font-bold text-rose-200 tracking-wide border border-white/10">
+          ▶ Watch HD Reel
+        </span>
+      </div>
+
+      <div class="absolute bottom-0 left-0 right-0 h-1 bg-white/15 z-20">
+        <div class="reel-progress h-full bg-gradient-to-r from-rose-500 to-pink-400 w-0 transition-all duration-100"></div>
+      </div>
+    </div>
+  
+          <div class="p-5 flex-1 flex flex-col justify-between">
+            <div>
+              <div class="flex items-center justify-between text-[11px] font-bold text-rose-400 uppercase tracking-wider mb-1">
+                <span>AI R&amp;B Singer • Pink Elf</span>
+                <span>0:46 HD</span>
+              </div>
+              <h3 class="text-lg font-display font-bold text-white leading-snug">Midnight R&amp;B Studio Session ("Close Your Eyes Boy")</h3>
+              <p class="text-xs text-gray-400 mt-1.5 leading-relaxed">46-second sultry R&amp;B slow-jam in pastel pink waves, fantasy elf ears, braces, and rose-gold studio headphones.</p>
+            </div>
+            <a href="/blog/pink-elf-ai-singer-midnight-rnb-studio-vocal-performance/" class="mt-4 pt-3 border-t border-white/10 flex items-center justify-between text-xs font-bold text-rose-400 hover:text-rose-300">
+              <span>Read Full Lyrics &amp; Audio Breakdown</span>
+              <span>→</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- NEW Day 3 Video 2: Cinnamoroll Pink Pajama Coquette Bedroom Reel -->
+        <div class="glass-card glass-card-hover rounded-3xl overflow-hidden flex flex-col">
+          
+    <div class="reel-wrapper relative w-full aspect-[9/16] bg-dark-950 overflow-hidden group">
+      <video 
+        src="/assets/media/day3/primela-rose-ai-douyin-cinnamoroll-pink-pajama-reel.mp4" 
+        poster="/assets/media/day3/thumb-day3-reel-1.jpg" 
+        playsinline 
+        preload="metadata" 
+        class="w-full h-full object-cover block"
+      ></video>
+
+      <div class="absolute top-3.5 left-3.5 right-3.5 flex items-center justify-between z-10 pointer-events-none">
+        <span class="px-2.5 py-1 rounded-full bg-black/65 backdrop-blur-md border border-white/15 text-[11px] font-bold text-white flex items-center gap-1.5">
+          <span class="w-1.5 h-1.5 rounded-full bg-rose-500 animate-ping"></span>
+          <span>🎀 DAY 3 • Cinnamoroll Coquette</span>
+        </span>
+        <button type="button" class="reel-mute-btn pointer-events-auto px-2.5 py-1 rounded-full bg-black/65 hover:bg-rose-600/80 backdrop-blur-md border border-white/15 text-[11px] font-semibold text-white flex items-center gap-1 transition">
+          <i data-lucide="volume-2" class="w-3.5 h-3.5"></i>
+          <span class="reel-mute-label">Tap to Play</span>
+        </button>
+      </div>
+
+      <div class="reel-play-overlay absolute inset-0 bg-gradient-to-t from-black/75 via-black/15 to-transparent flex flex-col items-center justify-center transition duration-300">
+        <div class="reel-play-btn w-16 h-16 rounded-full bg-white/15 backdrop-blur-xl border border-white/30 flex items-center justify-center text-white shadow-2xl">
+          <i data-lucide="play" class="w-7 h-7 fill-white ml-1"></i>
+        </div>
+        <span class="mt-2.5 px-3 py-1 rounded-full bg-black/60 backdrop-blur-md text-[11px] font-bold text-rose-200 tracking-wide border border-white/10">
+          ▶ Watch HD Reel
+        </span>
+      </div>
+
+      <div class="absolute bottom-0 left-0 right-0 h-1 bg-white/15 z-20">
+        <div class="reel-progress h-full bg-gradient-to-r from-rose-500 to-pink-400 w-0 transition-all duration-100"></div>
+      </div>
+    </div>
+  
+          <div class="p-5 flex-1 flex flex-col justify-between">
+            <div>
+              <div class="flex items-center justify-between text-[11px] font-bold text-rose-400 uppercase tracking-wider mb-1">
+                <span>AI Douyin &amp; Split-Hair</span>
+                <span>NEW • HD</span>
+              </div>
+              <h3 class="text-lg font-display font-bold text-white leading-snug">Cinnamoroll Pink Gingham Pajama Bedroom Reel</h3>
+              <p class="text-xs text-gray-400 mt-1.5 leading-relaxed">Coquette Cinnamoroll crop top, pink gingham bow shorts, split-dyed hair, and heterochromia eyes.</p>
+            </div>
+            <a href="/blog/ai-douyin-cinnamoroll-pink-pajama-coquette-bedroom-reel/" class="mt-4 pt-3 border-t border-white/10 flex items-center justify-between text-xs font-bold text-rose-400 hover:text-rose-300">
+              <span>Explore Split-Hair Lookbook</span>
+              <span>→</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- NEW Day 3 Video 3: Night City Skyline Harbor Glam Reel -->
+        <div class="glass-card glass-card-hover rounded-3xl overflow-hidden flex flex-col">
+          
+    <div class="reel-wrapper relative w-full aspect-[9/16] bg-dark-950 overflow-hidden group">
+      <video 
+        src="/assets/media/day3/primela-rose-abg-ai-night-skyline-harbor-glam-reel.mp4" 
+        poster="/assets/media/day3/thumb-day3-reel-2.jpg" 
+        playsinline 
+        preload="metadata" 
+        class="w-full h-full object-cover block"
+      ></video>
+
+      <div class="absolute top-3.5 left-3.5 right-3.5 flex items-center justify-between z-10 pointer-events-none">
+        <span class="px-2.5 py-1 rounded-full bg-black/65 backdrop-blur-md border border-white/15 text-[11px] font-bold text-white flex items-center gap-1.5">
+          <span class="w-1.5 h-1.5 rounded-full bg-rose-500 animate-ping"></span>
+          <span>🌃 DAY 3 • Night Harbor Glam</span>
+        </span>
+        <button type="button" class="reel-mute-btn pointer-events-auto px-2.5 py-1 rounded-full bg-black/65 hover:bg-rose-600/80 backdrop-blur-md border border-white/15 text-[11px] font-semibold text-white flex items-center gap-1 transition">
+          <i data-lucide="volume-2" class="w-3.5 h-3.5"></i>
+          <span class="reel-mute-label">Tap to Play</span>
+        </button>
+      </div>
+
+      <div class="reel-play-overlay absolute inset-0 bg-gradient-to-t from-black/75 via-black/15 to-transparent flex flex-col items-center justify-center transition duration-300">
+        <div class="reel-play-btn w-16 h-16 rounded-full bg-white/15 backdrop-blur-xl border border-white/30 flex items-center justify-center text-white shadow-2xl">
+          <i data-lucide="play" class="w-7 h-7 fill-white ml-1"></i>
+        </div>
+        <span class="mt-2.5 px-3 py-1 rounded-full bg-black/60 backdrop-blur-md text-[11px] font-bold text-rose-200 tracking-wide border border-white/10">
+          ▶ Watch HD Reel
+        </span>
+      </div>
+
+      <div class="absolute bottom-0 left-0 right-0 h-1 bg-white/15 z-20">
+        <div class="reel-progress h-full bg-gradient-to-r from-rose-500 to-pink-400 w-0 transition-all duration-100"></div>
+      </div>
+    </div>
+  
+          <div class="p-5 flex-1 flex flex-col justify-between">
+            <div>
+              <div class="flex items-center justify-between text-[11px] font-bold text-rose-400 uppercase tracking-wider mb-1">
+                <span>ABG Nightlife Aesthetic</span>
+                <span>NEW • HD</span>
+              </div>
+              <h3 class="text-lg font-display font-bold text-white leading-snug">Night City Skyline &amp; Harbor Reflections Glam Reel</h3>
+              <p class="text-xs text-gray-400 mt-1.5 leading-relaxed">Jet-black twin-tails, white floral halter top, and glowing downtown waterfront bokeh reflections.</p>
+            </div>
+            <a href="/blog/abg-ai-girl-night-city-skyline-harbor-glam-reel/" class="mt-4 pt-3 border-t border-white/10 flex items-center justify-between text-xs font-bold text-rose-400 hover:text-rose-300">
+              <span>View Nightlife Style Guide</span>
+              <span>→</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Day 2 Video 1: K-Pop Bilingual Studio Singer -->
         <div class="glass-card glass-card-hover rounded-3xl overflow-hidden flex flex-col">
           
     <div class="reel-wrapper relative w-full aspect-[9/16] bg-dark-950 overflow-hidden group">
@@ -305,7 +619,7 @@
       <div class="absolute top-3.5 left-3.5 right-3.5 flex items-center justify-between z-10 pointer-events-none">
         <span class="px-2.5 py-1 rounded-full bg-black/65 backdrop-blur-md border border-white/15 text-[11px] font-bold text-white flex items-center gap-1.5">
           <span class="w-1.5 h-1.5 rounded-full bg-rose-500 animate-ping"></span>
-          <span>🎤 NEW • K-Pop Vocals</span>
+          <span>🎤 K-Pop Vocals</span>
         </span>
         <button type="button" class="reel-mute-btn pointer-events-auto px-2.5 py-1 rounded-full bg-black/65 hover:bg-rose-600/80 backdrop-blur-md border border-white/15 text-[11px] font-semibold text-white flex items-center gap-1 transition">
           <i data-lucide="volume-2" class="w-3.5 h-3.5"></i>
@@ -331,7 +645,7 @@
             <div>
               <div class="flex items-center justify-between text-[11px] font-bold text-rose-400 uppercase tracking-wider mb-1">
                 <span>English &amp; Korean K-Pop</span>
-                <span>NEW • HD</span>
+                <span>HD Reel</span>
               </div>
               <h3 class="text-lg font-display font-bold text-white leading-snug">Bilingual K-Pop Studio Session ("I Wasn’t Enough")</h3>
               <p class="text-xs text-gray-400 mt-1.5 leading-relaxed">Emotional English &amp; Korean studio vocals in black twin-tails, pink satin bows, and Sony studio headphones.</p>
@@ -343,7 +657,7 @@
           </div>
         </div>
 
-        <!-- NEW Day 2 Video 2: Kawaii Douyin Pink Pleated Skirt Mirror Dance -->
+        <!-- Day 2 Video 2: Kawaii Douyin Pink Pleated Skirt Mirror Dance -->
         <div class="glass-card glass-card-hover rounded-3xl overflow-hidden flex flex-col">
           
     <div class="reel-wrapper relative w-full aspect-[9/16] bg-dark-950 overflow-hidden group">
@@ -358,7 +672,7 @@
       <div class="absolute top-3.5 left-3.5 right-3.5 flex items-center justify-between z-10 pointer-events-none">
         <span class="px-2.5 py-1 rounded-full bg-black/65 backdrop-blur-md border border-white/15 text-[11px] font-bold text-white flex items-center gap-1.5">
           <span class="w-1.5 h-1.5 rounded-full bg-rose-500 animate-ping"></span>
-          <span>🎀 NEW • Kawaii Mirror Dance</span>
+          <span>🎀 Kawaii Mirror Dance</span>
         </span>
         <button type="button" class="reel-mute-btn pointer-events-auto px-2.5 py-1 rounded-full bg-black/65 hover:bg-rose-600/80 backdrop-blur-md border border-white/15 text-[11px] font-semibold text-white flex items-center gap-1 transition">
           <i data-lucide="volume-2" class="w-3.5 h-3.5"></i>
@@ -384,7 +698,7 @@
             <div>
               <div class="flex items-center justify-between text-[11px] font-bold text-rose-400 uppercase tracking-wider mb-1">
                 <span>AI Douyin Coquette</span>
-                <span>NEW • HD</span>
+                <span>HD Reel</span>
               </div>
               <h3 class="text-lg font-display font-bold text-white leading-snug">Sanrio Bedroom Pink Pleated Skirt Mirror Dance</h3>
               <p class="text-xs text-gray-400 mt-1.5 leading-relaxed">Full-body coquette mirror reel in white ribbon crop top, pink mini skirt, and bow thigh-high stockings.</p>
@@ -396,7 +710,7 @@
           </div>
         </div>
 
-        <!-- NEW Day 2 Video 3: Pink Qipao Cosplay Talking Reel -->
+        <!-- Day 2 Video 3: Pink Qipao Cosplay Talking Reel -->
         <div class="glass-card glass-card-hover rounded-3xl overflow-hidden flex flex-col">
           
     <div class="reel-wrapper relative w-full aspect-[9/16] bg-dark-950 overflow-hidden group">
@@ -411,7 +725,7 @@
       <div class="absolute top-3.5 left-3.5 right-3.5 flex items-center justify-between z-10 pointer-events-none">
         <span class="px-2.5 py-1 rounded-full bg-black/65 backdrop-blur-md border border-white/15 text-[11px] font-bold text-white flex items-center gap-1.5">
           <span class="w-1.5 h-1.5 rounded-full bg-rose-500 animate-ping"></span>
-          <span>🌸 NEW • Talking Cosplay</span>
+          <span>🌸 Talking Cosplay</span>
         </span>
         <button type="button" class="reel-mute-btn pointer-events-auto px-2.5 py-1 rounded-full bg-black/65 hover:bg-rose-600/80 backdrop-blur-md border border-white/15 text-[11px] font-semibold text-white flex items-center gap-1 transition">
           <i data-lucide="volume-2" class="w-3.5 h-3.5"></i>
@@ -437,7 +751,7 @@
             <div>
               <div class="flex items-center justify-between text-[11px] font-bold text-rose-400 uppercase tracking-wider mb-1">
                 <span>Qipao &amp; Anime Cosplay</span>
-                <span>NEW • HD</span>
+                <span>HD Reel</span>
               </div>
               <h3 class="text-lg font-display font-bold text-white leading-snug">"Perfect for My Cosplay!" — Pink Silk Qipao Reel</h3>
               <p class="text-xs text-gray-400 mt-1.5 leading-relaxed">Primela talks directly to camera in her fitted cherry-blossom Chinese qipao dress with cute braces.</p>
@@ -610,22 +924,47 @@
       </div>
     </section>
 
-    <!-- SECTION 3: 8-CARD 4K LOOKBOOK GALLERY -->
+    <!-- SECTION 3: 10-CARD 4K LOOKBOOK GALLERY (Day 3 + Day 2 + Day 1 + Locked Vault Card) -->
     <section id="lookbook" class="scroll-mt-20">
       <div class="text-center max-w-2xl mx-auto mb-10">
-        <span class="px-3 py-1 rounded-full bg-rose-500/15 border border-rose-500/30 text-rose-400 text-xs font-bold uppercase tracking-wider">4K Ultra-HD Photography • 8 Sets</span>
+        <span class="px-3 py-1 rounded-full bg-rose-500/15 border border-rose-500/30 text-rose-400 text-xs font-bold uppercase tracking-wider">4K Ultra-HD Photography • 10 Sets</span>
         <h2 class="text-2xl sm:text-4xl font-display font-extrabold text-white mt-2.5 tracking-tight">
           AI Asian Girl, Douyin &amp; <span class="text-gradient-rose">Cosplay Lookbook</span> 📸
         </h2>
         <p class="text-sm text-gray-400 mt-1">Click any photo to view full-screen 4K details, or unlock the uncensored private vault.</p>
       </div>
 
-      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-5">
+        <!-- NEW Day 3 Photo 1: Live Concert Pink Devil Wings Idol -->
+        <figure class="lookbook-trigger glass-card glass-card-hover rounded-3xl overflow-hidden cursor-pointer group" data-full="/assets/media/day3/primela-rose-ai-singer-live-concert-pink-devil-wings-idol.png" data-title="Live Concert Stage Idol — Pink Devil Wings & Rose-Gold Microphone (4K)">
+          <div class="relative aspect-[3/4] overflow-hidden bg-dark-950">
+            <img src="/assets/media/day3/primela-rose-ai-singer-live-concert-pink-devil-wings-idol.png" alt="Primela Rose AI pop star live concert stage performance with pink devil wings and rose-gold microphone" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" loading="lazy">
+            <span class="absolute top-3 left-3 px-2.5 py-1 rounded-full bg-rose-600 text-[10px] font-bold text-white">DAY 3</span>
+            <span class="absolute top-3 right-3 px-2.5 py-1 rounded-full bg-black/60 backdrop-blur-md text-[10px] font-bold text-white border border-white/15">🔍 4K Zoom</span>
+          </div>
+          <figcaption class="p-4">
+            <strong class="text-white font-display text-sm block">Live Stage Pop Idol</strong>
+            <span class="text-xs text-gray-400">Pink Devil Wings &amp; Arena Mic</span>
+          </figcaption>
+        </figure>
+
+        <!-- NEW Day 3 Photo 2: Split-Hair Heterochromia Coquette -->
+        <figure class="lookbook-trigger glass-card glass-card-hover rounded-3xl overflow-hidden cursor-pointer group" data-full="/assets/media/day3/primela-rose-ai-douyin-split-hair-heterochromia-coquette.png" data-title="Split-Dyed Hair & Heterochromia Eyes — Kawaii Douyin Coquette Portrait (4K)">
+          <div class="relative aspect-[3/4] overflow-hidden bg-dark-950">
+            <img src="/assets/media/day3/primela-rose-ai-douyin-split-hair-heterochromia-coquette.png" alt="Primela Rose AI Douyin girl with black and blonde split hair, blue and brown heterochromia eyes, and pink ribbons" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" loading="lazy">
+            <span class="absolute top-3 left-3 px-2.5 py-1 rounded-full bg-rose-600 text-[10px] font-bold text-white">DAY 3</span>
+            <span class="absolute top-3 right-3 px-2.5 py-1 rounded-full bg-black/60 backdrop-blur-md text-[10px] font-bold text-white border border-white/15">🔍 4K Zoom</span>
+          </div>
+          <figcaption class="p-4">
+            <strong class="text-white font-display text-sm block">Split-Hair &amp; Heterochromia</strong>
+            <span class="text-xs text-gray-400">Blue/Amber Eyes &amp; Satin Bows</span>
+          </figcaption>
+        </figure>
+
         <!-- Day 2 Photo 1: Golden Hour ABG Bedroom -->
         <figure class="lookbook-trigger glass-card glass-card-hover rounded-3xl overflow-hidden cursor-pointer group" data-full="/assets/media/day2/primela-rose-abg-ai-girl-golden-hour-braces-bedroom.png" data-title="Golden Hour Candlelit Bedroom — ABG Blonde Highlights & Braces">
           <div class="relative aspect-[3/4] overflow-hidden bg-dark-950">
             <img src="/assets/media/day2/primela-rose-abg-ai-girl-golden-hour-braces-bedroom.png" alt="Primela Rose ABG AI girl with blonde highlights and braces in golden hour candlelit bedroom" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" loading="lazy">
-            <span class="absolute top-3 left-3 px-2.5 py-1 rounded-full bg-rose-600 text-[10px] font-bold text-white">NEW</span>
             <span class="absolute top-3 right-3 px-2.5 py-1 rounded-full bg-black/60 backdrop-blur-md text-[10px] font-bold text-white border border-white/15">🔍 4K Zoom</span>
           </div>
           <figcaption class="p-4">
@@ -638,7 +977,6 @@
         <figure class="lookbook-trigger glass-card glass-card-hover rounded-3xl overflow-hidden cursor-pointer group" data-full="/assets/media/day2/primela-rose-ai-japanese-anime-cosplay-yoru-chainsaw-man.png" data-title="Yoru (War Devil - Chainsaw Man) Japanese Anime Cosplay — 4K">
           <div class="relative aspect-[3/4] overflow-hidden bg-dark-950">
             <img src="/assets/media/day2/primela-rose-ai-japanese-anime-cosplay-yoru-chainsaw-man.png" alt="Primela Rose AI Japanese anime cosplay as Yoru War Devil from Chainsaw Man with glowing orange eyes and braces" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" loading="lazy">
-            <span class="absolute top-3 left-3 px-2.5 py-1 rounded-full bg-rose-600 text-[10px] font-bold text-white">NEW</span>
             <span class="absolute top-3 right-3 px-2.5 py-1 rounded-full bg-black/60 backdrop-blur-md text-[10px] font-bold text-white border border-white/15">🔍 4K Zoom</span>
           </div>
           <figcaption class="p-4">
@@ -651,7 +989,6 @@
         <figure class="lookbook-trigger glass-card glass-card-hover rounded-3xl overflow-hidden cursor-pointer group" data-full="/assets/media/day2/primela-rose-ai-douyin-girl-rilakkuma-mirror-selfie.png" data-title="Kawaii Floor Mirror Selfie — Rilakkuma Phone Case & Pink Skirt">
           <div class="relative aspect-[3/4] overflow-hidden bg-dark-950">
             <img src="/assets/media/day2/primela-rose-ai-douyin-girl-rilakkuma-mirror-selfie.png" alt="Primela Rose AI Douyin girl floor mirror selfie with Rilakkuma bear phone case and pink pleated skirt" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" loading="lazy">
-            <span class="absolute top-3 left-3 px-2.5 py-1 rounded-full bg-rose-600 text-[10px] font-bold text-white">NEW</span>
             <span class="absolute top-3 right-3 px-2.5 py-1 rounded-full bg-black/60 backdrop-blur-md text-[10px] font-bold text-white border border-white/15">🔍 4K Zoom</span>
           </div>
           <figcaption class="p-4">
@@ -664,7 +1001,6 @@
         <figure class="lookbook-trigger glass-card glass-card-hover rounded-3xl overflow-hidden cursor-pointer group" data-full="/assets/media/day2/primela-rose-ai-cinematic-midnight-story-model.png" data-title="Midnight Phone Call — Cinematic AI Music Story Visual">
           <div class="relative aspect-[3/4] overflow-hidden bg-dark-950">
             <img src="/assets/media/day2/primela-rose-ai-cinematic-midnight-story-model.png" alt="Primela Rose cinematic AI model midnight bedroom phone call visual" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" loading="lazy">
-            <span class="absolute top-3 left-3 px-2.5 py-1 rounded-full bg-rose-600 text-[10px] font-bold text-white">NEW</span>
             <span class="absolute top-3 right-3 px-2.5 py-1 rounded-full bg-black/60 backdrop-blur-md text-[10px] font-bold text-white border border-white/15">🔍 4K Zoom</span>
           </div>
           <figcaption class="p-4">
@@ -713,41 +1049,93 @@
         <a href="https://fanvue.com/primelarose" target="_blank" rel="noopener noreferrer" class="glass-card glass-card-hover rounded-3xl overflow-hidden border-2 border-rose-500/50 group relative flex flex-col justify-between">
           <div class="relative w-full aspect-[3/4] overflow-hidden bg-dark-950">
             <img src="/assets/media/day2/primela-rose-abg-ai-girl-golden-hour-braces-bedroom.png" alt="Locked Uncensored VIP Vault Preview - Primela Rose" class="w-full h-full object-cover blur-xl scale-110 opacity-75">
-            <div class="absolute inset-0 bg-gradient-to-t from-dark-950 via-dark-950/45 to-transparent flex flex-col items-center justify-center p-6 text-center">
-              <div class="w-14 h-14 rounded-full bg-gradient-to-tr from-rose-600 to-pink-500 flex items-center justify-center text-white shadow-2xl mb-3 group-hover:scale-110 transition">
-                <i data-lucide="lock" class="w-6 h-6"></i>
+            <div class="absolute inset-0 bg-gradient-to-t from-dark-950 via-dark-950/45 to-transparent flex flex-col items-center justify-center p-5 text-center">
+              <div class="w-12 h-12 rounded-full bg-gradient-to-tr from-rose-600 to-pink-500 flex items-center justify-center text-white shadow-2xl mb-2.5 group-hover:scale-110 transition">
+                <i data-lucide="lock" class="w-5 h-5"></i>
               </div>
-              <span class="px-3 py-1 rounded-full bg-rose-500/25 border border-rose-400/40 text-rose-200 text-[10px] font-extrabold uppercase tracking-wider mb-2">
-                Members-Only Uncensored Vault
+              <span class="px-2.5 py-0.5 rounded-full bg-rose-500/25 border border-rose-400/40 text-rose-200 text-[10px] font-extrabold uppercase tracking-wider mb-1.5">
+                Members-Only Vault
               </span>
-              <p class="text-white font-display font-extrabold text-lg leading-snug">
-                Unlock 100+ Uncensored Photos &amp; Private Videos
+              <p class="text-white font-display font-extrabold text-sm leading-snug">
+                Unlock 100+ Uncensored Photos &amp; Videos
               </p>
-              <span class="mt-4 px-4 py-2 rounded-xl bg-white text-dark-950 font-extrabold text-xs shadow-lg group-hover:bg-rose-100 transition">
-                Unlock Instant Access →
+              <span class="mt-3 px-3.5 py-1.5 rounded-xl bg-white text-dark-950 font-extrabold text-xs shadow-lg group-hover:bg-rose-100 transition">
+                Unlock Access →
               </span>
             </div>
           </div>
-          <div class="p-4 text-xs text-rose-300 font-bold text-center bg-rose-950/40 border-t border-rose-500/20">
-            🔥 $9.99/mo • 100% Passive Viewing
+          <div class="p-3.5 text-[11px] text-rose-300 font-bold text-center bg-rose-950/40 border-t border-rose-500/20">
+            🔥 $9.99/mo • Passive Vault
           </div>
         </a>
       </div>
     </section>
 
-    <!-- SECTION 4: ALL 8 BLOG GUIDES -->
+    <!-- SECTION 4: ALL 12 BLOG GUIDES -->
     <section id="blog" class="scroll-mt-20">
       <div class="flex flex-col sm:flex-row sm:items-end justify-between mb-8 gap-4">
         <div>
-          <span class="px-3 py-1 rounded-full bg-rose-500/15 border border-rose-500/30 text-rose-400 text-xs font-bold uppercase tracking-wider">SEO &amp; AI Discovery Guides • 8 Articles</span>
+          <span class="px-3 py-1 rounded-full bg-rose-500/15 border border-rose-500/30 text-rose-400 text-xs font-bold uppercase tracking-wider">SEO &amp; AI Discovery Guides • 12 Articles</span>
           <h2 class="text-2xl sm:text-4xl font-display font-extrabold text-white mt-2.5 tracking-tight">
             Latest AI Model, Music &amp; <span class="text-gradient-rose">Style Articles</span> 📝
           </h2>
         </div>
-        <a href="/blog/" class="text-sm font-bold text-rose-400 hover:text-rose-300">View All 8 Articles →</a>
+        <a href="/blog/" class="text-sm font-bold text-rose-400 hover:text-rose-300">View All 12 Articles →</a>
       </div>
 
       <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        
+          <a href="/blog/pink-elf-ai-singer-rnb-studio-vocals-live-concert-idol/" class="glass-card glass-card-hover rounded-3xl p-5 sm:p-6 flex gap-5 items-center group">
+            <img src="/assets/media/day3/primela-rose-ai-singer-live-concert-pink-devil-wings-idol.png" alt="Primela Rose AI singer performing R&B studio vocals with pastel pink hair and elf ears alongside live concert stage idol portrait" class="w-24 h-28 sm:w-28 sm:h-32 rounded-2xl object-cover flex-shrink-0 border border-white/10 group-hover:scale-105 transition">
+            <div class="flex-1 min-w-0">
+              <div class="flex items-center gap-2 mb-1">
+                <span class="text-[11px] font-bold text-rose-400 uppercase tracking-wider">🎤 NEW • R&B Elf Vocals</span>
+                <span class="text-[10px] text-gray-500">• Oct 15, 2026</span>
+              </div>
+              <h3 class="text-base sm:text-lg font-display font-bold text-white group-hover:text-rose-400 transition line-clamp-2 leading-snug">Pink Elf AI Singer & Live Concert Idol: Watch Primela Rose’s R&B Studio Vocal Session ("Close Your Eyes")</h3>
+              <p class="text-xs text-gray-400 line-clamp-2 mt-1.5">Watch Primela Rose (@primelarose) perform an intimate English R&B vocal track ("Close Your Eyes Boy, It’s Just You and Me") as a pastel-pink elf studio singer and live concert idol.</p>
+              <span class="inline-block mt-2.5 text-xs font-bold text-rose-400">Read &amp; Watch →</span>
+            </div>
+          </a>
+        
+          <a href="/blog/ai-douyin-split-hair-heterochromia-coquette-cinnamoroll-lookbook/" class="glass-card glass-card-hover rounded-3xl p-5 sm:p-6 flex gap-5 items-center group">
+            <img src="/assets/media/day3/primela-rose-ai-douyin-split-hair-heterochromia-coquette.png" alt="Primela Rose AI Douyin girl with half-blonde half-black split hair and pink-gold heterochromia eyes in coquette outfit" class="w-24 h-28 sm:w-28 sm:h-32 rounded-2xl object-cover flex-shrink-0 border border-white/10 group-hover:scale-105 transition">
+            <div class="flex-1 min-w-0">
+              <div class="flex items-center gap-2 mb-1">
+                <span class="text-[11px] font-bold text-rose-400 uppercase tracking-wider">🎀 NEW • Heterochromia Douyin</span>
+                <span class="text-[10px] text-gray-500">• Oct 15, 2026</span>
+              </div>
+              <h3 class="text-base sm:text-lg font-display font-bold text-white group-hover:text-rose-400 transition line-clamp-2 leading-snug">AI Douyin Split-Hair & Heterochromia Lookbook: Primela Rose’s Cinnamoroll Pajama & Coquette Reel</h3>
+              <p class="text-xs text-gray-400 line-clamp-2 mt-1.5">Explore Primela Rose’s viral AI Douyin split-dyed hair and pink-and-gold heterochromia 4K portrait alongside her cozy Cinnamoroll pink bow pajama selfie reel.</p>
+              <span class="inline-block mt-2.5 text-xs font-bold text-rose-400">Read &amp; Watch →</span>
+            </div>
+          </a>
+        
+          <a href="/blog/abg-ai-night-skyline-harbor-glam-black-halter-reel/" class="glass-card glass-card-hover rounded-3xl p-5 sm:p-6 flex gap-5 items-center group">
+            <img src="/assets/media/day3/thumb-day3-reel-2.jpg" alt="Primela Rose ABG AI model in black halter dress against illuminated night city harbor skyline" class="w-24 h-28 sm:w-28 sm:h-32 rounded-2xl object-cover flex-shrink-0 border border-white/10 group-hover:scale-105 transition">
+            <div class="flex-1 min-w-0">
+              <div class="flex items-center gap-2 mb-1">
+                <span class="text-[11px] font-bold text-rose-400 uppercase tracking-wider">🌃 NEW • Night Harbor Glam</span>
+                <span class="text-[10px] text-gray-500">• Oct 15, 2026</span>
+              </div>
+              <h3 class="text-base sm:text-lg font-display font-bold text-white group-hover:text-rose-400 transition line-clamp-2 leading-snug">ABG AI Nightlife & Harbor Skyline Glam Reel: How Primela Rose Masters Low-Light 4K Realism</h3>
+              <p class="text-xs text-gray-400 line-clamp-2 mt-1.5">Watch Primela Rose’s sultry night harbor skyline glam video reel in a sleek black halter dress and gold pendant necklace.</p>
+              <span class="inline-block mt-2.5 text-xs font-bold text-rose-400">Read &amp; Watch →</span>
+            </div>
+          </a>
+        
+          <a href="/blog/virtual-idol-devil-wings-corset-stage-fashion-guide/" class="glass-card glass-card-hover rounded-3xl p-5 sm:p-6 flex gap-5 items-center group">
+            <img src="/assets/media/day3/primela-rose-ai-singer-live-concert-pink-devil-wings-idol.png" alt="Primela Rose virtual pop star and AI idol singing on concert stage in pink devil wings corset dress and lace stockings" class="w-24 h-28 sm:w-28 sm:h-32 rounded-2xl object-cover flex-shrink-0 border border-white/10 group-hover:scale-105 transition">
+            <div class="flex-1 min-w-0">
+              <div class="flex items-center gap-2 mb-1">
+                <span class="text-[11px] font-bold text-rose-400 uppercase tracking-wider">💗 NEW • Concert Idol 4K</span>
+                <span class="text-[10px] text-gray-500">• Oct 15, 2026</span>
+              </div>
+              <h3 class="text-base sm:text-lg font-display font-bold text-white group-hover:text-rose-400 transition line-clamp-2 leading-snug">Virtual Pop Star Stage Fashion: Inside Primela Rose’s Pink Devil-Wing Idol Corset & Concert Lookbook</h3>
+              <p class="text-xs text-gray-400 line-clamp-2 mt-1.5">Zoom into Primela Rose’s 4K live concert stage idol photoshoot—featuring a pastel pink lace-up corset, devil wings, tiered ruffle mini skirt, and stage mic.</p>
+              <span class="inline-block mt-2.5 text-xs font-bold text-rose-400">Read &amp; Watch →</span>
+            </div>
+          </a>
         
           <a href="/blog/kpop-ai-singer-bilingual-korean-english-studio-vocals/" class="glass-card glass-card-hover rounded-3xl p-5 sm:p-6 flex gap-5 items-center group">
             <img src="/assets/media/day2/thumb-kpop-singer.jpg" alt="Primela Rose K-Pop AI singer performing bilingual English and Korean studio vocals with Sony headphones and pink ribbons" class="w-24 h-28 sm:w-28 sm:h-32 rounded-2xl object-cover flex-shrink-0 border border-white/10 group-hover:scale-105 transition">
@@ -865,7 +1253,7 @@
             <h2 class="text-2xl sm:text-4xl font-display font-extrabold text-white mt-2.5 tracking-tight">
               Spicy X.com Drops (<span class="text-gradient-rose">@Primela_Rose</span>) &amp; Viral TikToks 🔥
             </h2>
-            <p class="text-sm text-gray-300 mt-1">Watch my latest uncensored teaser posts directly on X.com or boost today's featured TikTok reels.</p>
+            <p class="text-sm text-gray-300 mt-1">Tap any blurred preview card below to view the uncensored post on X.com, or watch today's featured TikTok reels.</p>
           </div>
           <div class="flex flex-wrap gap-3">
             <a href="https://x.com/Primela_Rose" target="_blank" rel="noopener noreferrer" class="px-4 py-2.5 rounded-2xl bg-rose-600 hover:bg-rose-500 text-white text-xs font-extrabold transition shadow-lg">
@@ -877,8 +1265,31 @@
           </div>
         </div>
 
-        <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-8 max-w-3xl mx-auto">
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-6 mb-10">
           
+    <a href="https://x.com/Primela_Rose/status/2012707255058116706" target="_blank" rel="noopener noreferrer" class="glass-card glass-card-hover rounded-3xl overflow-hidden border-2 border-rose-500/45 group relative flex flex-col justify-between">
+      <div class="relative w-full aspect-[4/5] overflow-hidden bg-dark-950">
+        <img src="/assets/media/social/x-blur-2012707255058116706.jpg" alt="Blurred Spicy X.com Preview - @Primela_Rose" class="w-full h-full object-cover scale-105 group-hover:scale-110 transition duration-500">
+        <div class="absolute inset-0 bg-gradient-to-t from-dark-950 via-dark-950/35 to-black/25 flex flex-col items-center justify-center p-5 text-center">
+          <div class="w-14 h-14 rounded-full bg-rose-600/90 backdrop-blur-md border border-white/30 flex items-center justify-center text-white shadow-2xl mb-3 group-hover:scale-110 transition">
+            <i data-lucide="flame" class="w-7 h-7 fill-yellow-300 text-yellow-300"></i>
+          </div>
+          <span class="px-3 py-1 rounded-full bg-black/75 border border-rose-400/50 text-rose-300 text-[10px] font-extrabold uppercase tracking-wider mb-2">
+            🌶️ Day 3 Spicy X Drop (NEW)
+          </span>
+          <p class="text-white font-display font-extrabold text-base sm:text-lg leading-snug drop-shadow">
+            "This AI dance is slaying my whole entire existence rn! 💅Obsessed with this AI dance, the vibes are just *chef's kiss* ✨😭.#aidance #fyp #egirl #trend #kawaii"
+          </p>
+          <span class="mt-3.5 px-4 py-2 rounded-xl bg-rose-600 group-hover:bg-rose-500 text-white font-extrabold text-xs shadow-xl transition flex items-center gap-1.5">
+            <span>Tap to Watch Uncensored on X</span>
+            <span>↗</span>
+          </span>
+        </div>
+      </div>
+      <div class="p-3.5 text-[11px] text-rose-300 font-bold text-center bg-rose-950/50 border-t border-rose-500/25">
+        @Primela_Rose • Official X.com Spicy Drop
+      </div>
+    </a>
     <a href="https://x.com/Primela_Rose/status/1986912130273321250" target="_blank" rel="noopener noreferrer" class="glass-card glass-card-hover rounded-3xl overflow-hidden border-2 border-rose-500/45 group relative flex flex-col justify-between">
       <div class="relative w-full aspect-[4/5] overflow-hidden bg-dark-950">
         <img src="/assets/media/social/x-blur-1986912130273321250.jpg" alt="Blurred Spicy X.com Preview - @Primela_Rose" class="w-full h-full object-cover scale-105 group-hover:scale-110 transition duration-500">
@@ -887,7 +1298,7 @@
             <i data-lucide="flame" class="w-7 h-7 fill-yellow-300 text-yellow-300"></i>
           </div>
           <span class="px-3 py-1 rounded-full bg-black/75 border border-rose-400/50 text-rose-300 text-[10px] font-extrabold uppercase tracking-wider mb-2">
-            🌶️ Today’s Spicy X Drop
+            🌶️ Day 2 Spicy X Drop
           </span>
           <p class="text-white font-display font-extrabold text-base sm:text-lg leading-snug drop-shadow">
             "I know what you want 😏"
@@ -930,15 +1341,63 @@
         <h3 class="text-lg sm:text-xl font-display font-bold text-white mb-4 flex items-center gap-2">
           <span>🎵 Featured Viral TikTok Reels (@primelarose)</span>
         </h3>
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
           
+    <a href="https://www.tiktok.com/@primelarose/video/7695949397405846814" target="_blank" rel="noopener noreferrer" class="glass-card glass-card-hover rounded-3xl overflow-hidden border border-white/15 group relative flex flex-col justify-between">
+      <div class="relative w-full aspect-[4/5] overflow-hidden bg-dark-950">
+        <img src="/assets/media/social/tt-thumb-7695949397405846814.jpg" alt="Primela Rose TikTok Video Thumbnail" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+        <div class="absolute inset-0 bg-gradient-to-t from-dark-950 via-transparent to-black/30 flex flex-col justify-between p-4">
+          <div class="flex items-center justify-between">
+            <span class="px-2.5 py-1 rounded-full bg-black/70 backdrop-blur-md border border-white/15 text-[10px] font-bold text-emerald-400">
+              🎵 Day 3 NEW TikTok #1
+            </span>
+            <span class="px-2.5 py-1 rounded-full bg-black/70 backdrop-blur-md text-[10px] font-bold text-white">
+              @primelarose
+            </span>
+          </div>
+          <div class="my-auto mx-auto w-13 h-13 p-3.5 rounded-full bg-black/60 backdrop-blur-md border border-white/30 text-white group-hover:bg-rose-600 group-hover:scale-110 transition shadow-2xl">
+            <i data-lucide="play" class="w-6 h-6 fill-white"></i>
+          </div>
+          <div>
+            <p class="text-white font-display font-bold text-xs sm:text-sm line-clamp-2 drop-shadow">Kawaii Neko Catgirl Two-Piece Cosplay Costume With Detached Paw Sleeves And Thigh-High Stockings</p>
+          </div>
+        </div>
+      </div>
+      <div class="p-3.5 text-[11px] text-rose-400 font-bold text-center bg-white/[0.03] border-t border-white/10 group-hover:text-rose-300">
+        Watch &amp; Boost on TikTok ↗
+      </div>
+    </a>
+    <a href="https://www.tiktok.com/@primelarose/video/7695891996149386526" target="_blank" rel="noopener noreferrer" class="glass-card glass-card-hover rounded-3xl overflow-hidden border border-white/15 group relative flex flex-col justify-between">
+      <div class="relative w-full aspect-[4/5] overflow-hidden bg-dark-950">
+        <img src="/assets/media/social/tt-thumb-7695891996149386526.jpg" alt="Primela Rose TikTok Video Thumbnail" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+        <div class="absolute inset-0 bg-gradient-to-t from-dark-950 via-transparent to-black/30 flex flex-col justify-between p-4">
+          <div class="flex items-center justify-between">
+            <span class="px-2.5 py-1 rounded-full bg-black/70 backdrop-blur-md border border-white/15 text-[10px] font-bold text-emerald-400">
+              🎵 Day 3 NEW TikTok #2
+            </span>
+            <span class="px-2.5 py-1 rounded-full bg-black/70 backdrop-blur-md text-[10px] font-bold text-white">
+              @primelarose
+            </span>
+          </div>
+          <div class="my-auto mx-auto w-13 h-13 p-3.5 rounded-full bg-black/60 backdrop-blur-md border border-white/30 text-white group-hover:bg-rose-600 group-hover:scale-110 transition shadow-2xl">
+            <i data-lucide="play" class="w-6 h-6 fill-white"></i>
+          </div>
+          <div>
+            <p class="text-white font-display font-bold text-xs sm:text-sm line-clamp-2 drop-shadow">Cat Cosplay 🐈  #catcosplay #cosplay #costume #catoutfit #catcostume @koruraclub</p>
+          </div>
+        </div>
+      </div>
+      <div class="p-3.5 text-[11px] text-rose-400 font-bold text-center bg-white/[0.03] border-t border-white/10 group-hover:text-rose-300">
+        Watch &amp; Boost on TikTok ↗
+      </div>
+    </a>
     <a href="https://www.tiktok.com/@primelarose/video/7683194256449719582" target="_blank" rel="noopener noreferrer" class="glass-card glass-card-hover rounded-3xl overflow-hidden border border-white/15 group relative flex flex-col justify-between">
       <div class="relative w-full aspect-[4/5] overflow-hidden bg-dark-950">
         <img src="/assets/media/social/tt-thumb-7683194256449719582.jpg" alt="Primela Rose TikTok Video Thumbnail" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
         <div class="absolute inset-0 bg-gradient-to-t from-dark-950 via-transparent to-black/30 flex flex-col justify-between p-4">
           <div class="flex items-center justify-between">
             <span class="px-2.5 py-1 rounded-full bg-black/70 backdrop-blur-md border border-white/15 text-[10px] font-bold text-emerald-400">
-              🎵 Today TikTok #1
+              🎵 Day 2 TikTok #3
             </span>
             <span class="px-2.5 py-1 rounded-full bg-black/70 backdrop-blur-md text-[10px] font-bold text-white">
               @primelarose
@@ -962,7 +1421,7 @@
         <div class="absolute inset-0 bg-gradient-to-t from-dark-950 via-transparent to-black/30 flex flex-col justify-between p-4">
           <div class="flex items-center justify-between">
             <span class="px-2.5 py-1 rounded-full bg-black/70 backdrop-blur-md border border-white/15 text-[10px] font-bold text-emerald-400">
-              🎵 Today TikTok #2
+              🎵 Day 2 TikTok #4
             </span>
             <span class="px-2.5 py-1 rounded-full bg-black/70 backdrop-blur-md text-[10px] font-bold text-white">
               @primelarose
@@ -986,7 +1445,7 @@
         <div class="absolute inset-0 bg-gradient-to-t from-dark-950 via-transparent to-black/30 flex flex-col justify-between p-4">
           <div class="flex items-center justify-between">
             <span class="px-2.5 py-1 rounded-full bg-black/70 backdrop-blur-md border border-white/15 text-[10px] font-bold text-emerald-400">
-              🎵 Day 1 TikTok #3
+              🎵 Day 1 TikTok #5
             </span>
             <span class="px-2.5 py-1 rounded-full bg-black/70 backdrop-blur-md text-[10px] font-bold text-white">
               @primelarose
@@ -1010,7 +1469,7 @@
         <div class="absolute inset-0 bg-gradient-to-t from-dark-950 via-transparent to-black/30 flex flex-col justify-between p-4">
           <div class="flex items-center justify-between">
             <span class="px-2.5 py-1 rounded-full bg-black/70 backdrop-blur-md border border-white/15 text-[10px] font-bold text-emerald-400">
-              🎵 Day 1 TikTok #4
+              🎵 Day 1 TikTok #6
             </span>
             <span class="px-2.5 py-1 rounded-full bg-black/70 backdrop-blur-md text-[10px] font-bold text-white">
               @primelarose

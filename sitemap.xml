@@ -4,15 +4,83 @@
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://primelarose.com/</loc>
-    <lastmod>2026-10-14</lastmod>
+    <lastmod>2026-10-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://primelarose.com/blog/</loc>
-    <lastmod>2026-10-14</lastmod>
+    <lastmod>2026-10-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://primelarose.com/blog/pink-elf-ai-singer-rnb-studio-vocals-live-concert-idol/</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://primelarose.com/assets/media/day3/primela-rose-ai-singer-live-concert-pink-devil-wings-idol.png</image:loc>
+      <image:title>Pink Elf AI Singer &amp; Live Concert Idol: Watch Primela Rose’s R&amp;B Studio Vocal Session (&quot;Close Your Eyes&quot;)</image:title>
+      <image:caption>Primela Rose AI singer performing R&amp;B studio vocals with pastel pink hair and elf ears alongside live concert stage idol portrait</image:caption>
+    </image:image>
+    <video:video>
+      <video:thumbnail_loc>https://primelarose.com/assets/media/day3/thumb-midnight-rnb-singer.jpg</video:thumbnail_loc>
+      <video:title>Pink Elf AI Singer &amp; Live Concert Idol: Watch Primela Rose’s R&amp;B Studio Vocal Session (&quot;Close Your Eyes&quot;)</video:title>
+      <video:description>Watch Primela Rose (@primelarose) perform an intimate English R&amp;B vocal track (&quot;Close Your Eyes Boy, It’s Just You and Me&quot;) as a pastel-pink elf studio singer and live concert idol.</video:description>
+      <video:content_loc>https://primelarose.com/assets/media/day3/primela-rose-pink-elf-ai-singer-rnb-studio-vocals.mp4</video:content_loc>
+      <video:publication_date>2026-10-15T08:00:00-07:00</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://primelarose.com/blog/ai-douyin-split-hair-heterochromia-coquette-cinnamoroll-lookbook/</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://primelarose.com/assets/media/day3/primela-rose-ai-douyin-split-hair-heterochromia-coquette.png</image:loc>
+      <image:title>AI Douyin Split-Hair &amp; Heterochromia Lookbook: Primela Rose’s Cinnamoroll Pajama &amp; Coquette Reel</image:title>
+      <image:caption>Primela Rose AI Douyin girl with half-blonde half-black split hair and pink-gold heterochromia eyes in coquette outfit</image:caption>
+    </image:image>
+    <video:video>
+      <video:thumbnail_loc>https://primelarose.com/assets/media/day3/thumb-day3-reel-1.jpg</video:thumbnail_loc>
+      <video:title>AI Douyin Split-Hair &amp; Heterochromia Lookbook: Primela Rose’s Cinnamoroll Pajama &amp; Coquette Reel</video:title>
+      <video:description>Explore Primela Rose’s viral AI Douyin split-dyed hair and pink-and-gold heterochromia 4K portrait alongside her cozy Cinnamoroll pink bow pajama selfie reel.</video:description>
+      <video:content_loc>https://primelarose.com/assets/media/day3/primela-rose-ai-douyin-cinnamoroll-pink-pajama-reel.mp4</video:content_loc>
+      <video:publication_date>2026-10-15T08:00:00-07:00</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://primelarose.com/blog/abg-ai-night-skyline-harbor-glam-black-halter-reel/</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://primelarose.com/assets/media/day3/thumb-day3-reel-2.jpg</image:loc>
+      <image:title>ABG AI Nightlife &amp; Harbor Skyline Glam Reel: How Primela Rose Masters Low-Light 4K Realism</image:title>
+      <image:caption>Primela Rose ABG AI model in black halter dress against illuminated night city harbor skyline</image:caption>
+    </image:image>
+    <video:video>
+      <video:thumbnail_loc>https://primelarose.com/assets/media/day3/thumb-day3-reel-2.jpg</video:thumbnail_loc>
+      <video:title>ABG AI Nightlife &amp; Harbor Skyline Glam Reel: How Primela Rose Masters Low-Light 4K Realism</video:title>
+      <video:description>Watch Primela Rose’s sultry night harbor skyline glam video reel in a sleek black halter dress and gold pendant necklace.</video:description>
+      <video:content_loc>https://primelarose.com/assets/media/day3/primela-rose-abg-ai-night-skyline-harbor-glam-reel.mp4</video:content_loc>
+      <video:publication_date>2026-10-15T08:00:00-07:00</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://primelarose.com/blog/virtual-idol-devil-wings-corset-stage-fashion-guide/</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://primelarose.com/assets/media/day3/primela-rose-ai-singer-live-concert-pink-devil-wings-idol.png</image:loc>
+      <image:title>Virtual Pop Star Stage Fashion: Inside Primela Rose’s Pink Devil-Wing Idol Corset &amp; Concert Lookbook</image:title>
+      <image:caption>Primela Rose virtual pop star and AI idol singing on concert stage in pink devil wings corset dress and lace stockings</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://primelarose.com/blog/kpop-ai-singer-bilingual-korean-english-studio-vocals/</loc>
