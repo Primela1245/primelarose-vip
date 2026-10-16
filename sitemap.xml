@@ -4,15 +4,91 @@
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://primelarose.com/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://primelarose.com/blog/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://primelarose.com/blog/gothic-silver-hair-ai-singer-trapped-in-my-mind-studio-vocals/</loc>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://primelarose.com/assets/media/day4/thumb-trapped-in-my-mind-singer.jpg</image:loc>
+      <image:title>Gothic Silver-Haired AI Singer: Watch Primela Rose’s Dark Pop Studio Session (&quot;Trapped In My Mind&quot;)</image:title>
+      <image:caption>Primela Rose gothic silver-haired AI singer in black lace veil and Sony studio headphones singing Trapped In My Mind at studio microphone</image:caption>
+    </image:image>
+    <video:video>
+      <video:thumbnail_loc>https://primelarose.com/assets/media/day4/thumb-trapped-in-my-mind-singer.jpg</video:thumbnail_loc>
+      <video:title>Gothic Silver-Haired AI Singer: Watch Primela Rose’s Dark Pop Studio Session (&quot;Trapped In My Mind&quot;)</video:title>
+      <video:description>Watch Primela Rose (@primelarose) perform her emotional dark-pop anthem (&quot;Trapped In My Mind&quot;) in platinum-silver hair, gothic black lace veil, ruby cross pendant, and Sony studio headphones.</video:description>
+      <video:content_loc>https://primelarose.com/assets/media/day4/primela-rose-gothic-silver-hair-trapped-in-my-mind-studio-singer.mp4</video:content_loc>
+      <video:publication_date>2026-10-16T08:00:00-07:00</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://primelarose.com/blog/black-spider-girl-symbiote-cosplay-braces-superhero-lookbook/</loc>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://primelarose.com/assets/media/day4/primela-rose-ai-cosplay-black-spider-girl-symbiote-braces.png</image:loc>
+      <image:title>Black Suit Spider-Girl Cosplay &amp; Lavender Neko Reel: Primela Rose’s 4K Superhero &amp; Anime Lookbook</image:title>
+      <image:caption>Primela Rose in 4K Black Suit Spider-Girl symbiote cosplay with signature braces and blonde highlights</image:caption>
+    </image:image>
+    <video:video>
+      <video:thumbnail_loc>https://primelarose.com/assets/media/day4/thumb-neko-moon-reel.jpg</video:thumbnail_loc>
+      <video:title>Black Suit Spider-Girl Cosplay &amp; Lavender Neko Reel: Primela Rose’s 4K Superhero &amp; Anime Lookbook</video:title>
+      <video:description>Zoom into Primela Rose’s 4K Black Suit Spider-Girl symbiote cosplay lookbook featuring her signature braces, paired with her Lavender Neko Cat-Girl crescent moon video reel.</video:description>
+      <video:content_loc>https://primelarose.com/assets/media/day4/primela-rose-lavender-neko-cat-ears-crescent-moon-cosplay-reel.mp4</video:content_loc>
+      <video:publication_date>2026-10-16T08:00:00-07:00</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://primelarose.com/blog/crimson-neon-cyber-goth-kpop-dance-cutout-garter-reel/</loc>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://primelarose.com/assets/media/day4/thumb-crimson-kpop-dance.jpg</image:loc>
+      <image:title>Crimson Neon Cyber-Goth K-Pop Dance Reel: Primela Rose’s Black Cutout &amp; Garter Lookbook</image:title>
+      <image:caption>Primela Rose dancing in crimson red neon studio lighting wearing black cutout top and garter thigh-high stockings</image:caption>
+    </image:image>
+    <video:video>
+      <video:thumbnail_loc>https://primelarose.com/assets/media/day4/thumb-crimson-kpop-dance.jpg</video:thumbnail_loc>
+      <video:title>Crimson Neon Cyber-Goth K-Pop Dance Reel: Primela Rose’s Black Cutout &amp; Garter Lookbook</video:title>
+      <video:description>Watch Primela Rose’s hypnotic Crimson Neon Cyber-Goth K-Pop dance video reel featuring an asymmetric black cutout top, buckled thigh garters, and glowing red eyes.</video:description>
+      <video:content_loc>https://primelarose.com/assets/media/day4/primela-rose-crimson-neon-cyber-goth-kpop-dance-reel.mp4</video:content_loc>
+      <video:publication_date>2026-10-16T08:00:00-07:00</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://primelarose.com/blog/ai-douyin-kuromi-bow-top-pearl-choker-golden-eyes-selfie/</loc>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://primelarose.com/assets/media/day4/primela-rose-ai-douyin-kuromi-bow-top-pearl-choker-selfie.png</image:loc>
+      <image:title>AI Douyin Coquette Selfie Lookbook: Primela Rose’s Ribbed Bow Top, Pearl Choker &amp; Kuromi Bedroom Set</image:title>
+      <image:caption>Primela Rose AI Douyin girl close-up bedroom selfie in white ribbed bow top, pearl star necklace, golden hazel eyes, and Kuromi plushies</image:caption>
+    </image:image>
+    <video:video>
+      <video:thumbnail_loc>https://primelarose.com/assets/media/day4/thumb-neko-moon-reel.jpg</video:thumbnail_loc>
+      <video:title>AI Douyin Coquette Selfie Lookbook: Primela Rose’s Ribbed Bow Top, Pearl Choker &amp; Kuromi Bedroom Set</video:title>
+      <video:description>Inspect the 4K skin-pore realism of Primela Rose’s AI Douyin bedroom selfie featuring golden-hazel eyes, a layered pearl-and-star choker, white satin bow top, and Sanrio Kuromi plushies.</video:description>
+      <video:content_loc>https://primelarose.com/assets/media/day4/primela-rose-lavender-neko-cat-ears-crescent-moon-cosplay-reel.mp4</video:content_loc>
+      <video:publication_date>2026-10-16T08:00:00-07:00</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
   </url>
   <url>
     <loc>https://primelarose.com/blog/pink-elf-ai-singer-rnb-studio-vocals-live-concert-idol/</loc>
