@@ -4,15 +4,91 @@
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://primelarose.com/</loc>
-    <lastmod>2026-10-18</lastmod>
+    <lastmod>2026-10-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://primelarose.com/blog/</loc>
-    <lastmod>2026-10-18</lastmod>
+    <lastmod>2026-10-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://primelarose.com/blog/pink-floral-lace-dream-pop-ai-singer-studio-vocals/</loc>
+    <lastmod>2026-10-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://primelarose.com/assets/media/day7/thumb-pink-floral-dream-pop-singer.jpg</image:loc>
+      <image:title>Pink Floral Lace Dream-Pop AI Singer: Primela Rose’s 83-Second Studio Vocal Session (&quot;Tell Me Why&quot;)</image:title>
+      <image:caption>Primela Rose dream-pop AI singer in pink floral lace dress, pastel-pink hair ribbons, pink glitter eyeshadow, and Sony MDR-7506 studio headphones singing into condenser microphone</image:caption>
+    </image:image>
+    <video:video>
+      <video:thumbnail_loc>https://primelarose.com/assets/media/day7/thumb-pink-floral-dream-pop-singer.jpg</video:thumbnail_loc>
+      <video:title>Pink Floral Lace Dream-Pop AI Singer: Primela Rose’s 83-Second Studio Vocal Session (&quot;Tell Me Why&quot;)</video:title>
+      <video:description>Watch Primela Rose (@primelarose) perform an 83-second English dream-pop &amp; K-pop vocal ballad (&quot;When You Came Around / Tell Me Why&quot;) styled in jet-black twin-tails, pastel-pink lace ribbons, floral off-shoulder lace, and Sony studio headphones.</video:description>
+      <video:content_loc>https://primelarose.com/assets/media/day7/primela-rose-pink-floral-lace-dream-pop-studio-singer.mp4</video:content_loc>
+      <video:publication_date>2026-10-19T08:00:00-07:00</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://primelarose.com/blog/japanese-school-rooftop-windy-uniform-sunset-swing-lookbook/</loc>
+    <lastmod>2026-10-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://primelarose.com/assets/media/day7/primela-rose-golden-hour-sunset-park-swing-school-uniform-lookbook.png</image:loc>
+      <image:title>Japanese School Rooftop Windy Reel &amp; Golden-Hour Park Swing: Primela Rose’s 4K Uniform Lookbook</image:title>
+      <image:caption>Primela Rose 4K golden-hour sunset park swing portrait in Japanese school uniform with twin-tails, blonde highlights, navy cardigan, and plaid pleated skirt</image:caption>
+    </image:image>
+    <video:video>
+      <video:thumbnail_loc>https://primelarose.com/assets/media/day7/thumb-school-rooftop-windy-reel.jpg</video:thumbnail_loc>
+      <video:title>Japanese School Rooftop Windy Reel &amp; Golden-Hour Park Swing: Primela Rose’s 4K Uniform Lookbook</video:title>
+      <video:description>Explore Primela Rose’s (@primelarose) dual Japanese school uniform drop: a moody overcast rooftop windy-day motion reel paired with a warm 4K golden-hour sunset park swing portrait featuring blonde money-piece highlights and plaid pleated styling.</video:description>
+      <video:content_loc>https://primelarose.com/assets/media/day7/primela-rose-japanese-school-rooftop-windy-uniform-reel.mp4</video:content_loc>
+      <video:publication_date>2026-10-19T08:00:00-07:00</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://primelarose.com/blog/coquette-bow-baby-tee-sunlit-bedroom-dance-reel/</loc>
+    <lastmod>2026-10-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://primelarose.com/assets/media/day7/thumb-coquette-sunlit-dance-reel.jpg</image:loc>
+      <image:title>Coquette Double-Bow Baby Tee &amp; Sunlit Bedroom Dance Reel: Primela Rose’s Clean-Girl Lounge Guide</image:title>
+      <image:caption>Primela Rose sunlit bedroom coquette dance reel in cream ribbed double-bow scoop-neck baby tee, pearl star choker, and pastel pink loungewear</image:caption>
+    </image:image>
+    <video:video>
+      <video:thumbnail_loc>https://primelarose.com/assets/media/day7/thumb-coquette-sunlit-dance-reel.jpg</video:thumbnail_loc>
+      <video:title>Coquette Double-Bow Baby Tee &amp; Sunlit Bedroom Dance Reel: Primela Rose’s Clean-Girl Lounge Guide</video:title>
+      <video:description>Watch Primela Rose (@primelarose) in her sunlit bedroom coquette dance reel—styled in a cream ribbed double-bow baby tee, layered pearl choker with gold star pendant, golden-hazel eyes, and pastel-pink loungewear pants.</video:description>
+      <video:content_loc>https://primelarose.com/assets/media/day7/primela-rose-coquette-bow-baby-tee-sunlit-bedroom-dance-reel.mp4</video:content_loc>
+      <video:publication_date>2026-10-19T08:00:00-07:00</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://primelarose.com/blog/white-lace-corset-pink-devil-wings-concert-stage-4k-lookbook/</loc>
+    <lastmod>2026-10-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://primelarose.com/assets/media/day7/primela-rose-white-lace-corset-pink-devil-wings-concert-lookbook.png</image:loc>
+      <image:title>White Ruffled Lace Corset &amp; Pink Devil Wings: Primela Rose’s 4K Cobalt Stage Idol Lookbook</image:title>
+      <image:caption>Primela Rose 4K full-body side-profile concert portrait in white ruffled lace corset dress, pink ribbon lacing, pink devil wings, and white fishnet stockings under blue stage spotlights</image:caption>
+    </image:image>
+    <video:video>
+      <video:thumbnail_loc>https://primelarose.com/assets/media/day7/thumb-pink-floral-dream-pop-singer.jpg</video:thumbnail_loc>
+      <video:title>White Ruffled Lace Corset &amp; Pink Devil Wings: Primela Rose’s 4K Cobalt Stage Idol Lookbook</video:title>
+      <video:description>Inspect Primela Rose’s (@primelarose) 4K full-body side-profile concert idol portrait—featuring a white ruffled lace corset dress with pastel-pink ribbon lacing, sculpted pink devil wings, pink garter straps, and white fishnet thigh-high stockings.</video:description>
+      <video:content_loc>https://primelarose.com/assets/media/day7/primela-rose-pink-floral-lace-dream-pop-studio-singer.mp4</video:content_loc>
+      <video:publication_date>2026-10-19T08:00:00-07:00</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
   </url>
   <url>
     <loc>https://primelarose.com/blog/platinum-gothic-lolita-japanese-ai-singer-studio-vocals/</loc>
