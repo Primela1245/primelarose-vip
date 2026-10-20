@@ -4,15 +4,91 @@
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://primelarose.com/</loc>
-    <lastmod>2026-10-19</lastmod>
+    <lastmod>2026-10-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://primelarose.com/blog/</loc>
-    <lastmod>2026-10-19</lastmod>
+    <lastmod>2026-10-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://primelarose.com/blog/sony-headphones-pink-ribbon-floral-ai-singer-studio-vocals/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://primelarose.com/assets/media/day8/thumb-sony-pink-ribbon-singer.jpg</image:loc>
+      <image:title>Sony Studio Headphones &amp; Pink Satin Shoulder Bows: Primela Rose’s 66-Second Side-Profile AI Vocal Session</image:title>
+      <image:caption>Primela Rose side-profile studio vocal session wearing Sony MDR-7506 studio monitor headphones, jet-black hair with wispy bangs, and pink floral lace dress with pink satin shoulder bows</image:caption>
+    </image:image>
+    <video:video>
+      <video:thumbnail_loc>https://primelarose.com/assets/media/day8/thumb-sony-pink-ribbon-singer.jpg</video:thumbnail_loc>
+      <video:title>Sony Studio Headphones &amp; Pink Satin Shoulder Bows: Primela Rose’s 66-Second Side-Profile AI Vocal Session</video:title>
+      <video:description>Watch Primela Rose (@primelarose) in her 66-second side-profile Sony MDR-7506 studio headphone vocal session (&quot;When You Came Around / Tell Me Why&quot;) styled in jet-black hair, pink satin shoulder bows, and floral lace.</video:description>
+      <video:content_loc>https://primelarose.com/assets/media/day8/primela-rose-sony-headphones-pink-ribbon-floral-studio-singer.mp4</video:content_loc>
+      <video:publication_date>2026-10-20T08:00:00-07:00</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://primelarose.com/blog/sanrio-hello-kitty-kuromi-bedroom-pink-skirt-dance-reel/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://primelarose.com/assets/media/day8/primela-rose-pink-cat-ear-headset-white-cap-gamer-girl-lookbook.png</image:loc>
+      <image:title>Sanrio Hello Kitty &amp; Kuromi Bedroom Dance Reel: Primela Rose’s Pink Pleated Skirt &amp; Bow Stockings Guide</image:title>
+      <image:caption>Primela Rose Sanrio Hello Kitty and Kuromi bedroom dance reel in cream long-sleeve bow top, pink pleated mini skirt, and white diamond-mesh bow stockings alongside 4K pink cat-ear headset portrait</image:caption>
+    </image:image>
+    <video:video>
+      <video:thumbnail_loc>https://primelarose.com/assets/media/day8/thumb-sanrio-kuromi-pink-skirt-reel.jpg</video:thumbnail_loc>
+      <video:title>Sanrio Hello Kitty &amp; Kuromi Bedroom Dance Reel: Primela Rose’s Pink Pleated Skirt &amp; Bow Stockings Guide</video:title>
+      <video:description>Watch Primela Rose (@primelarose) dance in her sunlit Sanrio Hello Kitty &amp; Kuromi plushie bedroom wearing a cream long-sleeve bow top, pastel-pink pleated mini skirt, and white diamond-mesh thigh-high stockings.</video:description>
+      <video:content_loc>https://primelarose.com/assets/media/day8/primela-rose-sanrio-hello-kitty-kuromi-bedroom-pink-skirt-dance-reel.mp4</video:content_loc>
+      <video:publication_date>2026-10-20T08:00:00-07:00</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://primelarose.com/blog/purple-neon-studio-bow-tube-top-pink-skirt-kpop-dance-reel/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://primelarose.com/assets/media/day8/thumb-purple-neon-bow-skirt-reel.jpg</image:loc>
+      <image:title>Purple Neon K-Pop Dance Studio Reel: Primela Rose in White Bow Tube Top &amp; Pink Pleated Mini Skirt</image:title>
+      <image:caption>Primela Rose dancing in a purple neon K-pop LED studio wearing a white ribbed bow tube top, pastel-pink pleated mini skirt, and pink bow fishnet stockings</image:caption>
+    </image:image>
+    <video:video>
+      <video:thumbnail_loc>https://primelarose.com/assets/media/day8/thumb-purple-neon-bow-skirt-reel.jpg</video:thumbnail_loc>
+      <video:title>Purple Neon K-Pop Dance Studio Reel: Primela Rose in White Bow Tube Top &amp; Pink Pleated Mini Skirt</video:title>
+      <video:description>Stream Primela Rose’s (@primelarose) purple neon K-pop studio dance reel—featuring a strapless white ribbed bow tube top, pastel-pink pleated skirt, and pink bow fishnet thigh-highs under glowing violet LED wall panels.</video:description>
+      <video:content_loc>https://primelarose.com/assets/media/day8/primela-rose-purple-neon-studio-bow-tube-top-pink-skirt-dance-reel.mp4</video:content_loc>
+      <video:publication_date>2026-10-20T08:00:00-07:00</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://primelarose.com/blog/kawaii-neko-catgirl-sunset-beach-cosplay-gamer-headset-4k-lookbook/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://primelarose.com/assets/media/day8/primela-rose-kawaii-neko-catgirl-sunset-beach-cosplay-braces-lookbook.png</image:loc>
+      <image:title>Kawaii Neko Catgirl Sunset Beach Cosplay &amp; Pink Cat-Ear Gamer Girl: Primela Rose’s 4K Braces Lookbook</image:title>
+      <image:caption>Primela Rose 4K kawaii neko catgirl cosplay kneeling on a golden-hour sunset beach in black-and-pink paw-print bikini, cat-ear hood, mini bat wings, heart garters, fluffy tail, and signature braces smile</image:caption>
+    </image:image>
+    <video:video>
+      <video:thumbnail_loc>https://primelarose.com/assets/media/day8/thumb-sanrio-kuromi-pink-skirt-reel.jpg</video:thumbnail_loc>
+      <video:title>Kawaii Neko Catgirl Sunset Beach Cosplay &amp; Pink Cat-Ear Gamer Girl: Primela Rose’s 4K Braces Lookbook</video:title>
+      <video:description>Explore Primela Rose’s (@primelarose) Day 8 4K cosplay &amp; gamer lookbook: a golden-hour sunset beach kawaii neko catgirl cosplay with signature braces, paw-print sleeves, and mini bat wings, paired with her pink cat-ear headset gamer portrait.</video:description>
+      <video:content_loc>https://primelarose.com/assets/media/day8/primela-rose-sanrio-hello-kitty-kuromi-bedroom-pink-skirt-dance-reel.mp4</video:content_loc>
+      <video:publication_date>2026-10-20T08:00:00-07:00</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
   </url>
   <url>
     <loc>https://primelarose.com/blog/pink-floral-lace-dream-pop-ai-singer-studio-vocals/</loc>
