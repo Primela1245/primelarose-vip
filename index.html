@@ -50,31 +50,6 @@
         }
       }
     }
-
-    document.querySelectorAll('.section-expand-btn').forEach(btn => {
-      btn.addEventListener('click', () => {
-        const targetId = btn.dataset.expandTarget;
-        const container = document.getElementById(targetId);
-        if (!container) return;
-        const isHidden = container.classList.contains('hidden');
-        if (isHidden) {
-          container.querySelectorAll('img[data-src]').forEach(img => {
-            img.src = img.dataset.src;
-            img.removeAttribute('data-src');
-          });
-          container.querySelectorAll('video[data-poster]').forEach(vid => {
-            vid.poster = vid.dataset.poster;
-            vid.removeAttribute('data-poster');
-          });
-          container.classList.remove('hidden');
-          btn.querySelector('span').textContent = btn.dataset.labelClose;
-        } else {
-          container.classList.add('hidden');
-          btn.querySelector('span').textContent = btn.dataset.labelOpen;
-          btn.scrollIntoView({ behavior: 'smooth', block: 'center' });
-        }
-      });
-    });
   </script>
   <style>
     body {
@@ -8592,6 +8567,35 @@
         }
       });
     }
+
+    // Expand / Collapse "Show All (... More)" sections
+    document.querySelectorAll('.section-expand-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const targetId = btn.dataset.expandTarget;
+        const container = document.getElementById(targetId);
+        if (!container) return;
+        const isHidden = container.classList.contains('hidden');
+        if (isHidden) {
+          container.querySelectorAll('img[data-src]').forEach(img => {
+            img.src = img.dataset.src;
+            img.removeAttribute('data-src');
+          });
+          container.querySelectorAll('video[data-poster]').forEach(vid => {
+            vid.poster = vid.dataset.poster;
+            vid.removeAttribute('data-poster');
+          });
+          container.classList.remove('hidden');
+          const labelSpan = btn.querySelector('span');
+          if (labelSpan && btn.dataset.labelClose) labelSpan.textContent = btn.dataset.labelClose;
+          if (window.lucide) window.lucide.createIcons();
+        } else {
+          container.classList.add('hidden');
+          const labelSpan = btn.querySelector('span');
+          if (labelSpan && btn.dataset.labelOpen) labelSpan.textContent = btn.dataset.labelOpen;
+          btn.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        }
+      });
+    });
   </script>
 
 </body>
