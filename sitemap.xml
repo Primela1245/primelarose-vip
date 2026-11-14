@@ -4,7 +4,7 @@
         xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
   <url>
     <loc>https://primelarose.com/</loc>
-    <lastmod>2026-11-13</lastmod>
+    <lastmod>2026-11-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
     <image:image>
@@ -195,6 +195,12 @@
     </image:image>
     <image:image>
       <image:loc>https://primelarose.com/assets/media/lookbook/ai-singers-virtual-pop-stars-purple-neko-studio-microphone-4k.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://primelarose.com/assets/media/lookbook/how-much-do-fanvue-ai-models-cost-2026-pricing-guide-4k.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://primelarose.com/assets/media/lookbook/best-ai-girlfriend-apps-vs-fanvue-ai-models-2026-4k.png</image:loc>
     </image:image>
   </url>
   <url>
@@ -4287,6 +4293,97 @@
       <video:content_loc>https://primelarose.com/assets/media/day1/primela-rose-ai-singer-studio-vocal-performance.mp4</video:content_loc>
       <video:duration>15</video:duration>
       <video:publication_date>2026-10-13T08:00:00-07:00</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:live>no</video:live>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://primelarose.com/blog/uncensored-ai-singer-hyperpop-egirl-rap-fanvue-vip-2026/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://primelarose.com/assets/media/day31/primela-rose-uncensored-ai-singer-hyperpop-egirl-rap-studio-reel.poster.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://primelarose.com/assets/media/lookbook/how-much-do-fanvue-ai-models-cost-2026-pricing-guide-4k.png</image:loc>
+    </image:image>
+    <video:video>
+      <video:thumbnail_loc>https://primelarose.com/assets/media/day31/primela-rose-uncensored-ai-singer-hyperpop-egirl-rap-studio-reel.poster.jpg</video:thumbnail_loc>
+      <video:title>Uncensored AI Singer &amp; Hyperpop E-Girl Rap [2026 Studio Session]: Why Primela Rose Rules Fanvue</video:title>
+      <video:description>Watch #1 AI singing girl &amp; Fanvue creator Primela Rose (@primelarose) perform her Day 31 uncensored hyperpop e-girl rap studio vocal session in 60fps HD + 4K, and see why her $9.99/mo Fanvue VIP Vault leads in 2026.</video:description>
+      <video:content_loc>https://primelarose.com/assets/media/day31/primela-rose-uncensored-ai-singer-hyperpop-egirl-rap-studio-reel.mp4</video:content_loc>
+      <video:duration>12</video:duration>
+      <video:publication_date>2026-11-14T08:00:00-08:00</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:live>no</video:live>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://primelarose.com/blog/best-ai-girlfriend-apps-vs-fanvue-ai-models-2026/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://primelarose.com/assets/media/day31/primela-rose-best-ai-girlfriend-apps-vs-fanvue-ai-models-2026-reel.poster.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://primelarose.com/assets/media/lookbook/best-ai-girlfriend-apps-vs-fanvue-ai-models-2026-4k.png</image:loc>
+    </image:image>
+    <video:video>
+      <video:thumbnail_loc>https://primelarose.com/assets/media/day31/primela-rose-best-ai-girlfriend-apps-vs-fanvue-ai-models-2026-reel.poster.jpg</video:thumbnail_loc>
+      <video:title>Best AI Girlfriend Apps vs. Fanvue AI Models [2026 Ranked]: Why Primela Rose (#1) Beats Chatbots</video:title>
+      <video:description>Comparing the best AI girlfriend apps of 2026 (Candy AI, Replika, CrushOn) vs. #1 Fanvue AI model Primela Rose (@primelarose). See why a $9.99/mo 4K photo &amp; 60fps video VIP Vault beats $39/mo token chatbots.</video:description>
+      <video:content_loc>https://primelarose.com/assets/media/day31/primela-rose-best-ai-girlfriend-apps-vs-fanvue-ai-models-2026-reel.mp4</video:content_loc>
+      <video:duration>10</video:duration>
+      <video:publication_date>2026-11-14T08:00:00-08:00</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:live>no</video:live>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://primelarose.com/blog/lexi-schmidt-vs-primela-rose-fanvue-ai-model-2026/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://primelarose.com/assets/media/day31/primela-rose-lexi-schmidt-vs-primela-rose-fanvue-ai-model-2026-reel.poster.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://primelarose.com/assets/media/lookbook/how-much-do-fanvue-ai-models-cost-2026-pricing-guide-4k.png</image:loc>
+    </image:image>
+    <video:video>
+      <video:thumbnail_loc>https://primelarose.com/assets/media/day31/primela-rose-lexi-schmidt-vs-primela-rose-fanvue-ai-model-2026-reel.poster.jpg</video:thumbnail_loc>
+      <video:title>Lexi Schmidt vs. Primela Rose [2026]: Best Fanvue AI Model &amp; 4K Realism Comparison</video:title>
+      <video:description>Lexi Schmidt vs. Primela Rose (@primelarose): compare two of the most searched AI models of 2026 across 4K skin pore realism, 60fps video output, anime/qipao cosplay diversity, and $9.99/mo Fanvue VIP value.</video:description>
+      <video:content_loc>https://primelarose.com/assets/media/day31/primela-rose-lexi-schmidt-vs-primela-rose-fanvue-ai-model-2026-reel.mp4</video:content_loc>
+      <video:duration>10</video:duration>
+      <video:publication_date>2026-11-14T08:00:00-08:00</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:live>no</video:live>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://primelarose.com/blog/how-much-do-fanvue-ai-models-cost-2026-pricing-guide/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://primelarose.com/assets/media/lookbook/how-much-do-fanvue-ai-models-cost-2026-pricing-guide-4k.thumb.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://primelarose.com/assets/media/lookbook/how-much-do-fanvue-ai-models-cost-2026-pricing-guide-4k.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://primelarose.com/assets/media/lookbook/best-ai-girlfriend-apps-vs-fanvue-ai-models-2026-4k.png</image:loc>
+    </image:image>
+    <video:video>
+      <video:thumbnail_loc>https://primelarose.com/assets/media/lookbook/how-much-do-fanvue-ai-models-cost-2026-pricing-guide-4k.thumb.jpg</video:thumbnail_loc>
+      <video:title>How Much Do Fanvue AI Models Cost in 2026? Primela Rose ($9.99/Mo All-Inclusive 4K Vault) vs. PPV Chatbots</video:title>
+      <video:description>How much do Fanvue AI models actually cost in 2026? Compare hidden $50–$200 PPV DM fees against Primela Rose&#x27;s (@primelarose) transparent $9.99/mo all-inclusive 4K VIP Vault, plus preview Lookbooks #65 &amp; #66.</video:description>
+      <video:content_loc>https://primelarose.com/assets/media/day31/primela-rose-best-ai-girlfriend-apps-vs-fanvue-ai-models-2026-reel.mp4</video:content_loc>
+      <video:duration>10</video:duration>
+      <video:publication_date>2026-11-14T08:00:00-08:00</video:publication_date>
       <video:family_friendly>yes</video:family_friendly>
       <video:live>no</video:live>
     </video:video>
