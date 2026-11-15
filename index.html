@@ -642,7 +642,7 @@
 
           <div class="reel-wrapper relative w-full aspect-[9/16] bg-dark-950 overflow-hidden group">
 
-      <video title="Marvel Black Suit Symbiote Spider-Girl Cosplay [60fps Studio Pose &amp; 3D Webbing Suit Test]" aria-label="Marvel Black Suit Symbiote Spider-Girl Cosplay [60fps Studio Pose &amp; 3D Webbing Suit Test]" data-video-src="/assets/media/day12/primela-rose-ai-generated-girl-black-symbiote-spider-girl-kneeling-studio-pose-reel.mp4" data-poster="/assets/media/day12/primela-rose-ai-generated-girl-black-symbiote-spider-girl-kneeling-studio-pose-reel-4k-video-poster.jpg" 
+      <video title="Marvel Black Suit Symbiote Spider-Girl Cosplay [60fps Studio Pose &amp; 3D Webbing Suit Test]" aria-label="Marvel Black Suit Symbiote Spider-Girl Cosplay [60fps Studio Pose &amp; 3D Webbing Suit Test]" data-video-src="/assets/media/day12/primela-rose-ai-generated-girl-black-symbiote-spider-girl-kneeling-studio-pose-reel.mp4" poster="/assets/media/day12/primela-rose-ai-generated-girl-black-symbiote-spider-girl-kneeling-studio-pose-reel-4k-video-poster.jpg" 
 
         playsinline 
 
@@ -856,7 +856,7 @@
 
           <div class="reel-wrapper relative w-full aspect-[9/16] bg-dark-950 overflow-hidden group">
 
-      <video title="Japanese Neko Catgirl Sunset Beach Cosplay in Hot-Pink &amp; Black Bikini Set [60fps 4K Video]" aria-label="Japanese Neko Catgirl Sunset Beach Cosplay in Hot-Pink &amp; Black Bikini Set [60fps 4K Video]" data-video-src="/assets/media/day18/primela-rose-ai-japanese-girl-swimsuit-pink-black-neko-catgirl-sunset-beach-reel.mp4" data-poster="/assets/media/day18/primela-rose-ai-japanese-girl-swimsuit-pink-black-neko-catgirl-sunset-beach-reel-4k-video-poster.jpg" 
+      <video title="Japanese Neko Catgirl Sunset Beach Cosplay in Hot-Pink &amp; Black Bikini Set [60fps 4K Video]" aria-label="Japanese Neko Catgirl Sunset Beach Cosplay in Hot-Pink &amp; Black Bikini Set [60fps 4K Video]" data-video-src="/assets/media/day18/primela-rose-ai-japanese-girl-swimsuit-pink-black-neko-catgirl-sunset-beach-reel.mp4" poster="/assets/media/day18/primela-rose-ai-japanese-girl-swimsuit-pink-black-neko-catgirl-sunset-beach-reel-4k-video-poster.jpg" 
 
         playsinline 
 
@@ -2093,6 +2093,7 @@
         if (wrapper.dataset.bound) return;
         wrapper.dataset.bound = '1';
         const video = wrapper.querySelector('video');
+        if (video && !video.getAttribute('poster') && video.dataset.poster) video.poster = video.dataset.poster;
         const progress = wrapper.querySelector('.reel-progress');
         const muteBtn = wrapper.querySelector('.reel-mute-btn');
         const muteLabel = wrapper.querySelector('.reel-mute-label');
