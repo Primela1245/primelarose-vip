@@ -4,7 +4,7 @@
         xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
   <url>
     <loc>https://primelarose.com/</loc>
-    <lastmod>2026-11-16</lastmod>
+    <lastmod>2026-11-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
     <image:image>
@@ -213,6 +213,12 @@
     </image:image>
     <image:image>
       <image:loc>https://primelarose.com/assets/media/lookbook/aitana-lopez-vs-emily-pellegrini-vs-primela-rose-2026-4k.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://primelarose.com/assets/media/lookbook/fanvue-ppv-vs-all-inclusive-subscription-2026-buyer-guide-4k.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://primelarose.com/assets/media/lookbook/imma-vs-rozy-oh-vs-primela-rose-best-asian-ai-models-2026-4k.png</image:loc>
     </image:image>
   </url>
   <url>
@@ -4578,6 +4584,97 @@
       <video:content_loc>https://primelarose.com/assets/media/day33/primela-rose-best-onlyfans-alternatives-for-ai-models-2026-reel.mp4</video:content_loc>
       <video:duration>6</video:duration>
       <video:publication_date>2026-11-16T08:00:00-08:00</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:live>no</video:live>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://primelarose.com/blog/zombie-alt-rock-ai-singer-vocal-cover-studio-session-2026/</loc>
+    <lastmod>2026-11-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://primelarose.com/assets/media/day34/primela-rose-zombie-alt-rock-ai-singer-vocal-cover-studio-reel.poster.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://primelarose.com/assets/media/lookbook/fanvue-ppv-vs-all-inclusive-subscription-2026-buyer-guide-4k.png</image:loc>
+    </image:image>
+    <video:video>
+      <video:thumbnail_loc>https://primelarose.com/assets/media/day34/primela-rose-zombie-alt-rock-ai-singer-vocal-cover-studio-reel.poster.jpg</video:thumbnail_loc>
+      <video:title>&quot;Zombie&quot; Alt-Rock &amp; Dark Pop AI Singer Studio Session [2026]: Why Primela Rose Leads Fanvue</video:title>
+      <video:description>Stream #1 AI singing girl &amp; Fanvue creator Primela Rose&#x27;s (@primelarose) &quot;Zombie&quot; alt-rock &amp; dark pop vocal studio session and 60fps 1440×2600 Ultra-HD reel, with Whisper audio_scale breakdown, 544×960 ComfyUI guide, and $9.99/mo VIP Vault access.</video:description>
+      <video:content_loc>https://primelarose.com/assets/media/day34/primela-rose-zombie-alt-rock-ai-singer-vocal-cover-studio-reel.mp4</video:content_loc>
+      <video:duration>6</video:duration>
+      <video:publication_date>2026-11-17T08:00:00-08:00</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:live>no</video:live>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://primelarose.com/blog/imma-vs-rozy-oh-vs-primela-rose-best-asian-ai-models-2026/</loc>
+    <lastmod>2026-11-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://primelarose.com/assets/media/day34/primela-rose-imma-vs-rozy-oh-vs-primela-rose-asian-ai-models-2026-reel.poster.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://primelarose.com/assets/media/lookbook/imma-vs-rozy-oh-vs-primela-rose-best-asian-ai-models-2026-4k.png</image:loc>
+    </image:image>
+    <video:video>
+      <video:thumbnail_loc>https://primelarose.com/assets/media/day34/primela-rose-imma-vs-rozy-oh-vs-primela-rose-asian-ai-models-2026-reel.poster.jpg</video:thumbnail_loc>
+      <video:title>Imma vs. Rozy Oh vs. Primela Rose [2026]: Top 3 Asian AI Models &amp; Virtual Influencers Ranked</video:title>
+      <video:description>Imma vs. Rozy Oh vs. Primela Rose (@primelarose): compare the top 3 Asian AI models and virtual influencers of 2026 across 60fps 1440×2600 video, Douyin braces realism, cosplay lookbooks, and $9.99/mo Fanvue VIP value.</video:description>
+      <video:content_loc>https://primelarose.com/assets/media/day34/primela-rose-imma-vs-rozy-oh-vs-primela-rose-asian-ai-models-2026-reel.mp4</video:content_loc>
+      <video:duration>6</video:duration>
+      <video:publication_date>2026-11-17T08:00:00-08:00</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:live>no</video:live>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://primelarose.com/blog/best-ai-cosplay-models-on-fanvue-2026-ranked-4k-guide/</loc>
+    <lastmod>2026-11-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://primelarose.com/assets/media/day34/primela-rose-best-ai-cosplay-models-on-fanvue-2026-reel.poster.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://primelarose.com/assets/media/lookbook/fanvue-ppv-vs-all-inclusive-subscription-2026-buyer-guide-4k.png</image:loc>
+    </image:image>
+    <video:video>
+      <video:thumbnail_loc>https://primelarose.com/assets/media/day34/primela-rose-best-ai-cosplay-models-on-fanvue-2026-reel.poster.jpg</video:thumbnail_loc>
+      <video:title>Best AI Cosplay Models on Fanvue [2026 Ranked]: Why Primela Rose (#1) Rules 4K Anime &amp; Qipao Vaults</video:title>
+      <video:description>Looking for the best AI cosplay models on Fanvue in 2026? See why Primela Rose (@primelarose) ranks #1 for 4K Spider-Girl, Misa Amane, Neko Maid, Sanrio Kuromi &amp; Chinese Qipao lookbooks + 60fps reels.</video:description>
+      <video:content_loc>https://primelarose.com/assets/media/day34/primela-rose-best-ai-cosplay-models-on-fanvue-2026-reel.mp4</video:content_loc>
+      <video:duration>6</video:duration>
+      <video:publication_date>2026-11-17T08:00:00-08:00</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:live>no</video:live>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://primelarose.com/blog/fanvue-ppv-vs-all-inclusive-subscription-2026-buyer-guide/</loc>
+    <lastmod>2026-11-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://primelarose.com/assets/media/lookbook/fanvue-ppv-vs-all-inclusive-subscription-2026-buyer-guide-4k.thumb.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://primelarose.com/assets/media/lookbook/fanvue-ppv-vs-all-inclusive-subscription-2026-buyer-guide-4k.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://primelarose.com/assets/media/lookbook/imma-vs-rozy-oh-vs-primela-rose-best-asian-ai-models-2026-4k.png</image:loc>
+    </image:image>
+    <video:video>
+      <video:thumbnail_loc>https://primelarose.com/assets/media/lookbook/fanvue-ppv-vs-all-inclusive-subscription-2026-buyer-guide-4k.thumb.jpg</video:thumbnail_loc>
+      <video:title>Fanvue PPV vs. All-Inclusive Subscription [2026 Buyer Guide]: Why Primela Rose&#x27;s $9.99 Vault Wins (+ Lookbooks #71 &amp; #72)</video:title>
+      <video:description>Fanvue Pay-Per-View (PPV) vs. All-Inclusive Subscription in 2026: learn how to avoid $150/mo DM paywalls, why Primela Rose&#x27;s (@primelarose) $9.99/mo zero-PPV 4K Vault is #1, and preview Lookbooks #71 &amp; #72.</video:description>
+      <video:content_loc>https://primelarose.com/assets/media/day34/primela-rose-best-ai-cosplay-models-on-fanvue-2026-reel.mp4</video:content_loc>
+      <video:duration>6</video:duration>
+      <video:publication_date>2026-11-17T08:00:00-08:00</video:publication_date>
       <video:family_friendly>yes</video:family_friendly>
       <video:live>no</video:live>
     </video:video>
