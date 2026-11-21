@@ -766,3 +766,27 @@ force = true
 [redirects.conditions]
 
 [redirects.headers]
+
+[[redirects]]
+from = "/blog/bocchi-the-rock-cosplay-ai-generated-girl-corrido-onichan-infinitetalk-lip-sync-guide/"
+to = "/blog/bocchi-the-rock-cosplay-girl-hitori-gotoh-onii-chan-corrido-ai-waifu/"
+status = 301.0
+force = true
+
+[redirects.query]
+
+[redirects.conditions]
+
+[redirects.headers]
+
+[[redirects]]
+from = "/blog/bocchi-the-rock-cosplay-ai-generated-girl-corrido-onichan-infinitetalk-lip-sync-guide"
+to = "/blog/bocchi-the-rock-cosplay-girl-hitori-gotoh-onii-chan-corrido-ai-waifu/"
+status = 301.0
+force = true
+
+[redirects.query]
+
+[redirects.conditions]
+
+[redirects.headers]

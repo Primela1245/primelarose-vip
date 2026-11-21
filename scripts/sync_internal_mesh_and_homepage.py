@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """
-Automated Homepage Latest 6 Guides + 6-Guide Internal Cross-Linking Mesh Builder for https://primelarose.com
-1. Scans all indexable blog posts in blog/*/index.html (skipping noindex TikTok watch pages) and orders newest first via sitemap.xml / blog/index.html.
-2. Injects/updates the 'Latest 2026 AI Model, Cosplay & Fanvue Buyer Guides' 6-card section on index.html so the 6 newest daily articles receive direct Tier-1 Homepage PageRank.
-3. Injects/updates the 6-Guide Internal Cross-Linking Mesh across ALL indexable blog posts (combining newest daily articles + ring neighbors + core Buyer-Intent pillars) so zero pages are orphaned and every new daily post gets 100+ internal links on Day 1.
+Automated Homepage Latest 6 Guides + Complete 1-Hop Static Crawl Directory + 8-Guide Small-World Internal Cross-Linking Mesh Builder for https://primelarose.com
+1. Scans all indexable blog posts in blog/*/index.html (skipping noindex TikTok watch pages) and orders newest first via rss.xml.
+2. Injects/updates the 'Latest 2026 AI Model, Cosplay & Fanvue Buyer Guides' 6-card section PLUS a collapsible <details> Complete 1-Hop Crawl Directory on index.html so ALL indexable guides sit at Crawl Depth = 1 from https://primelarose.com/ (eliminating GSC 'Discovered - currently not indexed').
+3. Injects/updates the 8-Guide Small-World Internal Cross-Linking Mesh across ALL indexable blog posts (2 newest daily articles + 4 multi-step ring neighbors [i+1, i+5, i+17, i+53] + 2 GSC Top-Impression & Core Money Pillars).
 """
 import html
 import re
@@ -15,14 +15,16 @@ INDEX_HTML = REPO / "index.html"
 BLOG_INDEX_HTML = BLOG_DIR / "index.html"
 
 CORE_PILLARS = [
-    ("/blog/most-realistic-ai-girls-virtual-influencers-models-ranked/", "🏆 10 Most Realistic AI Girls [2026 Ranked: Primela vs. Aitana Lopez]"),
-    ("/blog/best-fanvue-ai-models-virtual-creators-ranked/", "🔥 Best Fanvue AI Models & Top Virtual Creators [2026 Guide]"),
+    ("/blog/ai-girl-photo-full-body-4k-portraits/", "📸 AI Girl Photo Full Body [80 Uncropped 4K Portraits & Wallpapers]"),
+    ("/blog/hot-ai-girls-most-realistic-ai-models-2026/", "🔥 Hot AI Girls & Most Realistic AI Models [2026 Ranked #1]"),
+    ("/blog/pastel-pink-hair-harajuku-y2k-tiedye-denim-mirror-reel/", "🌸 AI Girl Pics Full Body & Harajuku Y2K 4K Mirror Video Lookbook"),
+    ("/blog/ai-singer-singing-girl-virtual-pop-star-primela-rose/", "🎤 #1 AI Girl Singer & Virtual Pop Star [4-Language Studio Vocals]"),
+    ("/blog/ai-douyin-girlfriend-park-windswept-braces-smile-lookbook/", "✨ AI Douyin Girlfriend & Cute Asian Girl with Braces [4K + Video]"),
+    ("/blog/black-spider-girl-symbiote-cosplay-braces-superhero-lookbook/", "🕷️ Black Spider-Girl Cosplay & Braces 4K Full-Body Lookbook"),
+    ("/blog/best-fanvue-ai-models-virtual-creators-ranked/", "👑 Best Fanvue AI Models & Top Virtual Creators [2026 Ranked]"),
     ("/blog/how-much-do-fanvue-ai-models-cost-2026-pricing-guide/", "💎 How Much Do Fanvue AI Models Cost in 2026? ($9.99 Vault vs. PPV)"),
-    ("/blog/best-ai-girlfriend-apps-vs-fanvue-ai-models-2026/", "⚡ Best AI Girlfriend Apps vs. Fanvue AI Models [2026 Ranked]"),
-    ("/blog/lexi-schmidt-vs-primela-rose-fanvue-ai-model-2026/", "👑 Lexi Schmidt vs. Primela Rose [2026 Fanvue Model Comparison]"),
+    ("/blog/emily-pellegrini-vs-primela-rose-ai-girl/", "⚡ Emily Pellegrini vs. Primela Rose [2026 AI Model Comparison]"),
     ("/blog/aitana-lopez-vs-primela-rose-fanvue-ai-model/", "🌟 Aitana Lopez vs. Primela Rose [2026 Realism & VIP Comparison]"),
-    ("/blog/ai-girl-photo-full-body-4k-portraits/", "📸 AI Girl Photo Full Body [66 Uncropped 4K Portraits & Wallpapers]"),
-    ("/blog/hot-ai-girls-most-realistic-ai-models-2026/", "💋 Hot AI Girls & Most Realistic AI Models [2026 Ranked]"),
 ]
 
 
@@ -81,7 +83,7 @@ def main():
     for p in newest_6:
         print(f"  - {p['url']} ({p['title'][:60]}...)")
 
-    # 2. Build Homepage Latest 6 Daily Guides section and inject into index.html
+    # 2. Build Homepage Latest 6 Daily Guides section + Complete 1-Hop Static HTML Directory
     cards_html = []
     for idx, p in enumerate(newest_6, start=1):
         t_esc = html.escape(p["title"])
@@ -103,6 +105,13 @@ def main():
           </div>
         </article>""")
 
+    all_directory_links = []
+    for idx, p in enumerate(ordered_posts, start=1):
+        t_esc = html.escape(p["title"])
+        all_directory_links.append(
+            f'          <a href="{p["url"]}" class="p-2.5 rounded-xl bg-white/[0.03] hover:bg-rose-500/15 border border-white/10 hover:border-rose-500/35 text-xs text-gray-200 hover:text-white transition truncate block" title="{t_esc}">#{idx}. {t_esc}</a>'
+        )
+
     homepage_guides_section = f"""<!-- START_LATEST_DAILY_GUIDES -->
     <section id="latest-guides" class="max-w-6xl mx-auto space-y-6 scroll-mt-20">
       <div class="flex flex-col sm:flex-row sm:items-end justify-between gap-4">
@@ -123,6 +132,15 @@ def main():
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
 {chr(10).join(cards_html)}
       </div>
+      <details id="all-guides-crawl-directory" class="glass-card rounded-3xl p-5 sm:p-6 border border-white/15">
+        <summary class="cursor-pointer font-display font-extrabold text-sm sm:text-base text-rose-300 hover:text-white transition flex items-center justify-between">
+          <span>📚 Complete 2026 AI Model, Singer, Cosplay &amp; Fanvue 4K Guide Directory (All {len(ordered_posts)} Verified Articles)</span>
+          <span class="text-xs px-3 py-1 rounded-full bg-rose-500/20 border border-rose-500/30 text-rose-200">Click to Expand All {len(ordered_posts)} Guides ↓</span>
+        </summary>
+        <div class="mt-4 pt-4 border-t border-white/10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2">
+{chr(10).join(all_directory_links)}
+        </div>
+      </details>
     </section>
     <!-- END_LATEST_DAILY_GUIDES -->"""
 
@@ -138,42 +156,43 @@ def main():
         target_anchor = "<!-- Direct Answer Box & 8-Question 2026 SEO / AI Search FAQ (GEO) -->"
         idx_txt = idx_txt.replace(target_anchor, homepage_guides_section + "\n\n        " + target_anchor, 1)
     INDEX_HTML.write_text(idx_txt, encoding="utf-8")
-    print("[MESH] Updated index.html with the 6 newest daily Buyer-Intent guides.")
+    print(f"[MESH] Updated index.html with 6 newest daily guides + 1-Hop Static Directory of all {len(ordered_posts)} guides.")
 
-    # 3. Inject/update the 6-Guide Internal Cross-Linking Mesh across all indexable blog posts
+    # 3. Inject/update the 8-Guide Small-World Internal Cross-Linking Mesh across all indexable blog posts
     n_total = len(ordered_posts)
     updated_count = 0
+    ring_steps = [1, 5, 17, 53, 2, 9, 29, 71]
 
     for i, post in enumerate(ordered_posts):
         chosen = []
         used_urls = {post["url"]}
 
-        # (A) Pick 2 newest daily guides (so new posts get massive internal links immediately)
+        # (A) Pick 2 newest daily guides
         for cand in newest_6:
             if cand["url"] not in used_urls and len(chosen) < 2:
                 chosen.append((cand["url"], f"🔥 {cand['title']}"))
                 used_urls.add(cand["url"])
 
-        # (B) Pick 2 ring neighbors (i+1, i+2) so zero posts are ever orphaned
-        for offset in range(1, n_total):
-            neighbor = ordered_posts[(i + offset) % n_total]
+        # (B) Pick 4 multi-hop ring neighbors so every post across the entire archive is within 2-3 hops
+        for step in ring_steps:
+            neighbor = ordered_posts[(i + step) % n_total]
             if neighbor["url"] not in used_urls:
                 chosen.append((neighbor["url"], f"📖 {neighbor['title']}"))
                 used_urls.add(neighbor["url"])
-                if len(chosen) >= 4:
+                if len(chosen) >= 6:
                     break
 
-        # (C) Fill remaining slots up to 6 with Core Money/Comparison Pillars
+        # (C) Fill remaining slots up to 8 with GSC Top-Impression & Core Money Pillars
         for p_idx in range(len(CORE_PILLARS)):
             p_url, p_label = CORE_PILLARS[(i + p_idx) % len(CORE_PILLARS)]
             if p_url not in used_urls:
                 chosen.append((p_url, p_label))
                 used_urls.add(p_url)
-                if len(chosen) >= 6:
+                if len(chosen) >= 8:
                     break
 
         link_items = []
-        for l_url, l_label in chosen[:6]:
+        for l_url, l_label in chosen[:8]:
             link_items.append(f"""        <a href="{l_url}" class="p-3.5 rounded-2xl bg-white/5 hover:bg-rose-500/20 border border-white/10 hover:border-rose-500/40 text-white transition flex items-center justify-between">
           <span class="line-clamp-1">{html.escape(l_label)}</span>
           <span class="text-rose-400 ml-2 flex-shrink-0">→</span>
@@ -201,21 +220,22 @@ def main():
                 ptxt,
                 count=1,
             )
-        elif "<!-- 2026 HIGH-AUTHORITY PILLAR RANKINGS & INTERNAL CRAWL HUB -->" in ptxt:
-            new_ptxt = re.sub(
-                r"<!-- 2026 HIGH-AUTHORITY PILLAR RANKINGS & INTERNAL CRAWL HUB -->\s*<section[\s\S]*?</section>",
-                mesh_block,
-                ptxt,
-                count=1,
+        elif '<section class="mt-14 pt-8 border-t border-white/10">' in ptxt:
+            new_ptxt = ptxt.replace(
+                '<section class="mt-14 pt-8 border-t border-white/10">',
+                mesh_block + '\n\n    <section class="mt-14 pt-8 border-t border-white/10">',
+                1,
             )
+        elif "</article>" in ptxt:
+            new_ptxt = ptxt.replace("</article>", mesh_block + "\n  </article>", 1)
         else:
-            new_ptxt = ptxt.replace("</article>", f"    {mesh_block}\n  </article>", 1)
+            new_ptxt = ptxt
 
         if new_ptxt != ptxt:
             post["path"].write_text(new_ptxt, encoding="utf-8")
             updated_count += 1
 
-    print(f"[MESH] Injected/updated 6-Guide Internal Cross-Linking Mesh across {updated_count} / {n_total} indexable blog posts.")
+    print(f"[MESH] Injected/updated 8-Guide Small-World Internal Cross-Linking Mesh across {updated_count} / {n_total} indexable blog posts.")
 
 
 if __name__ == "__main__":
