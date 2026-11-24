@@ -4,7 +4,7 @@
         xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
   <url>
     <loc>https://primelarose.com/</loc>
-    <lastmod>2026-11-23</lastmod>
+    <lastmod>2026-11-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
     <image:image>
@@ -262,6 +262,12 @@
     <image:image>
       <image:loc>https://primelarose.com/assets/media/lookbook/ai-generated-woman-full-body-from-photo-4k-lookbook-2026-4k.png</image:loc>
     </image:image>
+    <image:image>
+      <image:loc>https://primelarose.com/assets/media/lookbook/fanvue-999-all-inclusive-vip-vault-vs-ppv-models-2026-ranked-4k.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://primelarose.com/assets/media/lookbook/ai-model-girl-and-ai-woman-model-4k-full-body-portraits-2026-4k.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://primelarose.com/blog/</loc>
@@ -433,9 +439,15 @@
   </url>
   <url>
     <loc>https://primelarose.com/blog/ai-girl-photo-full-body-4k-portraits/</loc>
-    <lastmod>2026-11-23</lastmod>
+    <lastmod>2026-11-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.95</priority>
+    <image:image>
+      <image:loc>https://primelarose.com/assets/media/lookbook/fanvue-999-all-inclusive-vip-vault-vs-ppv-models-2026-ranked-4k.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://primelarose.com/assets/media/lookbook/ai-model-girl-and-ai-woman-model-4k-full-body-portraits-2026-4k.png</image:loc>
+    </image:image>
     <image:image>
       <image:loc>https://primelarose.com/assets/media/lookbook/how-to-unlock-fanvue-4k-vaults-without-ppv-fees-2026-guide-4k.png</image:loc>
     </image:image>
@@ -5561,6 +5573,97 @@
       <video:content_loc>https://primelarose.com/assets/media/day41/primela-rose-black-spider-girl-vs-harajuku-y2k-4k-cosplay-2026-reel.mp4</video:content_loc>
       <video:duration>6</video:duration>
       <video:publication_date>2026-11-23T11:45:00-08:00</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:live>no</video:live>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://primelarose.com/blog/madoka-magica-magia-english-anime-rock-ai-singer-2026/</loc>
+    <lastmod>2026-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://primelarose.com/assets/media/day42/primela-rose-madoka-magica-magia-anime-rock-ai-singer-studio-2026-reel.poster.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://primelarose.com/assets/media/lookbook/fanvue-999-all-inclusive-vip-vault-vs-ppv-models-2026-ranked-4k.png</image:loc>
+    </image:image>
+    <video:video>
+      <video:thumbnail_loc>https://primelarose.com/assets/media/day42/primela-rose-madoka-magica-magia-anime-rock-ai-singer-studio-2026-reel.poster.jpg</video:thumbnail_loc>
+      <video:title>Madoka Magica &quot;Magia&quot; (English Anime Rock) AI Girl Singer Studio Session [2026]: Why Primela Rose Leads Fanvue</video:title>
+      <video:description>Stream #1 AI girl singer &amp; Fanvue creator Primela Rose&#x27;s (@primelarose) dramatic Madoka Magica &quot;Magia&quot; English anime rock vocal session (&#x27;One day the light of love...&#x27;) and 60fps 1440×2600 reel, with Whisper audio_scale breakdown, 544×960 ComfyUI guide, and $9.99/mo VIP Vault access.</video:description>
+      <video:content_loc>https://primelarose.com/assets/media/day42/primela-rose-madoka-magica-magia-anime-rock-ai-singer-studio-2026-reel.mp4</video:content_loc>
+      <video:duration>6</video:duration>
+      <video:publication_date>2026-11-24T08:00:00-08:00</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:live>no</video:live>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://primelarose.com/blog/ai-girl-in-bikini-vs-4k-cosplay-lookbooks-2026-guide/</loc>
+    <lastmod>2026-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://primelarose.com/assets/media/day42/primela-rose-ai-girl-in-bikini-vs-4k-cosplay-lookbooks-2026-reel.poster.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://primelarose.com/assets/media/lookbook/ai-model-girl-and-ai-woman-model-4k-full-body-portraits-2026-4k.png</image:loc>
+    </image:image>
+    <video:video>
+      <video:thumbnail_loc>https://primelarose.com/assets/media/day42/primela-rose-ai-girl-in-bikini-vs-4k-cosplay-lookbooks-2026-reel.poster.jpg</video:thumbnail_loc>
+      <video:title>AI Girl in Bikini, Sunset Beach &amp; 4K Cosplay Lookbooks [2026 Ranked]: Why Primela Rose (#1) Leads Fanvue</video:title>
+      <video:description>Searching for AI girl in bikini, hot realistic AI girl, or 4K cosplay lookbooks in 2026? See why Primela Rose (@primelarose) ranks #1 with 126 free 60fps sunset beach &amp; cosplay reels, 88 unstretched 4K portraits, and a $9.99/mo Fanvue VIP Vault.</video:description>
+      <video:content_loc>https://primelarose.com/assets/media/day42/primela-rose-ai-girl-in-bikini-vs-4k-cosplay-lookbooks-2026-reel.mp4</video:content_loc>
+      <video:duration>6</video:duration>
+      <video:publication_date>2026-11-24T08:00:00-08:00</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:live>no</video:live>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://primelarose.com/blog/ai-model-girl-and-ai-woman-model-4k-full-body-portraits-2026/</loc>
+    <lastmod>2026-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://primelarose.com/assets/media/day42/primela-rose-ai-model-girl-and-ai-woman-model-4k-portraits-2026-reel.poster.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://primelarose.com/assets/media/lookbook/ai-model-girl-and-ai-woman-model-4k-full-body-portraits-2026-4k.png</image:loc>
+    </image:image>
+    <video:video>
+      <video:thumbnail_loc>https://primelarose.com/assets/media/day42/primela-rose-ai-model-girl-and-ai-woman-model-4k-portraits-2026-reel.poster.jpg</video:thumbnail_loc>
+      <video:title>AI Model Girl &amp; AI Woman Model 4K Full-Body Portraits [2026 Ranked]: Why Primela Rose’s 88 Lookbooks Rank #1</video:title>
+      <video:description>Looking for the #1 AI model girl, AI woman model, and AI girl pics in full-body 4K? Explore Primela Rose&#x27;s (@primelarose) 88 free unstretched 4K lookbook portraits, 126 60fps reels, and $9.99/mo Fanvue VIP Vault.</video:description>
+      <video:content_loc>https://primelarose.com/assets/media/day42/primela-rose-ai-model-girl-and-ai-woman-model-4k-portraits-2026-reel.mp4</video:content_loc>
+      <video:duration>6</video:duration>
+      <video:publication_date>2026-11-24T08:00:00-08:00</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:live>no</video:live>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://primelarose.com/blog/fanvue-999-all-inclusive-vip-vault-vs-ppv-models-2026-ranked/</loc>
+    <lastmod>2026-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://primelarose.com/assets/media/lookbook/fanvue-999-all-inclusive-vip-vault-vs-ppv-models-2026-ranked-4k.thumb.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://primelarose.com/assets/media/lookbook/fanvue-999-all-inclusive-vip-vault-vs-ppv-models-2026-ranked-4k.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://primelarose.com/assets/media/lookbook/ai-model-girl-and-ai-woman-model-4k-full-body-portraits-2026-4k.png</image:loc>
+    </image:image>
+    <video:video>
+      <video:thumbnail_loc>https://primelarose.com/assets/media/lookbook/fanvue-999-all-inclusive-vip-vault-vs-ppv-models-2026-ranked-4k.thumb.jpg</video:thumbnail_loc>
+      <video:title>Fanvue $9.99 All-Inclusive VIP Vault vs. PPV Models [2026 Ranked]: Why Primela Rose (#1) Saves You $300+/Mo + Lookbooks #87 &amp; #88</video:title>
+      <video:description>Compare Primela Rose&#x27;s (@primelarose) #1 ranked $9.99/mo all-inclusive Fanvue 4K VIP Vault against $300+/mo PPV chatter accounts in 2026, and preview unstretched full-body 4K Lookbooks #87 &amp; #88.</video:description>
+      <video:content_loc>https://primelarose.com/assets/media/day42/primela-rose-ai-model-girl-and-ai-woman-model-4k-portraits-2026-reel.mp4</video:content_loc>
+      <video:duration>6</video:duration>
+      <video:publication_date>2026-11-24T08:00:00-08:00</video:publication_date>
       <video:family_friendly>yes</video:family_friendly>
       <video:live>no</video:live>
     </video:video>
