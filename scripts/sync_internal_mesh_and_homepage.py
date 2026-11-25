@@ -237,6 +237,23 @@ def main():
 
     print(f"[MESH] Injected/updated 8-Guide Small-World Internal Cross-Linking Mesh across {updated_count} / {n_total} indexable blog posts.")
 
+    # 4. Ensure every <item> in rss.xml includes an <enclosure> image tag for Pinterest Auto-Publish RSS Feed
+    def add_enclosure(match: re.Match) -> str:
+        item_block = match.group(0)
+        if "<enclosure " in item_block:
+            return item_block
+        m_link = re.search(r"<link>https://primelarose\.com/blog/([a-z0-9\-]+)/</link>", item_block)
+        slug = m_link.group(1) if m_link else ""
+        img_path = all_meta[slug]["img"] if slug in all_meta else "/assets/media/lookbook/how-much-do-fanvue-ai-models-cost-2026-pricing-guide-4k.thumb.jpg"
+        mime = "image/png" if img_path.lower().endswith(".png") else "image/jpeg"
+        enclosure_tag = f'      <enclosure url="https://primelarose.com{img_path}" type="{mime}" length="650000"/>\n    </item>'
+        return item_block.replace("</item>", enclosure_tag, 1)
+
+    new_rss_txt = re.sub(r"<item>[\s\S]*?</item>", add_enclosure, rss_txt)
+    if new_rss_txt != rss_txt:
+        (REPO / "rss.xml").write_text(new_rss_txt, encoding="utf-8")
+        print("[MESH] Added Pinterest Auto-Publish <enclosure> image tags to all items in rss.xml.")
+
 
 if __name__ == "__main__":
     main()
