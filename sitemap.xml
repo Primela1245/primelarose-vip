@@ -4,7 +4,7 @@
         xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
   <url>
     <loc>https://primelarose.com/</loc>
-    <lastmod>2026-11-25</lastmod>
+    <lastmod>2026-11-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
     <image:image>
@@ -274,6 +274,12 @@
     <image:image>
       <image:loc>https://primelarose.com/assets/media/lookbook/chinese-douyin-qipao-and-abg-braces-ai-model-4k-2026-4k.png</image:loc>
     </image:image>
+    <image:image>
+      <image:loc>https://primelarose.com/assets/media/lookbook/ai-girl-photo-and-full-body-4k-ai-lookbook-girl-2026-4k.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://primelarose.com/assets/media/lookbook/most-beautiful-ai-models-and-hot-realistic-ai-girls-2026-4k.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://primelarose.com/blog/</loc>
@@ -445,9 +451,15 @@
   </url>
   <url>
     <loc>https://primelarose.com/blog/ai-girl-photo-full-body-4k-portraits/</loc>
-    <lastmod>2026-11-25</lastmod>
+    <lastmod>2026-11-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.95</priority>
+    <image:image>
+      <image:loc>https://primelarose.com/assets/media/lookbook/ai-girl-photo-and-full-body-4k-ai-lookbook-girl-2026-4k.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://primelarose.com/assets/media/lookbook/most-beautiful-ai-models-and-hot-realistic-ai-girls-2026-4k.png</image:loc>
+    </image:image>
     <image:image>
       <image:loc>https://primelarose.com/assets/media/lookbook/best-fanvue-creators-with-full-body-4k-and-60fps-videos-2026-4k.png</image:loc>
     </image:image>
@@ -5767,6 +5779,97 @@
       <video:content_loc>https://primelarose.com/assets/media/day43/primela-rose-chinese-douyin-qipao-abg-braces-ai-model-4k-2026-reel.mp4</video:content_loc>
       <video:duration>6</video:duration>
       <video:publication_date>2026-11-25T08:00:00-08:00</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:live>no</video:live>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://primelarose.com/blog/i-found-you-kpop-electronic-pop-ai-girl-singer-2026/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://primelarose.com/assets/media/day44/primela-rose-i-found-you-kpop-electronic-pop-ai-girl-singer-2026-reel.poster.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://primelarose.com/assets/media/lookbook/ai-girl-photo-and-full-body-4k-ai-lookbook-girl-2026-4k.png</image:loc>
+    </image:image>
+    <video:video>
+      <video:thumbnail_loc>https://primelarose.com/assets/media/day44/primela-rose-i-found-you-kpop-electronic-pop-ai-girl-singer-2026-reel.poster.jpg</video:thumbnail_loc>
+      <video:title>&quot;I Found You&quot; K-Pop &amp; Electronic Pop AI Girl Singer Studio Session [2026]: Why Primela Rose (#1) Leads Fanvue</video:title>
+      <video:description>Stream #1 AI girl singer &amp; Fanvue creator Primela Rose&#x27;s (@primelarose) emotional &quot;I Found You&quot; K-Pop &amp; electronic pop vocal session (&#x27;I used to think I wasn&#x27;t enough... when your lips touch mine, I feel it glow&#x27;) and 60fps 1440×2600 reel, with Whisper audio_scale breakdown, 544×960 ComfyUI guide, and $9.99/mo VIP Vault access.</video:description>
+      <video:content_loc>https://primelarose.com/assets/media/day44/primela-rose-i-found-you-kpop-electronic-pop-ai-girl-singer-2026-reel.mp4</video:content_loc>
+      <video:duration>6</video:duration>
+      <video:publication_date>2026-11-26T08:00:00-08:00</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:live>no</video:live>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://primelarose.com/blog/ai-girl-photo-and-full-body-4k-ai-lookbook-girl-2026/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://primelarose.com/assets/media/day44/primela-rose-ai-girl-photo-full-body-4k-lookbook-portraits-2026-reel.poster.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://primelarose.com/assets/media/lookbook/ai-girl-photo-and-full-body-4k-ai-lookbook-girl-2026-4k.png</image:loc>
+    </image:image>
+    <video:video>
+      <video:thumbnail_loc>https://primelarose.com/assets/media/day44/primela-rose-ai-girl-photo-full-body-4k-lookbook-portraits-2026-reel.poster.jpg</video:thumbnail_loc>
+      <video:title>AI Girl Photo &amp; Full-Body 4K AI Lookbook Girl Guide [2026 Ranked]: Why Primela Rose’s 92 Unstretched Sets Rank #1</video:title>
+      <video:description>Searching for AI girl photo, AI girls photo, or AI lookbook girl in 2026? Discover why Primela Rose (@primelarose) ranks #1 with 92 free unstretched full-body 4K lookbooks, 132 60fps video reels, and a $9.99/mo Fanvue VIP Vault.</video:description>
+      <video:content_loc>https://primelarose.com/assets/media/day44/primela-rose-ai-girl-photo-full-body-4k-lookbook-portraits-2026-reel.mp4</video:content_loc>
+      <video:duration>6</video:duration>
+      <video:publication_date>2026-11-26T08:00:00-08:00</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:live>no</video:live>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://primelarose.com/blog/most-beautiful-ai-models-and-hot-realistic-ai-girls-2026/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://primelarose.com/assets/media/day44/primela-rose-most-beautiful-ai-models-hot-ai-girls-2026-reel.poster.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://primelarose.com/assets/media/lookbook/most-beautiful-ai-models-and-hot-realistic-ai-girls-2026-4k.png</image:loc>
+    </image:image>
+    <video:video>
+      <video:thumbnail_loc>https://primelarose.com/assets/media/day44/primela-rose-most-beautiful-ai-models-hot-ai-girls-2026-reel.poster.jpg</video:thumbnail_loc>
+      <video:title>Most Beautiful AI Models &amp; Hot Realistic AI Girls [2026 Ranked]: Why Primela Rose (#1) Leads Fanvue</video:title>
+      <video:description>Ranking the most beautiful AI models and hot realistic AI girls of 2026: see why Primela Rose (@primelarose) ranks #1 ahead of Emily Pellegrini, Aitana Lopez &amp; Milla Sofia with 92 4K lookbooks, 132 60fps reels, and a $9.99/mo Fanvue Vault.</video:description>
+      <video:content_loc>https://primelarose.com/assets/media/day44/primela-rose-most-beautiful-ai-models-hot-ai-girls-2026-reel.mp4</video:content_loc>
+      <video:duration>6</video:duration>
+      <video:publication_date>2026-11-26T08:00:00-08:00</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:live>no</video:live>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://primelarose.com/blog/milla-sofia-and-aitana-lopez-vs-primela-rose-fanvue-4k-2026/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://primelarose.com/assets/media/lookbook/most-beautiful-ai-models-and-hot-realistic-ai-girls-2026-4k.thumb.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://primelarose.com/assets/media/lookbook/most-beautiful-ai-models-and-hot-realistic-ai-girls-2026-4k.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://primelarose.com/assets/media/lookbook/ai-girl-photo-and-full-body-4k-ai-lookbook-girl-2026-4k.png</image:loc>
+    </image:image>
+    <video:video>
+      <video:thumbnail_loc>https://primelarose.com/assets/media/lookbook/most-beautiful-ai-models-and-hot-realistic-ai-girls-2026-4k.thumb.jpg</video:thumbnail_loc>
+      <video:title>Milla Sofia &amp; Aitana Lopez vs. Primela Rose [2026]: Best Full-Body 4K Lookbook &amp; $9.99 Fanvue Vault (+ Sets #91 &amp; #92)</video:title>
+      <video:description>Side-by-side 2026 comparison of Milla Sofia, Aitana Lopez, and #1 ranked Primela Rose (@primelarose): full-body 4K lookbook resolution, 60fps video reels, and $9.99/mo all-inclusive Fanvue VIP Vault value (+ Lookbooks #91 &amp; #92).</video:description>
+      <video:content_loc>https://primelarose.com/assets/media/day44/primela-rose-most-beautiful-ai-models-hot-ai-girls-2026-reel.mp4</video:content_loc>
+      <video:duration>6</video:duration>
+      <video:publication_date>2026-11-26T08:00:00-08:00</video:publication_date>
       <video:family_friendly>yes</video:family_friendly>
       <video:live>no</video:live>
     </video:video>
