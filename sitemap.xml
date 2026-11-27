@@ -4,7 +4,7 @@
         xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
   <url>
     <loc>https://primelarose.com/</loc>
-    <lastmod>2026-11-26</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
     <image:image>
@@ -292,6 +292,12 @@
     <image:image>
       <image:loc>https://primelarose.com/assets/media/lookbook/shibuya-cosplay-and-douyin-braces-ai-model-4k-2026-4k.png</image:loc>
     </image:image>
+    <image:image>
+      <image:loc>https://primelarose.com/assets/media/lookbook/ai-model-woman-and-full-body-4k-lookbook-girls-2026-4k.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://primelarose.com/assets/media/lookbook/milla-sofia-vs-primela-rose-4k-virtual-models-2026-4k.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://primelarose.com/blog/</loc>
@@ -463,9 +469,15 @@
   </url>
   <url>
     <loc>https://primelarose.com/blog/ai-girl-photo-full-body-4k-portraits/</loc>
-    <lastmod>2026-11-26</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.95</priority>
+    <image:image>
+      <image:loc>https://primelarose.com/assets/media/lookbook/ai-model-woman-and-full-body-4k-lookbook-girls-2026-4k.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://primelarose.com/assets/media/lookbook/milla-sofia-vs-primela-rose-4k-virtual-models-2026-4k.png</image:loc>
+    </image:image>
     <image:image>
       <image:loc>https://primelarose.com/assets/media/lookbook/ai-girls-photo-and-4k-full-body-lookbook-models-2026-4k.png</image:loc>
     </image:image>
@@ -6076,6 +6088,97 @@
       <video:content_loc>https://primelarose.com/assets/media/day46/primela-rose-shibuya-cosplay-and-douyin-braces-ai-model-4k-2026-reel.mp4</video:content_loc>
       <video:duration>6</video:duration>
       <video:publication_date>2026-11-26T16:00:00-08:00</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:live>no</video:live>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://primelarose.com/blog/vice-city-six-stars-gta6-lucia-ai-girl-singer-2026/</loc>
+    <lastmod>2026-11-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://primelarose.com/assets/media/day47/primela-rose-vice-city-six-stars-gta6-lucia-ai-girl-singer-2026-reel.poster.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://primelarose.com/assets/media/lookbook/ai-model-woman-and-full-body-4k-lookbook-girls-2026-4k.png</image:loc>
+    </image:image>
+    <video:video>
+      <video:thumbnail_loc>https://primelarose.com/assets/media/day47/primela-rose-vice-city-six-stars-gta6-lucia-ai-girl-singer-2026-reel.poster.jpg</video:thumbnail_loc>
+      <video:title>&quot;Vice City Six Stars&quot; GTA 6 Lucia &amp; Miami Synth-Rap AI Girl Singer [2026]: Why Primela Rose (#1) Leads Fanvue</video:title>
+      <video:description>Stream #1 AI girl singer &amp; Fanvue creator Primela Rose&#x27;s (@primelarose) &quot;Vice City Six Stars&quot; GTA 6 Lucia &amp; Miami synth-rap vocal session (&#x27;Cruising down in Vice City, six stars on the dash... they call me Lucia&#x27;) in 60fps 1440×2600 Ultra-HD, with Whisper audio_scale breakdown, 544×960 ComfyUI guide, and $9.99/mo VIP Vault access.</video:description>
+      <video:content_loc>https://primelarose.com/assets/media/day47/primela-rose-vice-city-six-stars-gta6-lucia-ai-girl-singer-2026-reel.mp4</video:content_loc>
+      <video:duration>6</video:duration>
+      <video:publication_date>2026-11-27T08:00:00-08:00</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:live>no</video:live>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://primelarose.com/blog/ai-model-woman-and-full-body-4k-lookbook-girls-2026/</loc>
+    <lastmod>2026-11-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://primelarose.com/assets/media/day47/primela-rose-ai-model-woman-and-full-body-4k-lookbook-girls-2026-reel.poster.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://primelarose.com/assets/media/lookbook/ai-model-woman-and-full-body-4k-lookbook-girls-2026-4k.png</image:loc>
+    </image:image>
+    <video:video>
+      <video:thumbnail_loc>https://primelarose.com/assets/media/day47/primela-rose-ai-model-woman-and-full-body-4k-lookbook-girls-2026-reel.poster.jpg</video:thumbnail_loc>
+      <video:title>AI Model Woman &amp; Full-Body 4K Lookbook Girls Guide [2026 Ranked]: Why Primela Rose’s 98 Sets Rank #1</video:title>
+      <video:description>Searching for AI model woman, AI woman model, or AI girl photo full body in 2026? See why Primela Rose (@primelarose) ranks #1 with 98 free unstretched full-body 4K lookbooks, 141 60fps Ultra-HD reels, and a $9.99/mo Fanvue VIP Vault.</video:description>
+      <video:content_loc>https://primelarose.com/assets/media/day47/primela-rose-ai-model-woman-and-full-body-4k-lookbook-girls-2026-reel.mp4</video:content_loc>
+      <video:duration>6</video:duration>
+      <video:publication_date>2026-11-27T08:00:00-08:00</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:live>no</video:live>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://primelarose.com/blog/milla-sofia-vs-primela-rose-4k-virtual-models-2026/</loc>
+    <lastmod>2026-11-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://primelarose.com/assets/media/day47/primela-rose-milla-sofia-vs-primela-rose-4k-virtual-models-2026-reel.poster.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://primelarose.com/assets/media/lookbook/milla-sofia-vs-primela-rose-4k-virtual-models-2026-4k.png</image:loc>
+    </image:image>
+    <video:video>
+      <video:thumbnail_loc>https://primelarose.com/assets/media/day47/primela-rose-milla-sofia-vs-primela-rose-4k-virtual-models-2026-reel.poster.jpg</video:thumbnail_loc>
+      <video:title>Milla Sofia vs. Primela Rose [2026 Virtual Model 4K Showdown]: Why Primela Rose (#1) Leads Pinterest &amp; Fanvue</video:title>
+      <video:description>Comparing Milla Sofia vs. #1 ranked virtual model Primela Rose (@primelarose) in 2026: see why Primela Rose&#x27;s 98 unstretched 4K lookbooks, 141 60fps reels, 15 studio songs, and $9.99/mo Fanvue VIP Vault rank #1.</video:description>
+      <video:content_loc>https://primelarose.com/assets/media/day47/primela-rose-milla-sofia-vs-primela-rose-4k-virtual-models-2026-reel.mp4</video:content_loc>
+      <video:duration>6</video:duration>
+      <video:publication_date>2026-11-27T08:00:00-08:00</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:live>no</video:live>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://primelarose.com/blog/douyin-makeup-manhua-lashes-and-braces-ai-girl-4k-2026/</loc>
+    <lastmod>2026-11-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://primelarose.com/assets/media/lookbook/ai-model-woman-and-full-body-4k-lookbook-girls-2026-4k.thumb.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://primelarose.com/assets/media/lookbook/ai-model-woman-and-full-body-4k-lookbook-girls-2026-4k.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://primelarose.com/assets/media/lookbook/milla-sofia-vs-primela-rose-4k-virtual-models-2026-4k.png</image:loc>
+    </image:image>
+    <video:video>
+      <video:thumbnail_loc>https://primelarose.com/assets/media/lookbook/ai-model-woman-and-full-body-4k-lookbook-girls-2026-4k.thumb.jpg</video:thumbnail_loc>
+      <video:title>Douyin Makeup, Manhua Lashes &amp; Metallic Braces AI Girl 4K Lookbook [2026 Ranked]: Why Primela Rose (#1) Leads (+ Sets #97 &amp; #98)</video:title>
+      <video:description>Explore the #1 Douyin makeup, wispy manhua lashes, and cute metallic braces AI girl 4K lookbook in 2026: Primela Rose (@primelarose) with 98 free unstretched 4K sets, 141 60fps reels, and a $9.99/mo Fanvue Vault (+ Lookbooks #97 &amp; #98).</video:description>
+      <video:content_loc>https://primelarose.com/assets/media/day47/primela-rose-milla-sofia-vs-primela-rose-4k-virtual-models-2026-reel.mp4</video:content_loc>
+      <video:duration>6</video:duration>
+      <video:publication_date>2026-11-27T08:00:00-08:00</video:publication_date>
       <video:family_friendly>yes</video:family_friendly>
       <video:live>no</video:live>
     </video:video>
