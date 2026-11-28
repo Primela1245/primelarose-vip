@@ -460,9 +460,6 @@ for e in sitemap_entries[-12:]:
         [
             "    <image:image>",
             f"      <image:loc>{xml_esc(e['images'][0])}</image:loc>",
-            f"      <image:title>{xml_esc(e['title'])} — Primela Rose (@primelarose) 4K Lookbook</image:title>",
-            f"      <image:caption>{xml_esc(e['desc'])}</image:caption>",
-            "      <image:license>https://primelarose.com/</image:license>",
             "    </image:image>",
         ]
     )
@@ -495,9 +492,6 @@ for e in sitemap_entries:
             [
                 "    <image:image>",
                 f"      <image:loc>{xml_esc(im_url)}</image:loc>",
-                f"      <image:title>{xml_esc(e['title'])} | Primela Rose (@primelarose) 4K Lookbook</image:title>",
-                f"      <image:caption>{xml_esc(e['title'])} — Full-Body 4K Portrait of Primela Rose (@primelarose)</image:caption>",
-                "      <image:license>https://primelarose.com/</image:license>",
                 "    </image:image>",
             ]
         )
